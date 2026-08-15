@@ -147,20 +147,21 @@ Objectives:
 
 ---
 
-## Weeks 13–16 — Legal, Insurance, and First-Cycle Review
+## Weeks 13–16 — Plan for Taxes and Insurance
 
-**Why this comes later:** The first 20 lawns and the operating weeks come first. Legal and insurance questions still matter, but they are handled here with a qualified professional—not guessed at during the sprint.
+**Why this comes later:** The first 20 lawns and the operating weeks come first. Taxes and insurance matter, but they are handled here with qualified help—not guessed at during the sprint.
 
 Objectives:
 
-- Identify the local business, licensing, and insurance questions LSL needs a qualified professional to answer.
-- Get the appropriate professional guidance or quotes, and record the answers and next steps.
+- Identify what LSL needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
+- Identify the insurance coverage and local business/licensing questions LSL needs a qualified professional to answer.
+- Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
 - Compare four-month actuals to the original forecast.
 - Identify the best customer types, neighborhoods, and profitable work.
 - Review the partnership, workload division, reimbursement, and any paid-tool needs.
 - Build the next-season plan from actual results.
 
-**Goal:** Know the legal/insurance next steps and turn the first operating cycle into a stronger second season.
+**Goal:** Have a clear taxes-and-insurance plan, then turn the first operating cycle into a stronger second season.
 
 ---
 

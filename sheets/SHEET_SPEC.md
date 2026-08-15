@@ -46,7 +46,7 @@ Contents:
 - The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
 - Partnership inputs already known (ownership, truck fee, and distribution percentages).
 
-**Do not put legal or insurance research here as a Week 1 task.** That discovery belongs in Weeks 13–16 of `docs/ROADMAP.md`.
+**Do not put taxes or insurance research here as a Week 1 task.** That planning belongs in Weeks 13–16 of `docs/ROADMAP.md`.
 
 Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Services offered: **Mowing, Bagging, Weed Eating**
