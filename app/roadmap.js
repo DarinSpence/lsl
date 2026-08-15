@@ -188,6 +188,6 @@ fetch(roadmapSource)
     roadmapContent.replaceChildren();
     const message = document.createElement("p");
     message.className = "load-error";
-    message.textContent = "The plan is temporarily unavailable. Use the GitHub link above to open it.";
+    message.textContent = "The plan is temporarily unavailable. Please try again in a moment.";
     roadmapContent.append(message);
   });
