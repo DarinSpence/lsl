@@ -56,6 +56,7 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 Objectives:
 
+- [ ] Gather this information and fill out the [Google Sheet](https://docs.google.com/spreadsheets/d/11hxHkJHddJ1W-9qHu0Zr_zFhJOUFoMWfZMTHTJ-SJNo/edit?gid=0#gid=0).
 - [ ] Count the calendar days from the first card to lawn #20.
 - [ ] Count how many business cards Logan Lawns handed out to get 20 customers. Record the total in the Google Sheet.
 - [ ] Decide: is $40 enough? Use the actual time, fuel, bags, and other material costs from the first 20 lawns.
@@ -64,7 +65,7 @@ Objectives:
 - [ ] Record startup contributions and actual costs for business cards, gas, trash bags, and other materials in the Google Sheet.
 - [ ] Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
 - [ ] Complete the business-model worksheet using the actual results rather than guesses.
-- [ ] Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
+- [ ] Write down the simple operating notes that will keep Logan Lawns organized.
 - [ ] Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
 
 **Goal:** A clear picture of what the first 20 lawns taught Logan Lawns.
@@ -73,17 +74,17 @@ Objectives:
 
 ## Stage One - Build the Minimum System
 
-**Why this now:** Once the owners understand their real starting point, build only the minimum system needed to keep accepting jobs fairly and consistently.
+**Why this now:** Once you understand your real starting point, build only the minimum system needed to keep accepting jobs fairly and consistently.
 
 Objectives:
 
-- [ ] Finish the shared Google Sheet: Inputs, Customers / CRM, Job Log, and the weekly scorecard.
+- [ ] Update the [Google Sheet](https://docs.google.com/spreadsheets/d/11hxHkJHddJ1W-9qHu0Zr_zFhJOUFoMWfZMTHTJ-SJNo/edit?gid=0#gid=0): Inputs, Customers / CRM, Job Log, and the weekly scorecard.
 - [ ] Set up a shared Gmail account for Logan Lawns.
 - [ ] Set up a Google Voice number for texting and receiving voicemails.
 - [ ] Set up a Google Business Page.
 - [ ] Set up Venmo Business so customers can pay Logan Lawns.
 - [ ] Set up a simple booking/request workflow.
-- [ ] Finish drafting the partnership agreement.
+- [ ] Create a simple operating checklist for how Logan will run the business.
 - [ ] Keep the simple landing page and the text-number call to action working.
 - [ ] Set up the Facebook Business Page with the same $40 offer and text number.
 - [ ] Buy more business cards to put out.
@@ -172,7 +173,7 @@ Objectives:
 - [ ] Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
 - [ ] Compare four-month actuals to the original forecast.
 - [ ] Identify the best customer types, neighborhoods, and profitable work.
-- [ ] Review the partnership, workload division, reimbursement, and any paid-tool needs.
+- [ ] Review your workload, costs, and any paid-tool needs.
 - [ ] Build the next-season plan from actual results.
 
 **Goal:** Have a clear taxes-and-insurance plan, then turn the first operating cycle into a stronger second season.

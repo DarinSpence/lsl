@@ -32,7 +32,7 @@ Contents:
 
 ## Tab 2 - INPUTS
 
-**Purpose:** The one place the owners type the starting facts from Week 1. Use it instead of scattered notes or separate mini-documents; every other tab's math flows from these inputs. Leave an unknown field blank rather than stopping the first-20-lawns sprint to solve it.
+**Purpose:** The one place Logan types the starting facts from Week 1. Use it instead of scattered notes or separate mini-documents; every other tab's math flows from these inputs. Leave an unknown field blank rather than stopping the first-20-lawns sprint to solve it.
 
 ### Week 1 facts to enter here
 
@@ -45,8 +45,8 @@ Contents:
 - Get a Venmo account during the First 20 Lawns sprint. Add another cash-app account only when a customer asks for it.
 - Working days, realistic lawns per day, and service neighborhood(s).
 - After lawn #20, record the number of business cards handed out to get 20 customers, whether $40 is enough, the days or hours available to work, maximum lawns-per-day capacity, and actual startup costs for cards, gas, trash bags, and other materials.
-- The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
-- Partnership inputs already known (ownership, truck fee, and distribution percentages).
+- Logan's initial responsibilities: answering texts, mowing, and writing the client/job rows in the Google Sheet.
+- Financial inputs already known (Logan's 100% ownership, truck fee, and distribution percentages).
 
 **Do not put taxes or insurance research here as a Week 1 task.** That planning belongs in Weeks 13–16 of `docs/ROADMAP.md`.
 
@@ -84,7 +84,7 @@ Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Distribution % - Logan (confirmed: **50%** of Cash Available for Distribution - a separate field from Ownership % above, don't link/derive one from the other)
 - Distribution % - `Partner` (confirmed: **50%** of Cash Available for Distribution)
 
-**Note:** these inputs drive Tabs 3, 4, 5, and 10 - changing a number here should ripple through the whole model. That's the point: it lets the owners ask "what if" questions safely.
+**Note:** these inputs drive Tabs 3, 4, 5, and 10 - changing a number here should ripple through the whole model. That's the point: it lets Logan ask "what if" questions safely.
 
 ---
 
@@ -198,7 +198,7 @@ Fields (columns): Job ID, Date, Customer, Service, Add-Ons, Amount Charged, Paym
 
 Track, by week: Active recurring customers, New leads, Quotes given, New customers, Jobs completed, Revenue, Add-on revenue, Average revenue/job, Gross profit, Net profit, Cash on hand, Reviews received, Referrals received, Business cards distributed, Conversion rate (lead → customer).
 
-Keep this tab visually simple - this is the "how are we doing" check the owners should actually want to open every week.
+Keep this tab visually simple - this is the "how are we doing" check Logan should actually want to open every week.
 
 ---
 
@@ -208,7 +208,7 @@ Keep this tab visually simple - this is the "how are we doing" check the owners 
 
 Structure: start with one sprint row, **First 20 Lawns**, before any later planning. Its checklist is: spend $40 on business cards and print them; leave business cards on front doors during the hot part of the day, including places where Logan Lawns has left cards before; show “Text 913-563-0403 if interested”; get a Venmo account; offer the fixed $40 mow/bag/weed-eat package; always take before and after photos and ask permission to use them without an address; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start Stage Zero** (Learn From the First 20 Lawns), followed by Stage One, Stage Two, and Stage Three. Do not count the sprint itself as Stage Zero.
 
-Per row, track: stage or sequence, completion status, owner (which partner), milestone description, revenue/customer target for that activity.
+Per row, track: stage or sequence, completion status, owner (Logan), milestone description, revenue/customer target for that activity.
 
 ---
 
@@ -218,18 +218,18 @@ Per row, track: stage or sequence, completion status, owner (which partner), mil
 
 Suggested scenario inputs (separate from Tab 2, so testing a scenario never overwrites the real plan): Price +$5, two additional customers/week, lower conversion rate, higher fuel cost, more add-ons, different distribution split, different truck reimbursement, an equipment repair cost.
 
-Outputs, recalculated live: Revenue, Profit, Cash, Distributions - shown side by side against the Tab 2 baseline so the owners can see the delta.
+Outputs, recalculated live: Revenue, Profit, Cash, Distributions - shown side by side against the Tab 2 baseline so Logan can see the delta.
 
 ---
 
 ## Tab 11 - MENTOR DASHBOARD
 
-**Purpose:** A quick health check for the mentor (or, later, the owners themselves) - not a duplicate of every other tab.
+**Purpose:** A quick health check for the mentor (or, later, Logan) - not a duplicate of every other tab.
 
 Red/yellow/green indicators for: Customer growth (vs. plan), Cash reserve (at/above target?), Revenue vs. plan, Profit vs. plan, Outstanding payments, Review count, Marketing activity level, Upcoming equipment needs.
 
 Business maturity checklist (checkboxes):
-- [ ] Partnership agreement completed
+- [ ] Operating checklist completed
 - [ ] Separate business money process established
 - [ ] Payment system active
 - [ ] Google Business Profile active

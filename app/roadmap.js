@@ -1,8 +1,31 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=grind-cards";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=one-owner-sheet-link";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {
   return document.createTextNode(value);
+}
+
+function appendTextWithLinks(container, value) {
+  const match = value.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);
+  if (!match) {
+    container.append(textNode(value));
+    return;
+  }
+
+  const [source, linkText, href] = match;
+  const before = value.slice(0, match.index);
+  const after = value.slice((match.index || 0) + source.length);
+  const link = document.createElement("a");
+  link.className = "inline-sheet-link";
+  link.href = href;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.append(textNode(linkText), textNode(" "));
+  const icon = document.createElement("span");
+  icon.setAttribute("aria-hidden", "true");
+  icon.textContent = "↗";
+  link.append(icon);
+  container.append(textNode(before), link, textNode(after));
 }
 
 function phaseBadge(title) {
@@ -113,9 +136,10 @@ function renderRoadmap(markdown) {
         label.className = "checklist-item";
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
-        checkbox.setAttribute("aria-label", taskMatch[1]);
+        const taskText = taskMatch[1].replace(/`/g, "");
+        checkbox.setAttribute("aria-label", taskText.replace(/\[([^\]]+)\]\([^)]+\)/, "$1"));
         const copy = document.createElement("span");
-        copy.textContent = taskMatch[1].replace(/`/g, "");
+        appendTextWithLinks(copy, taskText);
         label.append(checkbox, copy);
         item.append(label);
         phase.list.classList.add("checklist");
