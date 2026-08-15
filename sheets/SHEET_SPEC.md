@@ -25,7 +25,7 @@ Contents:
 - Links to every other tab
 - "What should I do today?" - a short pointer to the current roadmap week (Tab 9)
 - One-paragraph plain-English description of each tab
-- The core business rules in one glance: the LL Member rule, the distribution waterfall order, the payments trigger reminder
+- The core business rules in one glance: Repeat Customer Benefits, the distribution waterfall order, the payments trigger reminder. Repeat Customer Benefits means a customer who books their next 2 mows in advance gets access to add-ons and one free add-on with each mow.
 - Current progress snapshot (customers, revenue this month, cash reserve)
 
 ---

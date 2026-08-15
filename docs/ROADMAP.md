@@ -141,6 +141,7 @@ Objectives:
 
 - [ ] Ask customers who opted in for the two-week follow-up to schedule again.
 - [ ] Convert good customers to recurring service.
+- [ ] Introduce Repeat Customer Benefits: when a customer books their next 2 mows in advance, give them access to add-ons and one free add-on with each mow.
 - [ ] Improve route density by clustering jobs by neighborhood and day.
 - [ ] Build reviews and referrals.
 - [ ] Track lead → job → repeat-customer conversion in the Weekly Scoreboard.
