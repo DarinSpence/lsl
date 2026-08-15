@@ -10,7 +10,7 @@ Once filled in and both partners have agreed, the completed version should live 
 
 ## 1. The Owner and the Business Partner
 
-**Confirmed by Logan (2026-08-15): LSL is not a two-owner equity partnership. Logan is the sole owner. His business partner holds zero equity and zero profit share — their entire economic relationship to LSL is the flat per-job truck fee described in Section 5.** The rest of this document uses "Owner" for Logan and "Business Partner" for the non-owner partner, instead of "Partner A / Partner B," so the ownership structure stays unambiguous everywhere it's referenced.
+**Confirmed by Logan (2026-08-15): LSL is not a two-owner equity partnership — Logan is the sole owner, holding 100% of the company's equity.** His business partner holds zero equity, but is economically compensated two separate ways: a flat per-job truck fee (Section 5) and 50% of every cash distribution (Section 6). **Ownership % and Distribution % are two different numbers — don't let one imply the other.** The rest of this document uses "Owner" for Logan and "Business Partner" for the non-owner partner, instead of "Partner A / Partner B," so the ownership structure stays unambiguous everywhere it's referenced.
 
 - Owner name: Logan Spence
 - Business Partner name: `[Partner Name]`
@@ -24,6 +24,7 @@ Once filled in and both partners have agreed, the completed version should live 
 - Owner (Logan Spence) ownership: **100%**
 - Business Partner (`[Partner Name]`) ownership: **0%** — the Business Partner is not an owner of LSL.
 - Basis: Logan is the sole owner of the business. The Business Partner's contribution (use of their truck) is compensated as a flat per-job fee, not as an equity stake — see Section 5.
+- **Important — Ownership % is not the same thing as Distribution %.** This section (Ownership) is about who legally owns the company: Logan, 100%. Section 6 (Distribution) is a separate number about how *cash payouts* get divided: 50/50 between Logan and the Business Partner, regardless of the 100/0 ownership split above. Read both sections — don't assume one from the other.
 
 ## 3. Initial Contributions
 
@@ -57,18 +58,23 @@ Once filled in and both partners have agreed, the completed version should live 
 - Does the reimbursement include fuel? `[ ]` — still to be confirmed between Logan and `[Partner Name]`
 - Does the reimbursement include maintenance/wear? `[ ]` — still to be confirmed between Logan and `[Partner Name]`
 - Who pays truck insurance? `[ ]` — still to be confirmed
-- Accounting treatment: this $10/job fee is a **Direct Cost (Cost of Service)** — it rises with job volume, so it's counted before Gross Profit, not after. It is paid to `[Partner Name]` as ordinary compensation for a business input (truck use), the same way fuel or trimmer line is a Direct Cost. **It is not a distribution and not an owner reimbursement** — `[Partner Name]` isn't an owner, so there's nothing to "reimburse" in the owner-equity sense. See `docs/BUSINESS_RULES.md` — Distribution Waterfall — for exactly where this sits in the money flow.
+- Accounting treatment: this $10/job fee is a **Direct Cost (Cost of Service)** — it rises with job volume, so it's counted before Gross Profit, not after. It is paid to `[Partner Name]` as ordinary compensation for a business input (truck use), the same way fuel or trimmer line is a Direct Cost. **It is not a distribution and not an owner reimbursement** — `[Partner Name]` isn't an owner, so there's nothing to "reimburse" in the owner-equity sense. It is paid earlier in the waterfall, before the distribution step, and is completely separate from the 50/50 distribution split described in Section 6. See `docs/BUSINESS_RULES.md` — Distribution Waterfall — for exactly where this sits in the money flow.
 
 ## 6. Distribution Policy — Confirmed Terms
 
-*(Full formula and the open guardrail question live in `docs/BUSINESS_RULES.md` — Distribution Waterfall. This section records the confirmed split; it does not re-derive the math.)*
+*(Full formula lives in `docs/BUSINESS_RULES.md` — Distribution Waterfall. This section records the confirmed split; it does not re-derive the math.)*
 
-Because Logan is the sole owner, there is no "split between owners" to negotiate — the only distribution decision is how much of Logan's own after-tax profit gets paid out to Logan personally vs. kept in the business:
+**Two separate numbers — don't confuse them:**
 
-- Distributed to Logan: **50%** of Net Profit After Tax
-- Retained in the business (reserve/reinvestment): **50%** of Net Profit After Tax
-- The Business Partner (`[Partner Name]`) receives no distribution — their compensation is the per-job truck fee in Section 5, already paid out as a Direct Cost before this step.
-- Required cash reserve/guardrail before any distribution happens: **OPEN QUESTION — see `docs/BUSINESS_RULES.md` Distribution Waterfall section.** It hasn't been decided whether the old reserve-target checklist still gates the 50/50 split, or whether the 50% retained now *is* the reserve mechanism.
+| | Ownership % (Section 2) | Distribution % (this section) |
+|---|---|---|
+| Logan | 100% | 50% |
+| `[Partner Name]` | 0% | 50% |
+
+Ownership is a legal/equity fact: Logan owns the entire company, and that never changes as part of this policy. Distribution is a separate, negotiated compensation arrangement: every dollar of **Cash Available for Distribution** gets split 50/50 between Logan and `[Partner Name]`, regardless of the 100/0 ownership split above. This is sometimes called a "profits interest" — `[Partner Name]` is paid like a 50% partner without holding any equity stake.
+
+- Cash Available for Distribution is split: **50% to Logan, 50% to `[Partner Name]`.** Nothing is retained in the business as part of this split — it is not "half distributed, half retained." See `docs/BUSINESS_RULES.md` Distribution Waterfall for exactly where "Cash Available for Distribution" sits, and for the separate (and standard) pre-distribution cash-reserve gate.
+- `[Partner Name]`'s total economic take from LSL each period = the $10/job truck fee (Section 5, already paid earlier in the waterfall as a Direct Cost) **plus** their 50% share of that period's distribution.
 - How often will Logan review and approve distributions? `[ ] Weekly  [ ] Monthly  [ ] Other: [ ]`
 
 ## 7. Responsibilities
@@ -95,19 +101,21 @@ Because Logan is the sole owner, there is no "split between owners" to negotiate
 
 ## 10. What Happens If the Business Partner Stops Working
 
-*(Since `[Partner Name]` holds 0% ownership and 0% distribution per Sections 2 and 6, this section is about the truck-fee working relationship, not an ownership change.)*
+*(Since `[Partner Name]` holds 0% ownership (Section 2) but 50% of distributions (Section 6), this section covers both the truck-fee working relationship and their distribution share, not an ownership change — ownership stays 100% Logan either way.)*
 
 - If `[Partner Name]` becomes unable or unwilling to keep providing the truck / working (temporarily or permanently), what happens to:
   - The $10/job truck fee going forward: `[ ]`
+  - Their 50% distribution share going forward: `[ ]`
   - The business's ability to keep operating without their truck: `[ ]`
   - Whether Logan needs a replacement vehicle arrangement: `[ ]`
 
 ## 11. What Happens If the Business Partner Leaves the Business
 
-*(Logan remains the sole owner either way — this section is about winding down the truck-fee working relationship, not dividing ownership.)*
+*(Logan remains the sole owner either way — this section is about winding down the truck-fee and distribution-share relationship, not dividing ownership.)*
 
 - Notice period required before `[Partner Name]` can step away: `[ ]`
-- Is any payout owed to `[Partner Name]` beyond fees already earned for completed jobs? `[ ] No — the truck fee is per-job only, nothing accrues  [ ] Other: [ ]`
+- Is any payout owed to `[Partner Name]` beyond truck fees and distribution share already earned for completed jobs/prior periods? `[ ] No — nothing accrues beyond what's already been paid out  [ ] Other: [ ]`
+- Does `[Partner Name]`'s 50% distribution share continue after they stop working, or end when they leave? `[ ]`
 - What happens to the truck once `[Partner Name]` is no longer involved (it stays their personal property either way)? `[ ]`
 - Does Logan have the right to continue the business alone? `[ ] Yes (default, since Logan is sole owner)  [ ] Other — explain: [ ]`
 

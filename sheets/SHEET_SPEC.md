@@ -52,8 +52,10 @@ Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Software/subscription costs
 - Estimated tax reserve % (placeholder until a CPA gives Logan a real number — see `docs/BUSINESS_RULES.md` Taxes callout)
 - Cash reserve target
-- Distribution % to Logan (confirmed: 50%)
-- Retained % in business (confirmed: 50%)
+- Ownership % — Logan (confirmed: **100%**, not editable — this is the legal/equity fact, not a variable)
+- Ownership % — `[Partner Name]` (confirmed: **0%**, not editable)
+- Distribution % — Logan (confirmed: **50%** of Cash Available for Distribution — a separate field from Ownership % above, don't link/derive one from the other)
+- Distribution % — `[Partner Name]` (confirmed: **50%** of Cash Available for Distribution)
 
 **Note:** these inputs drive Tabs 3, 4, 5, and 10 — changing a number here should ripple through the whole model. That's the point: it lets the owners ask "what if" questions safely.
 
@@ -73,11 +75,13 @@ Calculated (from Tab 2 inputs):
 - Weekly net profit, pre-tax (Gross Profit − Operating Expenses)
 - Estimated tax reserve (net profit pre-tax × the tax reserve % from Tab 2 — placeholder, not tax advice)
 - Weekly net profit after tax
-- Reserve contribution
-- Distributable cash
-- Distributed to Logan (50% of net profit after tax) / Retained in business (50% of net profit after tax)
+- Reserve contribution (amount held back to keep the cash reserve funded — the standard pre-distribution guardrail, see `docs/BUSINESS_RULES.md`)
+- Cash available for distribution (nothing else is held back here — this whole amount gets split)
+- Distributed to Logan (Distribution % × Cash available for distribution — confirmed 50%; this is Distribution %, not Ownership %, see Tab 2)
+- Distributed to `[Partner Name]` (Distribution % × Cash available for distribution — confirmed 50%)
+- `[Partner Name]`'s total take this week (truck fees already counted in Direct Costs above **plus** their distribution share on this row)
 
-Each calculated row should have a one-line "what this means" note next to it — this tab is explicitly meant to teach the waterfall from `docs/BUSINESS_RULES.md`, not just spit out a number. Note that `[Partner Name]` never appears in the distribution rows — they're compensated entirely through the truck fee already counted in Direct Costs above.
+Each calculated row should have a one-line "what this means" note next to it — this tab is explicitly meant to teach the waterfall from `docs/BUSINESS_RULES.md`, not just spit out a number. Note that `[Partner Name]` shows up in two places: the truck fee in Direct Costs, and their 50% share in the distribution rows — their total take is both added together, not just the truck fee.
 
 ---
 
@@ -98,7 +102,9 @@ Columns, by week (16 columns) rolling up to 4 monthly totals:
 - Estimated tax reserve (placeholder — see `docs/BUSINESS_RULES.md`)
 - Net profit after tax
 - Reserve contribution
-- Distributed to Logan (50%) / Retained in business (50%)
+- Cash available for distribution
+- Distributed to Logan (Distribution %, confirmed 50%) / Distributed to `[Partner Name]` (Distribution %, confirmed 50%)
+- `[Partner Name]`'s total take this period (truck fees already counted in Direct Costs above plus their distribution share)
 - Ending cash
 
 **Two scenarios required:** Expected and Conservative, side by side or on toggleable rows — build both, don't pick just one. A Stretch scenario is optional, add later if useful.
@@ -109,17 +115,19 @@ An optional annualized run-rate row can be shown, clearly labeled "illustrative 
 
 ## Tab 5 — PARTNERSHIP & DISTRIBUTIONS
 
-**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator. **This is not a two-owner equity split.** Logan owns 100% of LSL. `[Partner Name]` is a non-owner business partner paid a flat fee per job for truck use — they never appear in a distribution row, only in the Direct Costs line. See `docs/BUSINESS_RULES.md` — Distribution Waterfall — before building this tab.
+**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator. **Ownership % and Distribution % are two separate numbers — don't let the sheet conflate them.** Logan owns 100% of LSL (Ownership %). `[Partner Name]` is a non-owner (0% Ownership %), but receives 50% of every distribution (Distribution %) on top of the flat per-job truck fee — `[Partner Name]` appears in the Direct Costs line (truck fee) **and** in the distribution row (50% share). See `docs/BUSINESS_RULES.md` — Distribution Waterfall — before building this tab.
 
 Inputs:
-- Owner name (Logan Spence) — 100% ownership, not editable, this isn't a variable
-- Business Partner name (`[Partner Name]`) — 0% ownership, non-owner
-- Truck fee per job — confirmed **$10** (Direct Cost, not a distribution)
+- Owner name (Logan Spence)
+- Business Partner name (`[Partner Name]`)
+- **Ownership % — Logan** — confirmed **100%**, not editable, this is the legal/equity fact
+- **Ownership % — `[Partner Name]`** — confirmed **0%**, not editable
+- Truck fee per job — confirmed **$10** (Direct Cost, paid before the distribution waterfall, not a distribution)
 - Estimated tax reserve % — placeholder input until a CPA gives Logan a real number (see `docs/BUSINESS_RULES.md`)
-- Distribution % to Logan — confirmed **50%** of Net Profit After Tax
-- Retained % in business — confirmed **50%** of Net Profit After Tax
+- **Distribution % — Logan** — confirmed **50%** of Cash Available for Distribution (a separate field from Ownership % above — do not link or derive one from the other)
+- **Distribution % — `[Partner Name]`** — confirmed **50%** of Cash Available for Distribution
 - Initial owner contribution (Logan's cash into the ~$300 startup budget)
-- Cash reserve requirement (subject to the OPEN QUESTION FOR LOGAN in `docs/BUSINESS_RULES.md` — flag it on this tab too, don't silently assume an answer)
+- Cash reserve requirement (the standard pre-distribution guardrail — see `docs/BUSINESS_RULES.md`)
 
 Outputs (calculated):
 - Net profit, pre-tax (pulled from Tab 3 or actuals)
@@ -127,13 +135,15 @@ Outputs (calculated):
 - Net profit after tax
 - Cash before distributions
 - Required cash reserve
-- Cash available for distribution
-- Distributed to Logan (50% of net profit after tax)
-- Retained in business (50% of net profit after tax)
-- Truck fees paid to `[Partner Name]` this period (running total, informational — already subtracted upstream in Direct Costs, shown here for transparency, not as a distribution)
+- Cash available for distribution (nothing is retained here — the full amount is split per the Distribution % inputs above)
+- Distributed to Logan (Distribution % — Logan × Cash available for distribution)
+- Distributed to `[Partner Name]` (Distribution % — `[Partner Name]` × Cash available for distribution)
+- Truck fees paid to `[Partner Name]` this period (running total, informational — already subtracted upstream in Direct Costs, shown here for transparency)
+- **Logan's total take this period** (= their distribution share)
+- **`[Partner Name]`'s total take this period** (= truck fees + their distribution share)
 - Ending business cash
 
-**Required warning:** if a proposed distribution would push cash below the reserve requirement, the sheet should visibly flag it (conditional formatting — red cell or warning text). This is the live version of the Distribution Guardrail checklist in `docs/BUSINESS_RULES.md` — and since it's an open question whether that checklist gates the 50/50 split or the 50%-retained half *is* the reserve, add a visible note on this tab pointing to the OPEN QUESTION FOR LOGAN callout so nobody quietly picks an answer while building the sheet.
+**Required warning:** if a proposed distribution would push cash below the reserve requirement, the sheet should visibly flag it (conditional formatting — red cell or warning text). This is the live version of the Distribution Guardrail checklist in `docs/BUSINESS_RULES.md` — a standard pre-distribution gate that's separate from the 50/50 split itself. Nothing about the guardrail changes based on how the payout gets divided between Logan and `[Partner Name]`.
 
 ---
 

@@ -73,7 +73,7 @@ Recurring/Member customers can reasonably get preferred pricing because they cos
 
 This is the single most important educational visual in the whole system. Money does not go straight from "customer paid us" to "the owner gets paid." It flows through these steps, in this order, every time.
 
-**Ownership reminder, since this trips people up:** Logan owns 100% of LSL. His business partner (`[Partner Name]`) owns 0% — they are not a co-owner and get no profit share. Their entire economic relationship to the business is the flat $10-per-completed-job truck fee, which shows up below as a Direct Cost — the same category as fuel or trimmer line — because it's an expense that rises with job volume, not a distribution of profit. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
+**Ownership reminder, since this trips people up:** Logan owns 100% of LSL — that's the **Ownership %**, a legal/equity fact, and it doesn't change. His business partner (`[Partner Name]`) owns 0% of the company — they are not a co-owner. But **Ownership % and Distribution % are two different numbers.** `[Partner Name]` is economically compensated two separate ways: the flat $10-per-completed-job truck fee (shows up below as a Direct Cost, the same category as fuel or trimmer line, because it's an expense that rises with job volume) **and** 50% of every distribution (shown at the bottom of the waterfall) — even though they hold 0% equity. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
 
 ```
 Customer Revenue
@@ -93,7 +93,10 @@ Taxes                             (an estimated tax reserve set aside here — s
       ↓
 Net Profit After Tax
       ↓
-Distributed to Logan: 50%   |   Retained in the business: 50%
+Cash Available for Distribution   (nothing retained here — see the pre-distribution guardrail
+                                   checklist below for the separate cash-reserve gate)
+      ↓
+Distributed to Logan: 50%   |   Distributed to [Partner Name]: 50%
 ```
 
 ### Why cash and profit aren't the same thing
@@ -104,18 +107,13 @@ A business can be profitable on paper and still not have enough actual cash sitt
 
 The waterfall above adds an explicit **Taxes** step between Net Profit (Pre-Tax) and the 50/50 split, so LSL gets in the habit of setting aside money for taxes *before* deciding what to spend or distribute — not scrambling for it later. **This is a placeholder mechanism only.** Wren does not give tax advice (see Scope Boundaries in Wren's own contract, and bootstrap §41 / `docs/PRD.md` §41-equivalent). The actual tax rate, filing structure, and whether LSL even owes quarterly estimated taxes is a question for a real CPA, not a guess baked into a spreadsheet. Until Logan gets that answer, the sheet should hold an obviously-labeled "Estimated Tax Reserve %" input that's easy to change once a CPA gives a real number — see `sheets/DATA_DICTIONARY.md`.
 
-### OPEN QUESTION FOR LOGAN — does the old reserve-target checklist still gate the 50/50 split?
+### Cash reserve guardrail — a separate gate, not part of the 50/50 split
 
-The original bootstrap PRD (§37, "Distribution Guardrails") has a separate checklist below that has to be true *before any distribution happens at all* — fuel funded, consumables replenished, bills paid, cash reserve at target, etc. That checklist was written back when the model was more generic and didn't yet have a defined "50% retained in the business" step.
+The original bootstrap PRD (§37, "Distribution Guardrails") has a checklist below that has to be true *before any distribution happens at all* — fuel funded, consumables replenished, bills paid, cash reserve at target, etc.
 
-**Now that 50% of Net Profit After Tax automatically stays in the business every time, it's an open question whether:**
+Since nothing is retained as part of the 50/50 split itself — the entire Cash Available for Distribution goes out every time, 50% to Logan and 50% to `[Partner Name]` — this checklist is exactly what it always was: a **standard, separate gate that runs before the split, not a mechanism the split changes.** It's not folded into "half of it stays in the business anyway" — that framing doesn't apply here. If the checklist doesn't pass, the distribution gets reduced or postponed, full stop, before either person's 50% goes out.
 
-1. **The guardrail checklist is still a separate gate** that has to pass *before* the 50/50 split happens at all (i.e., even the 50%-to-Logan half doesn't go out if fuel isn't funded or the reserve is below target), **or**
-2. **The 50%-retained half now functions as the reserve mechanism itself** — meaning the checklist gets folded into "is the retained-in-business pool big enough yet," rather than being a separate go/no-go gate every distribution cycle.
-
-**This has not been decided. It needs Logan's actual decision, not an assumption baked into the sheet or this doc.** Whichever way Logan calls it, update this section and `sheets/SHEET_SPEC.md` Tab 5 to match — don't let the sheet and this doc silently disagree.
-
-### Before any distribution, all of this has to be true (the Distribution Guardrail checklist — see the open question above for how this interacts with the 50/50 split)
+### Before any distribution, all of this has to be true (the Distribution Guardrail checklist)
 
 - [ ] All completed jobs are recorded.
 - [ ] All payments are reconciled.
@@ -136,7 +134,7 @@ The original bootstrap PRD (§37, "Distribution Guardrails") has a separate chec
 - **Owner contribution** (Logan putting cash into the ~$300 startup budget) increases **owner equity**. It is NOT revenue.
 - **Revenue** is money customers pay for services.
 - **The $10/job truck fee** is a Direct Cost paid to `[Partner Name]` — it's an expense, like fuel, not a distribution and not owner equity, since `[Partner Name]` isn't an owner.
-- **Distribution** is business cash paid out to Logan personally, after the whole waterfall above (including Taxes), per the confirmed 50/50 distributed/retained policy in `docs/PARTNERSHIP_TEMPLATE.md`.
+- **Distribution** is Cash Available for Distribution, split 50/50 between Logan and `[Partner Name]` after the whole waterfall above (including Taxes), per the confirmed policy in `docs/PARTNERSHIP_TEMPLATE.md` §6. This is a different pot of money than the $10/job truck fee, which is paid earlier as a Direct Cost — and Distribution % (50/50) is a different number than Ownership % (100/0), even though both involve Logan and `[Partner Name]`.
 
 ---
 
@@ -148,8 +146,8 @@ The original bootstrap PRD (§37, "Distribution Guardrails") has a separate chec
 
 1. The truck stays personally owned by `[Partner Name]`. It is never a business asset.
 2. LSL pays `[Partner Name]` a flat **$10 per completed job**.
-3. That $10/job is a **Direct Cost (Cost of Service)** — it scales with job volume, so it's counted **before Gross Profit**, alongside fuel and consumables. It is not counted against Logan's distribution share, because Logan doesn't split distributions with `[Partner Name]` at all — `[Partner Name]` gets no distribution, full stop.
-4. Whatever's left after Direct Costs, Operating Expenses, and Taxes is Logan's Net Profit After Tax, of which 50% is distributed to Logan and 50% stays in the business — see Distribution Waterfall above.
+3. That $10/job is a **Direct Cost (Cost of Service)** — it scales with job volume, so it's counted **before Gross Profit**, alongside fuel and consumables. It is paid before, and is completely separate from, the 50/50 distribution split — it's an operating expense, not part of either person's distribution share.
+4. Whatever's left after Direct Costs, Operating Expenses, and Taxes is Net Profit After Tax. The full amount becomes **Cash Available for Distribution**, which is then split **50% to Logan / 50% to `[Partner Name]`** — see Distribution Waterfall above. `[Partner Name]`'s total take each period is the truck fees already paid in Direct Costs **plus** their 50% distribution share.
 
 Still to be confirmed between Logan and `[Partner Name]` (record in `docs/PARTNERSHIP_TEMPLATE.md` §5 once decided):
 
@@ -157,7 +155,7 @@ Still to be confirmed between Logan and `[Partner Name]` (record in `docs/PARTNE
 - Whether the $10/job includes maintenance/wear or that's handled separately
 - Who pays insurance on the truck
 
-**Do not confuse this with a profit split.** $10/job is fixed regardless of job price, job profitability, or how the rest of the business is doing — it's an expense line, not equity.
+**Do not confuse this with the 50/50 distribution split or with equity.** $10/job is fixed regardless of job price, job profitability, or how the rest of the business is doing — it's an expense line, paid before the distribution split even happens, and separate from `[Partner Name]`'s 0% Ownership % and their 50% Distribution %.
 
 ---
 
@@ -198,12 +196,12 @@ Before adding any new service or add-on, check it against:
 
 ## Partnership Guardrails (the ground rules, not the filled-in agreement)
 
-These are the standing rules Logan and `[Partner Name]` should agree to before day one — the actual numbers (the truck fee, purchase-approval threshold, etc.) get filled into `docs/PARTNERSHIP_TEMPLATE.md`, but these principles govern how those numbers get used. (Logan is the sole owner; `[Partner Name]` is a non-owner business partner paid per job — see Distribution Waterfall above. These guardrails apply to how the business runs day to day, not to an ownership split that doesn't exist.)
+These are the standing rules Logan and `[Partner Name]` should agree to before day one — the actual numbers (the truck fee, purchase-approval threshold, etc.) get filled into `docs/PARTNERSHIP_TEMPLATE.md`, but these principles govern how those numbers get used. (Logan is the sole owner (100% Ownership %); `[Partner Name]` is a non-owner business partner (0% Ownership %) compensated through the per-job truck fee AND a 50% Distribution % share — see Distribution Waterfall above. These guardrails apply to how the business runs day to day, not to an ownership split that doesn't exist.)
 
 - Business money is not personal money.
 - Expenses require receipts or documentation.
 - The $10/job truck fee follows the agreed policy — no ad hoc adjustments.
-- Logan doesn't change the distribution policy (the 50/50 distributed/retained split) casually or unilaterally — see the OPEN QUESTION FOR LOGAN callout above for the one piece of this that's still genuinely unresolved.
+- Logan doesn't change the distribution policy (the 50/50 split between Logan and `[Partner Name]`) casually or unilaterally.
 - Major purchases require both Logan's and `[Partner Name]`'s approval, above whatever dollar threshold they set in `docs/PARTNERSHIP_TEMPLATE.md` §8.
 - All customer money goes through the business process (no side cash deals).
 - Every job gets recorded, no exceptions.
