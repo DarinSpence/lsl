@@ -47,7 +47,7 @@ Make one simple business card and get it into neighborhoods. It needs only the o
 
 Objectives:
 
-- [ ] Gather this information and fill out the [Google Sheet](https://docs.google.com/spreadsheets/d/11hxHkJHddJ1W-9qHu0Zr_zFhJOUFoMWfZMTHTJ-SJNo/edit?gid=0#gid=0).
+- Gather this information and fill out the [Google Sheet](https://docs.google.com/spreadsheets/d/11hxHkJHddJ1W-9qHu0Zr_zFhJOUFoMWfZMTHTJ-SJNo/edit?gid=0#gid=0).
 - [ ] Count the calendar days from the first card to lawn #20.
 - [ ] Count how many business cards Logan Lawns handed out to get 20 customers. Record the total in the Google Sheet.
 - [ ] Decide: is $40 enough? Use the actual time, fuel, bags, and other material costs from the first 20 lawns.
