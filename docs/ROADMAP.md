@@ -73,6 +73,7 @@ Objectives:
 - [ ] Always ask each new client how they heard about Logan Lawns, unless you already know. Record it in the Google Sheet Lead Source field.
 - [ ] Set up a shared Gmail account for Logan Lawns.
 - [ ] Set up a Google Voice number for texting and receiving voicemails.
+- [ ] Schedule every appointment in Google Calendar. Ask the client if you can send a calendar invite, get their email address, and invite the client and your friend to every job.
 - [ ] Set up a Google Business Page.
 - [ ] Set up Venmo Business so customers can pay Logan Lawns.
 - [ ] Set up a simple booking/request workflow.
