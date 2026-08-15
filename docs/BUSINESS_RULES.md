@@ -73,13 +73,13 @@ Recurring/Member customers can reasonably get preferred pricing because they cos
 
 This is the single most important educational visual in the whole system. Money does not go straight from "customer paid us" to "the owner gets paid." It flows through these steps, in this order, every time.
 
-**Ownership reminder, since this trips people up:** Logan owns 100% of LSL — that's the **Ownership %**, a legal/equity fact, and it doesn't change. His business partner (`[Partner Name]`) owns 0% of the company — they are not a co-owner. But **Ownership % and Distribution % are two different numbers.** `[Partner Name]` is economically compensated two separate ways: the flat $10-per-completed-job truck fee (shows up below as a Direct Cost, the same category as fuel or trimmer line, because it's an expense that rises with job volume) **and** 50% of every distribution (shown at the bottom of the waterfall) — even though they hold 0% equity. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
+**Ownership reminder, since this trips people up:** Logan owns 100% of LSL — that's the **Ownership %**, a legal/equity fact, and it doesn't change. His business partner (`Partner`) owns 0% of the company — they are not a co-owner. But **Ownership % and Distribution % are two different numbers.** `Partner` is economically compensated two separate ways: the flat $10-per-completed-job truck fee (shows up below as a Direct Cost, the same category as fuel or trimmer line, because it's an expense that rises with job volume) **and** 50% of every distribution (shown at the bottom of the waterfall) — even though they hold 0% equity. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
 
 ```
 Customer Revenue
       ↓
 Direct Costs / Cost of Service   (fuel, trimmer line, consumables, blade sharpening, payment fees,
-                                   AND the $10/job truck fee paid to [Partner Name] — all costs that
+                                   AND the $10/job truck fee paid to Partner — all costs that
                                    rise as jobs are performed, per §7 of the PRD)
       ↓
 Gross Profit                      (Revenue − Direct Costs)
@@ -96,7 +96,7 @@ Net Profit After Tax
 Cash Available for Distribution   (nothing retained here — see the pre-distribution guardrail
                                    checklist below for the separate cash-reserve gate)
       ↓
-Distributed to Logan: 50%   |   Distributed to [Partner Name]: 50%
+Distributed to Logan: 50%   |   Distributed to Partner: 50%
 ```
 
 ### Why cash and profit aren't the same thing
@@ -111,7 +111,7 @@ The waterfall above adds an explicit **Taxes** step between Net Profit (Pre-Tax)
 
 The original bootstrap PRD (§37, "Distribution Guardrails") has a checklist below that has to be true *before any distribution happens at all* — fuel funded, consumables replenished, bills paid, cash reserve at target, etc.
 
-Since nothing is retained as part of the 50/50 split itself — the entire Cash Available for Distribution goes out every time, 50% to Logan and 50% to `[Partner Name]` — this checklist is exactly what it always was: a **standard, separate gate that runs before the split, not a mechanism the split changes.** It's not folded into "half of it stays in the business anyway" — that framing doesn't apply here. If the checklist doesn't pass, the distribution gets reduced or postponed, full stop, before either person's 50% goes out.
+Since nothing is retained as part of the 50/50 split itself — the entire Cash Available for Distribution goes out every time, 50% to Logan and 50% to `Partner` — this checklist is exactly what it always was: a **standard, separate gate that runs before the split, not a mechanism the split changes.** It's not folded into "half of it stays in the business anyway" — that framing doesn't apply here. If the checklist doesn't pass, the distribution gets reduced or postponed, full stop, before either person's 50% goes out.
 
 ### Before any distribution, all of this has to be true (the Distribution Guardrail checklist)
 
@@ -121,7 +121,7 @@ Since nothing is retained as part of the 50/50 split itself — the entire Cash 
 - [ ] Consumables are replenished.
 - [ ] Required maintenance is funded.
 - [ ] Known bills are funded.
-- [ ] The $10/job truck fee to `[Partner Name]` is recorded and paid as a Direct Cost.
+- [ ] The $10/job truck fee to `Partner` is recorded and paid as a Direct Cost.
 - [ ] Estimated taxes have been set aside.
 - [ ] Cash reserve is at or above target.
 - [ ] No significant upcoming expense has been ignored.
@@ -133,29 +133,29 @@ Since nothing is retained as part of the 50/50 split itself — the entire Cash 
 
 - **Owner contribution** (Logan putting cash into the ~$300 startup budget) increases **owner equity**. It is NOT revenue.
 - **Revenue** is money customers pay for services.
-- **The $10/job truck fee** is a Direct Cost paid to `[Partner Name]` — it's an expense, like fuel, not a distribution and not owner equity, since `[Partner Name]` isn't an owner.
-- **Distribution** is Cash Available for Distribution, split 50/50 between Logan and `[Partner Name]` after the whole waterfall above (including Taxes), per the confirmed policy in `docs/PARTNERSHIP_TEMPLATE.md` §6. This is a different pot of money than the $10/job truck fee, which is paid earlier as a Direct Cost — and Distribution % (50/50) is a different number than Ownership % (100/0), even though both involve Logan and `[Partner Name]`.
+- **The $10/job truck fee** is a Direct Cost paid to `Partner` — it's an expense, like fuel, not a distribution and not owner equity, since `Partner` isn't an owner.
+- **Distribution** is Cash Available for Distribution, split 50/50 between Logan and `Partner` after the whole waterfall above (including Taxes), per the confirmed policy in `docs/PARTNERSHIP_TEMPLATE.md` §6. This is a different pot of money than the $10/job truck fee, which is paid earlier as a Direct Cost — and Distribution % (50/50) is a different number than Ownership % (100/0), even though both involve Logan and `Partner`.
 
 ---
 
 ## Truck Reimbursement — Confirmed Terms
 
-`[Partner Name]` supplies the truck LSL uses for jobs. `[Partner Name]` is **not an owner of LSL** — Logan owns 100% of the business. So this isn't a "partner reimbursement" in the owner-equity sense; it's LSL paying a non-owner a flat fee for a business input, the same way it'd pay for fuel or a rented tool.
+`Partner` supplies the truck LSL uses for jobs. `Partner` is **not an owner of LSL** — Logan owns 100% of the business. So this isn't a "partner reimbursement" in the owner-equity sense; it's LSL paying a non-owner a flat fee for a business input, the same way it'd pay for fuel or a rented tool.
 
 **Confirmed model:**
 
-1. The truck stays personally owned by `[Partner Name]`. It is never a business asset.
-2. LSL pays `[Partner Name]` a flat **$10 per completed job**.
+1. The truck stays personally owned by `Partner`. It is never a business asset.
+2. LSL pays `Partner` a flat **$10 per completed job**.
 3. That $10/job is a **Direct Cost (Cost of Service)** — it scales with job volume, so it's counted **before Gross Profit**, alongside fuel and consumables. It is paid before, and is completely separate from, the 50/50 distribution split — it's an operating expense, not part of either person's distribution share.
-4. Whatever's left after Direct Costs, Operating Expenses, and Taxes is Net Profit After Tax. The full amount becomes **Cash Available for Distribution**, which is then split **50% to Logan / 50% to `[Partner Name]`** — see Distribution Waterfall above. `[Partner Name]`'s total take each period is the truck fees already paid in Direct Costs **plus** their 50% distribution share.
+4. Whatever's left after Direct Costs, Operating Expenses, and Taxes is Net Profit After Tax. The full amount becomes **Cash Available for Distribution**, which is then split **50% to Logan / 50% to `Partner`** — see Distribution Waterfall above. `Partner`'s total take each period is the truck fees already paid in Direct Costs **plus** their 50% distribution share.
 
-Still to be confirmed between Logan and `[Partner Name]` (record in `docs/PARTNERSHIP_TEMPLATE.md` §5 once decided):
+Still to be confirmed between Logan and `Partner` (record in `docs/PARTNERSHIP_TEMPLATE.md` §5 once decided):
 
 - Whether the $10/job includes fuel or fuel is billed/handled separately
 - Whether the $10/job includes maintenance/wear or that's handled separately
 - Who pays insurance on the truck
 
-**Do not confuse this with the 50/50 distribution split or with equity.** $10/job is fixed regardless of job price, job profitability, or how the rest of the business is doing — it's an expense line, paid before the distribution split even happens, and separate from `[Partner Name]`'s 0% Ownership % and their 50% Distribution %.
+**Do not confuse this with the 50/50 distribution split or with equity.** $10/job is fixed regardless of job price, job profitability, or how the rest of the business is doing — it's an expense line, paid before the distribution split even happens, and separate from `Partner`'s 0% Ownership % and their 50% Distribution %.
 
 ---
 
@@ -196,16 +196,16 @@ Before adding any new service or add-on, check it against:
 
 ## Partnership Guardrails (the ground rules, not the filled-in agreement)
 
-These are the standing rules Logan and `[Partner Name]` should agree to before day one — the actual numbers (the truck fee, purchase-approval threshold, etc.) get filled into `docs/PARTNERSHIP_TEMPLATE.md`, but these principles govern how those numbers get used. (Logan is the sole owner (100% Ownership %); `[Partner Name]` is a non-owner business partner (0% Ownership %) compensated through the per-job truck fee AND a 50% Distribution % share — see Distribution Waterfall above. These guardrails apply to how the business runs day to day, not to an ownership split that doesn't exist.)
+These are the standing rules Logan and `Partner` should agree to before day one — the actual numbers (the truck fee, purchase-approval threshold, etc.) get filled into `docs/PARTNERSHIP_TEMPLATE.md`, but these principles govern how those numbers get used. (Logan is the sole owner (100% Ownership %); `Partner` is a non-owner business partner (0% Ownership %) compensated through the per-job truck fee AND a 50% Distribution % share — see Distribution Waterfall above. These guardrails apply to how the business runs day to day, not to an ownership split that doesn't exist.)
 
 - Business money is not personal money.
 - Expenses require receipts or documentation.
 - The $10/job truck fee follows the agreed policy — no ad hoc adjustments.
-- Logan doesn't change the distribution policy (the 50/50 split between Logan and `[Partner Name]`) casually or unilaterally.
-- Major purchases require both Logan's and `[Partner Name]`'s approval, above whatever dollar threshold they set in `docs/PARTNERSHIP_TEMPLATE.md` §8.
+- Logan doesn't change the distribution policy (the 50/50 split between Logan and `Partner`) casually or unilaterally.
+- Major purchases require both Logan's and `Partner`'s approval, above whatever dollar threshold they set in `docs/PARTNERSHIP_TEMPLATE.md` §8.
 - All customer money goes through the business process (no side cash deals).
 - Every job gets recorded, no exceptions.
-- Logan and `[Partner Name]` can both see the real business numbers, always.
+- Logan and `Partner` can both see the real business numbers, always.
 - Disagreements get discussed before either one takes unilateral action with business money.
 
 ---
@@ -246,5 +246,5 @@ Close the month, pay/reimburse approved expenses, fund the reserve, calculate av
 ## Cross-references
 
 - `docs/PRD.md` §8 — the canonical Venmo→Square payments-migration trigger list (payments policy lives there, not duplicated here).
-- `docs/PARTNERSHIP_TEMPLATE.md` — where the remaining open items behind Truck Reimbursement and Partnership Guardrails get filled in by Logan and `[Partner Name]`.
+- `docs/PARTNERSHIP_TEMPLATE.md` — where the remaining open items behind Truck Reimbursement and Partnership Guardrails get filled in by Logan and `Partner`.
 - `sheets/SHEET_SPEC.md` and `sheets/DATA_DICTIONARY.md` — how these rules get implemented as real spreadsheet fields and formulas.
