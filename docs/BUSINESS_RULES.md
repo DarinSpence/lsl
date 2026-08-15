@@ -52,6 +52,10 @@ The CRM (Sheets Tab 6) tracks **Future Appointments Booked** and a computed **Me
 
 **LSL does not compete by being the cheapest option in the neighborhood.**
 
+### First 20 Lawns sprint
+
+Until lawn #20 is complete, LSL uses the simple launch offer defined once in `docs/ROADMAP.md`. Do not add custom quotes, discounts, or add-ons during that sprint. The point is to learn how quickly LSL can get and complete 20 lawns; pricing analysis comes afterward.
+
 Price for:
 
 - Labor time (how long the job actually takes)

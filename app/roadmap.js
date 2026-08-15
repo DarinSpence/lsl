@@ -8,7 +8,7 @@ function textNode(value) {
 function phaseBadge(title) {
   const badge = document.createElement("span");
   badge.className = "week-badge";
-  const match = title.match(/Weeks?\s+([\d–-]+)/i);
+  const match = title.match(/(?:Weeks?|Lawns?)\s+#?([\d–-]+)/i) || title.match(/\b(\d+)\b/);
   badge.textContent = match ? match[1].replace("–", "–") : "→";
   return badge;
 }
@@ -88,7 +88,21 @@ function renderRoadmap(markdown) {
 
     if (showingObjectives && line.startsWith("- ")) {
       const item = document.createElement("li");
-      item.textContent = line.slice(2).replace(/`/g, "");
+      const taskMatch = line.match(/^- \[ \] (.+)$/);
+      if (taskMatch) {
+        const label = document.createElement("label");
+        label.className = "checklist-item";
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.setAttribute("aria-label", taskMatch[1]);
+        const copy = document.createElement("span");
+        copy.textContent = taskMatch[1].replace(/`/g, "");
+        label.append(checkbox, copy);
+        item.append(label);
+        phase.list.classList.add("checklist");
+      } else {
+        item.textContent = line.slice(2).replace(/`/g, "");
+      }
       phase.list.append(item);
       continue;
     }

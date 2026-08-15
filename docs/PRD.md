@@ -12,7 +12,7 @@ Logan Spence Lawns (DBA **LSL**, web brand **LSL Lawns**) is a neighborhood lawn
 
 The goal of this whole project is **not** to build software. It's to help two first-time owners:
 
-- Get their first 10 recurring customers.
+- Mow their first 20 lawns, then measure how many days it took.
 - Make booking and payment nearly frictionless.
 - Actually understand how the business makes (or doesn't make) money.
 - Keep revenue, costs, profit, cash reserve, and owner distributions cleanly separated.
@@ -21,7 +21,7 @@ The goal of this whole project is **not** to build software. It's to help two fi
 
 Guiding principle, unchanged from the bootstrap: **Get customers first. Keep the system simple. Learn the numbers. Automate only after the process works.**
 
-Current status of the first 10 customers, actual pricing, and actual costs: **TBD — not yet launched.** This doc gets updated with real numbers as Weeks 1–4 happen (see `ROADMAP.md`).
+**Current priority:** complete the First 20 Lawns sprint in `docs/ROADMAP.md`: one $40 flat offer (mowing, bagging, and weed eating), one Google Sheet entry per client and completed job, and no other optimization until lawn #20. Actual customer count, days elapsed, and costs are **TBD — not yet launched.**
 
 ## 2. Core services (bootstrap §4)
 
@@ -129,6 +129,8 @@ Google Business Profile (high priority), door hangers (high priority), referrals
 
 Not a race to the bottom — price for labor, travel, fuel, wear, and required margin, same as any local service business. Recurring/Member customers can get preferred pricing because they lower selling effort and improve route density. Full logic in `docs/BUSINESS_RULES.md`.
 
+**Current exception, before lawn #20:** use the fixed $40 offer defined in `docs/ROADMAP.md` so the owners can measure actual demand and pace without getting stuck in custom quotes. Revisit pricing only after the sprint is complete.
+
 ## 15. Operating rhythm & guardrails (bootstrap §36–§42)
 
 Weekly/monthly operating rhythm, the distribution guardrail checklist (never distribute past the reserve), partnership guardrails, customer-experience guardrails, and safety/scope guardrails (no regulated trade work) all live as durable rules in `docs/BUSINESS_RULES.md`.
@@ -143,7 +145,7 @@ No full SaaS platform, custom payment processor, custom calendar/accounting/CRM,
 
 ## 18. Definition of MVP complete (bootstrap §54)
 
-The MVP is done when the owners can, from their phones: see this week's priorities, receive a service request, add a customer, schedule and complete a job, collect payment through the current approved payment system, record an expense, see whether the business made money, see cash and reserve, calculate a distribution without breaking the reserve, track progress toward 10 recurring customers, ask for a review, and explain what every tool in the stack is for.
+The first MVP milestone is complete when the owners can, from their phones: receive a service request, quote the fixed $40 offer, add each client to the Google Sheet, complete and log 20 lawns, ask permission to text each client in two weeks, and calculate how many days the sprint took. The larger operating system comes after that proof of work.
 
 ## 19. Open questions the owners still need to answer (bootstrap §52)
 
@@ -155,7 +157,7 @@ Still not yet answered — tracked here so nobody forgets, and moved into `PARTN
 - `Partner`'s actual name and Logan's initial cash contribution amount
 - Required cash reserve amount
 - Working days/hours and realistic lawns/day capacity
-- Average price, base-mow scope, initial add-on menu and which are Member-only
+- Pricing after the First 20 Lawns sprint (the initial $40 mow/bag/weed-eat offer is fixed in `docs/ROADMAP.md`)
 - Exact Member preferred-pricing discount
 - Who responds to customers day-to-day, who keeps the records
 - The actual tax rate/treatment for the Taxes step in the waterfall — needs a real CPA, not a placeholder (see `docs/BUSINESS_RULES.md`)
@@ -166,3 +168,4 @@ Still not yet answered — tracked here so nobody forgets, and moved into `PARTN
 - **2026-08-15** — Partnership/distribution economics confirmed by Logan: sole ownership (Logan 100% Ownership %, `Partner` 0% Ownership %), a $10/job flat truck fee booked as a Direct Cost, and Cash Available for Distribution split 50/50 between Logan and `Partner` (Distribution %, a separate number from Ownership % above), with a new explicit Taxes step (placeholder, not tax advice) added to the waterfall. §6 above and `docs/BUSINESS_RULES.md` updated to match.
 - **2026-08-15 (correction)** — An earlier pass of this doc briefly modeled the split as "50% distributed to Logan / 50% retained in the business," based on a misread of Logan's answer. Logan corrected this directly: **the 50/50 split is between Logan and `Partner`, not between Logan and a business reserve — nothing is retained as part of the split.** §6 above, `docs/BUSINESS_RULES.md`, `docs/PARTNERSHIP_TEMPLATE.md`, `sheets/SHEET_SPEC.md`, and `sheets/DATA_DICTIONARY.md` were all corrected to match. The cash-reserve guardrail checklist (bootstrap §37) is a separate, standard pre-distribution gate, unrelated to how the payout itself gets divided — the previously-open question about how it interacts with the split is resolved: it's just the original checklist, unchanged.
 - **2026-08-15** — Business name standardized as **Logan Spence Lawns**. The LSL acronym and LSL Lawns web brand remain unchanged.
+- **2026-08-15** — Reprioritized launch around the First 20 Lawns sprint: a fixed $40 mow/bag/weed-eat offer, door hangers, a two-week follow-up ask, and one Google Sheet record per client and completed job. All other optimization waits until lawn #20.

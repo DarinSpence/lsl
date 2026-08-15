@@ -163,6 +163,12 @@ summary::after { color: var(--green); content: "+"; font-size: 1.55rem; font-wei
 ul { margin: 0 0 19px; padding-left: 19px; }
 li { margin-bottom: 8px; padding-left: 3px; }
 li::marker { color: var(--green); }
+.checklist { padding-left: 0; list-style: none; }
+.checklist li { padding-left: 0; }
+.checklist li::marker { content: ""; }
+.checklist-item { display: flex; gap: 11px; align-items: flex-start; cursor: pointer; }
+.checklist-item input { flex: 0 0 auto; width: 19px; height: 19px; margin: 2px 0 0; accent-color: var(--green); }
+.checklist-item input:checked + span { color: var(--muted); text-decoration: line-through; }
 .goal { margin: 0; padding: 13px 14px; border-radius: 12px; background: #eff6ea; color: var(--ink); }
 .loading, .load-error { color: var(--muted); }
 

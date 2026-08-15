@@ -20,8 +20,8 @@ This is a build-by-hand spec for the LSL operating workbook. It's written so a n
 **Purpose:** Orientation. The first thing anyone opens.
 
 Contents:
-- Current goal (e.g. "Get to 10 recurring LSL Members")
-- First-10-customers progress (pulled from Tab 6 CRM count)
+- Current goal: "Mow 20 lawns"
+- First-20-lawns progress (pulled from completed rows in Tab 7 — Job Log)
 - Links to every other tab
 - "What should I do today?" — a short pointer to the current roadmap week (Tab 9)
 - One-paragraph plain-English description of each tab
@@ -30,14 +30,26 @@ Contents:
 
 ---
 
-## Tab 2 — BUILD MY BUSINESS
+## Tab 2 — INPUTS
 
-**Purpose:** The one place all the business's core assumptions get typed in. Every other tab's math flows from these inputs.
+**Purpose:** The one place the owners type the starting facts from Week 1. Use it instead of scattered notes or separate mini-documents; every other tab's math flows from these inputs. Leave an unknown field blank rather than stopping the first-20-lawns sprint to solve it.
+
+### Week 1 facts to enter here
+
+- The simple service offer: mowing, bagging, and weed eating.
+- The initial flat price: $40.
+- Startup contributions: who put in what cash or equipment.
+- Equipment inventory: what LSL already has, what condition it is in, and what is still needed.
+- Working days, realistic lawns per day, and service neighborhood(s).
+- The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
+- Partnership inputs already known (ownership, truck fee, and distribution percentages).
+
+**Do not put legal or insurance research here as a Week 1 task.** That discovery belongs in Weeks 13–16 of `docs/ROADMAP.md`.
 
 Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Working days/week
 - Lawns/day (realistic capacity)
-- Average price per mow
+- Initial flat price per mow: **$40**, including mowing, bagging, and weed eating (fixed until the First 20 Lawns sprint is complete)
 - Recurring/Member price
 - One-time (non-Member) price
 - Expected weekly customers
@@ -179,7 +191,7 @@ Keep this tab visually simple — this is the "how are we doing" check the owner
 
 **Purpose:** The 16-week roadmap (see `docs/ROADMAP.md`) as a live tracker, not just a doc.
 
-Structure: weeks as columns (1–16), activities as rows. Initial activity rows: Partnership, Business setup, Equipment readiness, Pricing, Google Business Profile, Door hangers, Website, Booking, Payments (Venmo launch → Square evaluation Weeks 9-12 or earlier if triggered), Customer acquisition, Reviews, Recurring memberships, Add-ons, Financial review, Process improvement.
+Structure: start with one sprint row, **First 20 Lawns**, before any 16-week planning. Its checklist is: print door hangers; show “Text xxx-xxx-xxxx if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. Add future planning rows only after that sprint is complete.
 
 Per row, track: planned weeks (which columns are shaded/marked), completion status, owner (which partner), milestone description, revenue/customer target for that activity.
 
@@ -207,9 +219,9 @@ Business maturity checklist (checkboxes):
 - [ ] Payment system active
 - [ ] Google Business Profile active
 - [ ] Booking link active
-- [ ] First customer
-- [ ] Five customers
-- [ ] Ten recurring customers
+- [ ] First lawn completed
+- [ ] Ten lawns completed
+- [ ] Twenty lawns completed and days-to-20 recorded
 - [ ] Five reviews
 - [ ] Monthly close completed
 - [ ] Reserve funded
@@ -222,7 +234,7 @@ Business maturity checklist (checkboxes):
 
 Build in this order, since later tabs depend on earlier ones existing:
 
-1. Tab 2 (Build My Business) — the inputs everything else needs.
+1. Tab 2 (Inputs) — the starting facts everything else needs.
 2. Tab 6 (CRM) and Tab 7 (Job Log) — where real data starts landing.
 3. Tab 3 (Can This Work?) and Tab 5 (Partnership & Distributions) — the core math.
 4. Tab 4 (Four-Month Forecast) and Tab 8 (Weekly Scoreboard) — the tracking layer.

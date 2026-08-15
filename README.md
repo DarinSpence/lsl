@@ -25,9 +25,9 @@ It does **not** hold: real customer data, real financial numbers, the filled-in 
 - [`sheets/SHEET_SPEC.md`](sheets/SHEET_SPEC.md) — the 11-tab Google Sheets workbook spec (the live workbook lives in Drive).
 - [`sheets/DATA_DICTIONARY.md`](sheets/DATA_DICTIONARY.md) — plain-English definitions of every CRM and Job Log field.
 
-## Mobile-friendly launch plan
+## Mobile-friendly first-20-lawns plan
 
-The first public site slice is the mobile-friendly [16-week launch plan](https://darinspence.github.io/lsl/) in `app/`. It is intentionally a plain static HTML/CSS/JS page with no build step. The page fetches and formats [`docs/ROADMAP.md`](docs/ROADMAP.md), which remains the single source of truth for the plan.
+The first public site slice is the mobile-friendly [first-20-lawns plan](https://darinspence.github.io/lsl/) in `app/`. It is intentionally a plain static HTML/CSS/JS page with no build step. The page fetches and formats [`docs/ROADMAP.md`](docs/ROADMAP.md), which remains the single source of truth for the plan.
 
 GitHub Pages deploys the `app/` folder whenever a change to it is pushed to `main`. Before the first deployment, enable **Settings → Pages → Source: GitHub Actions** in the GitHub repository.
 
