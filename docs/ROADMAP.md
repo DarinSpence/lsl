@@ -4,7 +4,7 @@
 
 **Why this now:** Before building a bigger system, prove that Logan Lawns can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
 
-### Week 1 priority - Beat the streets!
+### Week 2 Priority - Beat the streets!
 
 Make one simple business card and get it into neighborhoods. It needs only the offer and a number people can text. Leave it on front doors, talk to people when they are outside, and make it easy for them to say yes.
 
