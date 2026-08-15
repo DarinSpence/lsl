@@ -34,6 +34,8 @@ Plus two more tools that plug into the picture at the edges:
 
 **Lives in a separate Google Drive folder, `LSL/`, per bootstrap §26 — NOT in this repo.**
 
+**Actual location:** `My Drive > Logan > LSL`, under the mentor's Google account (`darinspence@gmail.com`) — the mentor initially administers the Drive folder, per the bootstrap's stated pattern. Folder link: [My Drive > Logan > LSL](https://drive.google.com/drive/folders/1jvRd46lVUuqOiIuGf7cCr7BaSguJfQ3q).
+
 This is deliberate, not an oversight: this repo is public (GitHub Pages on a free personal account requires a public repo), and the business-ops layer holds things that should never be public — real customer names, addresses, phone numbers, actual revenue and cost numbers, and the partnership's real financial details.
 
 What lives in Drive:
@@ -44,7 +46,7 @@ What lives in Drive:
 - Real financial actuals, real distribution calculations.
 - Any scanned receipts, partnership-agreement signed copies, or other business records the owners want to keep.
 
-Suggested Drive folder structure (from bootstrap §26):
+Drive folder structure (from bootstrap §26 — confirmed live and matching this spec exactly as of 2026-08-15):
 
 ```
 LSL/
@@ -59,7 +61,7 @@ LSL/
 └── 08 - Archive
 ```
 
-**Not yet set up as of this scaffold pass** — Wren's contract explicitly defers Google Drive folder setup to a future, non-code dispatch. See "What's deferred" in the session report.
+**Set up as of 2026-08-15** — the 9 subfolders above exist in the real Drive folder (see "Actual location" above) and match this spec exactly, no drift. Folders are currently empty — no Sheet workbook, no uploaded docs yet. That's separate, future work (building the 11-tab Sheets workbook per `sheets/SHEET_SPEC.md`, and moving/uploading the filled-in partnership agreement, receipts, etc. into their respective subfolders).
 
 ## Layer 2 — This GitHub repo (`~/Developer/lsl`)
 
