@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Build output
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Environment / secrets — never commit real values
+.env
+.env.local
+.env.*.local
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local Netlify/Vercel folders (unused now, harmless to ignore if ever tried)
+.netlify/
+.vercel/
