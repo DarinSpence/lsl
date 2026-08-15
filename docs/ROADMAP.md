@@ -193,7 +193,7 @@ Objectives:
 
 ---
 
-## Future Tools - Things We Will Need To Buy At Some Point
+## Future Tools - Things We May Need To Buy At Some Point
 
 **Why this matters:** Start with the card and text number. Add expenses and optional tools only when they help Logan Lawns earn more or save real time.
 
