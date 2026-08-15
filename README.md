@@ -25,9 +25,11 @@ It does **not** hold: real customer data, real financial numbers, the filled-in 
 - [`sheets/SHEET_SPEC.md`](sheets/SHEET_SPEC.md) — the 11-tab Google Sheets workbook spec (the live workbook lives in Drive).
 - [`sheets/DATA_DICTIONARY.md`](sheets/DATA_DICTIONARY.md) — plain-English definitions of every CRM and Job Log field.
 
-## Running/building the site locally
+## Mobile-friendly launch plan
 
-**Not built yet.** The `app/` folder is currently a placeholder — the actual mobile-first marketing site is Phase E of the build (see `docs/PRD.md` §11 and `PROJECT_BOOTSTRAP.md` §51). Once built, it will be a plain static HTML/CSS/JS site (no build step expected, per the project's radical-simplicity bias) deployable straight to GitHub Pages. This README will be updated with real run/build instructions once that phase ships.
+The first public site slice is the mobile-friendly [16-week launch plan](https://darinspence.github.io/lsl/) in `app/`. It is intentionally a plain static HTML/CSS/JS page with no build step. The page fetches and formats [`docs/ROADMAP.md`](docs/ROADMAP.md), which remains the single source of truth for the plan.
+
+GitHub Pages deploys the `app/` folder whenever a change to it is pushed to `main`. Before the first deployment, enable **Settings → Pages → Source: GitHub Actions** in the GitHub repository.
 
 ## Marketing assets
 

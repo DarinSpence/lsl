@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173a2a" />
+    <meta
+      name="description"
+      content="A mobile-friendly 16-week launch plan for LSL Lawns."
+    />
+    <title>LSL Lawns | 16-Week Launch Plan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <p class="eyebrow">LSL Lawns</p>
+        <h1>16-Week Launch Plan</h1>
+        <p class="lede">
+          One simple step at a time: get customers, learn the numbers, then improve what is actually getting hard.
+        </p>
+        <a class="source-link" href="https://github.com/DarinSpence/lsl/blob/main/docs/ROADMAP.md">
+          View the editable plan on GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </header>
+
+      <section class="progress-card" aria-labelledby="how-to-use-heading">
+        <div>
+          <p class="eyebrow">How to use this</p>
+          <h2 id="how-to-use-heading">Finish the phase before racing ahead.</h2>
+          <p>Each phase builds on what you learned in the last one. Tap any phase to open its checklist.</p>
+        </div>
+        <div class="goal-chip" aria-label="First major goal: 10 recurring customers">
+          <span>First major goal</span>
+          <strong>10 recurring customers</strong>
+        </div>
+      </section>
+
+      <section class="roadmap" aria-label="LSL launch roadmap">
+        <div class="section-heading">
+          <p class="eyebrow">The plan</p>
+          <h2>Start here. Keep going.</h2>
+        </div>
+        <div id="roadmap-content" aria-live="polite">
+          <p class="loading">Loading the current plan…</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>LSL Lawns · Get customers first. Keep it simple. Learn the numbers.</p>
+      <a href="https://github.com/DarinSpence/lsl">GitHub repository <span aria-hidden="true">↗</span></a>
+    </footer>
+
+    <script src="roadmap.js"></script>
+  </body>
+</html>
