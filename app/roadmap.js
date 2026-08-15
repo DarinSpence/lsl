@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=stage-zero";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=stage-zero-inputs";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {

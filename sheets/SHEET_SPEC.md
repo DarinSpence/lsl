@@ -43,6 +43,7 @@ Contents:
 - Week 1 priority: **Beat the streets** with one simple business card that gives people a number to text. Leave it on front doors.
 - The print-price check: VistaPrint's standard business-card page showed **$10 for 50 cards** on 2026-08-15, before shipping and tax. Recheck the cart before buying because promotions and delivery change the total.
 - Working days, realistic lawns per day, and service neighborhood(s).
+- After lawn #20, record the number of business cards handed out to get 20 customers, whether $40 is enough, the days or hours available to work, maximum lawns-per-day capacity, and actual startup costs for cards, gas, trash bags, and other materials.
 - The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
 - Partnership inputs already known (ownership, truck fee, and distribution percentages).
 
@@ -55,6 +56,11 @@ Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Text number: **913-563-0403**
 - Startup contributor: **Logan**
 - Startup contribution amount (enter when known)
+- Cards handed out to get 20 customers (enter after lawn #20)
+- Is $40 enough? (record the decision and why)
+- Days or hours available to work
+- Maximum lawns per day capacity
+- Startup costs: business cards, gas, trash bags, and other materials
 - Working days/week
 - Lawns/day (realistic capacity)
 - Initial flat price per mow: **$40**, including mowing, bagging, and weed eating (fixed until the First 20 Lawns sprint is complete)
