@@ -133,6 +133,11 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #e49000; outline-off
 .roadmap { padding: 0 0 37px; }
 .section-heading { margin-bottom: 21px; }
 .section-heading > p:last-child { max-width: 520px; margin: 0; color: var(--muted); }
+.plan-start { margin: 36px 5px 22px; padding: 24px 0 0; border-top: 1px solid var(--line); }
+.plan-start-timing { margin: 0 0 7px; color: var(--green); font-size: .68rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.plan-start h3 { margin: 0 0 8px; color: var(--forest); font-size: clamp(1.35rem, 5.5vw, 1.8rem); line-height: 1.05; letter-spacing: -.05em; }
+.plan-start-rule { max-width: 580px; margin: 0; color: var(--muted); font-size: .94rem; }
+.plan-start-rule strong { color: var(--forest); }
 
 .phase {
   position: relative;

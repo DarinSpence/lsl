@@ -43,11 +43,11 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ## The Operating Plan Starts Here - After Lawn #20
 
-**The rule:** The First 20 Lawns sprint is the gate, not Week 1. When lawn #20 is complete, record the number of calendar days it took, then begin the plan below at **Week 1**. The rest of the business plan does not run in parallel with the sprint.
+**The rule:** The First 20 Lawns sprint is the gate, not Stage Zero. When lawn #20 is complete, record the number of calendar days it took, then begin the plan below at **Stage Zero**. The rest of the business plan does not run in parallel with the sprint.
 
 ---
 
-## Week 1 - Learn From the First 20 Lawns
+## Stage Zero - Learn From the First 20 Lawns
 
 **Why this now:** Logan Lawns no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
 
@@ -109,7 +109,7 @@ Objectives:
 
 Objectives:
 
-- Compare actual time per job and costs per job with the Week 1 notes.
+- Compare actual time per job and costs per job with the Stage Zero notes.
 - Review the $40 starting price using real job data.
 - Improve the booking and text-response flow where it felt clunky.
 - Improve the business card based on what actually got texts.

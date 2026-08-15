@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=logan-lawns-stages";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=stage-zero";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {
@@ -49,6 +49,19 @@ function createPhase(title, isOpen) {
   return { details, body, list: null };
 }
 
+function createPlanStart(title) {
+  const section = document.createElement("section");
+  section.className = "plan-start";
+  const [name, timing] = title.split(" - ");
+  const label = document.createElement("p");
+  label.className = "plan-start-timing";
+  label.textContent = timing || "After the First 20 Lawns";
+  const heading = document.createElement("h3");
+  heading.textContent = name;
+  section.append(label, heading);
+  return { section, body: section, list: null, isPlanStart: true };
+}
+
 function renderRoadmap(markdown) {
   const fragment = document.createDocumentFragment();
   const lines = markdown.split("\n");
@@ -61,13 +74,20 @@ function renderRoadmap(markdown) {
 
     if (line.startsWith("## ")) {
       const title = line.slice(3);
-      phase = createPhase(title, fragment.childElementCount === 0);
-      fragment.append(phase.details);
+      phase = title === "The Operating Plan Starts Here - After Lawn #20"
+        ? createPlanStart(title)
+        : createPhase(title, fragment.childElementCount === 0);
+      fragment.append(phase.section || phase.details);
       showingObjectives = false;
       continue;
     }
 
     if (!phase) continue;
+
+    if (phase.isPlanStart && line.startsWith("**The rule:**")) {
+      addParagraph(phase.body, "plan-start-rule", "The rule:", line.replace("**The rule:**", "").trim());
+      continue;
+    }
 
     if (line.startsWith("**Why this now:**")) {
       addParagraph(phase.body, "why", "Why this now:", line.replace("**Why this now:**", "").trim());
