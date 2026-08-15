@@ -178,7 +178,7 @@ Outputs (calculated):
 
 **Purpose:** The living customer list. One row per customer. Field definitions: see `sheets/DATA_DICTIONARY.md`.
 
-Fields (columns): Customer ID, Customer Name, Phone, Email, Service Address, Neighborhood, Lead Source, Lead Date, Status, Recurring Customer? (Y/N), Member Status, Future Appointments Booked, Member Eligible?, Membership Start Date, Frequency, Standard Service Price, Last Service Date, Next Service Date, Preferred Day, Gate/Access Notes, Service Notes, Add-On Interests, Last Add-On, Lifetime Revenue, Payment Status, Review Requested?, Review Received?, Referral Source, Active/Inactive.
+Fields (columns): Customer ID, Customer Name, Phone, Email, Service Address, Neighborhood, Lead Source, Lead Date, Status, Recurring Customer? (Y/N), Member Status, Future Appointments Booked, Member Eligible?, Membership Start Date, Frequency, Standard Service Price, Last Service Date, Next Service Date, Preferred Day, Gate/Access Notes, Service Notes, Add-On Interests, Last Add-On, Lifetime Revenue, Payment Status, Review Requested?, Review Received?, Referral Source, Active/Inactive. Always ask a new client how they heard about Logan Lawns unless the source is already known.
 
 Avoid storing anything more sensitive than needed for the job (no need for full addresses beyond service address + basic contact info).
 
@@ -196,7 +196,7 @@ Fields (columns): Job ID, Date, Customer, Service, Add-Ons, Amount Charged, Paym
 
 **Purpose:** A weekly rollup that's motivating to look at, not overwhelming.
 
-Track, by week: Active recurring customers, New leads, Quotes given, New customers, Jobs completed, Revenue, Add-on revenue, Average revenue/job, Gross profit, Net profit, Cash on hand, Reviews received, Referrals received, Business cards distributed, Conversion rate (lead → customer).
+Track, by week: Active recurring customers, New leads, Quotes given, New customers, Jobs completed, Revenue, Add-on revenue, Average revenue/job, Gross profit, Net profit, Cash on hand, Reviews received, Referrals received, Business cards distributed, Facebook Business Page views, Google Business Page views, new clients from each source, Conversion rate (lead → customer).
 
 Keep this tab visually simple - this is the "how are we doing" check Logan should actually want to open every week.
 

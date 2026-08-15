@@ -79,6 +79,7 @@ Objectives:
 Objectives:
 
 - [ ] Update the [Google Sheet](https://docs.google.com/spreadsheets/d/11hxHkJHddJ1W-9qHu0Zr_zFhJOUFoMWfZMTHTJ-SJNo/edit?gid=0#gid=0): Inputs, Customers / CRM, Job Log, and the weekly scorecard.
+- [ ] Always ask each new client how they heard about Logan Lawns, unless you already know. Record it in the Google Sheet Lead Source field.
 - [ ] Set up a shared Gmail account for Logan Lawns.
 - [ ] Set up a Google Voice number for texting and receiving voicemails.
 - [ ] Set up a Google Business Page.
@@ -101,7 +102,9 @@ Objectives:
 
 Objectives:
 
-- [ ] Keep putting out the new business cards.
+- [ ] Keep buying and putting out business cards. Track how many cards you leave and the neighborhoods where you leave them.
+- [ ] Decide whether the business cards are working. If they are not bringing in clients, pivot to a better local lead source.
+- [ ] Measure the Facebook Business Page and Google Business Page: how many views did each get, and how many new clients did each bring in?
 - [ ] Keep tracking which neighborhoods respond.
 - [ ] Post in appropriate free neighborhood channels.
 - [ ] Contact the personal network.
