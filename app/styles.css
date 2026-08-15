@@ -43,9 +43,9 @@ body::selection { background: var(--grass); color: var(--pine); }
 .header-links { display: flex; align-items: center; gap: 14px; }
 .header-link { color: var(--pine); font-size: .88rem; font-weight: 800; text-underline-offset: 4px; }
 
-@media (max-width: 420px) {
-  .site-header { min-height: 64px; }
-  .header-links { gap: 10px; }
+@media (max-width: 540px) {
+  .site-header { align-items: flex-start; flex-wrap: wrap; gap: 10px; min-height: 94px; padding-top: 12px; }
+  .header-links { width: 100%; gap: 10px; padding-bottom: 10px; }
   .header-link { font-size: .77rem; }
   .updated { font-size: .75rem; }
 }
