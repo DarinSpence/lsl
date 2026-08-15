@@ -183,3 +183,36 @@ Objectives:
 **Goal:** Have a clear taxes-and-insurance plan, then turn the first operating cycle into a stronger second season.
 
 ---
+
+## Stage Four - Make Booking and Billing Easy
+
+**Why this now:** After Logan Lawns has a working repeat-customer base, make booking and billing easier without losing the simple, text-first customer experience.
+
+Objectives:
+
+- [ ] Keep all customer communication 100% through text message: new inquiries, quotes, scheduling, reminders, follow-ups, and changes.
+- [ ] Set up a simple booking system like the ones used by barbers and nail salons, so new and repeat customers can choose services and book easily.
+- [ ] Keep booking text-first. A customer should always be able to text Logan Lawns directly instead of needing to make a phone call.
+- [ ] Do not set up Wave.app until Logan Lawns has done more than $15,000 in business. After that, use Wave for invoices and accounting.
+- [ ] Consider getting a website such as loganlawns.com. Make the main call to action “Text me now” and send every customer into the text conversation.
+- [ ] Consider a text-based marketing platform once there are enough customer text conversations to make it useful.
+
+**Goal:** Easy text-based booking and billing for new and repeat customers.
+
+---
+
+## Tech Stack - Text First
+
+**Why this matters:** Keep the tools simple and let customers do business with Logan Lawns through text.
+
+Objectives:
+
+- [ ] Google: Gmail for business email, Google Calendar for scheduling, and Google Voice for texting and voicemails.
+- [ ] Booking system: a text-friendly service selector and booking tool, similar to what barbers and nail salons use.
+- [ ] Wave.app: invoices and accounting only after Logan Lawns has done more than $15,000 in business.
+- [ ] Website: consider loganlawns.com with a clear “Text me now” call to action.
+- [ ] Text-based marketing: consider it later, using the customer relationships that already begin by text.
+
+**Goal:** One easy, text-first system that keeps booking, communication, and billing organized.
+
+---

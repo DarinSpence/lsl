@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=repeat-customer-benefits";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=text-first-tech-stack";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {
