@@ -31,7 +31,17 @@ function createPhase(title, isOpen) {
   details.open = isOpen;
 
   const summary = document.createElement("summary");
-  summary.append(phaseBadge(title), textNode(title));
+  const [time = "The next step", name = title] = title.split(" — ");
+  const label = document.createElement("span");
+  label.className = "phase-label";
+  const timeLabel = document.createElement("span");
+  timeLabel.className = "phase-time";
+  timeLabel.textContent = time;
+  const titleLabel = document.createElement("span");
+  titleLabel.className = "phase-title";
+  titleLabel.textContent = name;
+  label.append(timeLabel, titleLabel);
+  summary.append(phaseBadge(title), label);
 
   const body = document.createElement("div");
   body.className = "phase-body";

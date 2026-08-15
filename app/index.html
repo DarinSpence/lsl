@@ -12,34 +12,51 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <header class="hero">
-        <p class="eyebrow">LSL Lawns</p>
-        <h1>16-Week Launch Plan</h1>
-        <p class="lede">
-          One simple step at a time: get customers, learn the numbers, then improve what is actually getting hard.
-        </p>
-        <a class="source-link" href="https://github.com/DarinSpence/lsl/blob/main/docs/ROADMAP.md">
-          View the editable plan on GitHub <span aria-hidden="true">↗</span>
-        </a>
-      </header>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="LSL Lawns launch plan home">LSL<span>·</span>Lawns</a>
+      <a class="header-link" href="https://github.com/DarinSpence/lsl">GitHub <span aria-hidden="true">↗</span></a>
+    </header>
 
-      <section class="progress-card" aria-labelledby="how-to-use-heading">
-        <div>
-          <p class="eyebrow">How to use this</p>
-          <h2 id="how-to-use-heading">Finish the phase before racing ahead.</h2>
-          <p>Each phase builds on what you learned in the last one. Tap any phase to open its checklist.</p>
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow on-dark">The first season</p>
+          <h1 id="page-title">Grow the lawns.<br /><em>Grow the business.</em></h1>
+          <p class="lede">
+            A simple 16-week path for turning a mower, a neighborhood, and real effort into a business that works.
+          </p>
+          <a class="source-link" href="#roadmap">
+            See the plan <span aria-hidden="true">↓</span>
+          </a>
         </div>
-        <div class="goal-chip" aria-label="First major goal: 10 recurring customers">
-          <span>First major goal</span>
-          <strong>10 recurring customers</strong>
+        <div class="hero-art" aria-hidden="true">
+          <span class="sun"></span>
+          <span class="hill hill-back"></span>
+          <span class="hill hill-front"></span>
+          <span class="hero-stamp">WEEK<br /><b>01</b></span>
         </div>
       </section>
 
-      <section class="roadmap" aria-label="LSL launch roadmap">
+      <section class="start-card" aria-labelledby="start-heading">
+        <div class="start-number" aria-hidden="true">10</div>
+        <div>
+          <p class="eyebrow">The first target</p>
+          <h2 id="start-heading">Recurring customers, not just one-off jobs.</h2>
+          <p>Do the next useful thing. Learn from the results. Let the route—and your confidence—grow from there.</p>
+        </div>
+      </section>
+
+      <section class="principles" aria-label="How LSL runs">
+        <p><b>01</b> Get customers first</p>
+        <p><b>02</b> Keep it simple</p>
+        <p><b>03</b> Learn the numbers</p>
+      </section>
+
+      <section class="roadmap" id="roadmap" aria-label="LSL launch roadmap">
         <div class="section-heading">
-          <p class="eyebrow">The plan</p>
-          <h2>Start here. Keep going.</h2>
+          <p class="eyebrow">Your field guide</p>
+          <h2>One phase at a time.</h2>
+          <p>Open a phase to see what matters now, why it matters, and the goal to hit before moving on.</p>
         </div>
         <div id="roadmap-content" aria-live="polite">
           <p class="loading">Loading the current plan…</p>
@@ -48,8 +65,8 @@
     </main>
 
     <footer>
-      <p>LSL Lawns · Get customers first. Keep it simple. Learn the numbers.</p>
-      <a href="https://github.com/DarinSpence/lsl">GitHub repository <span aria-hidden="true">↗</span></a>
+      <p><strong>LSL Lawns</strong> · Build the route. Build the habit. Build the business.</p>
+      <a href="https://github.com/DarinSpence/lsl/blob/main/docs/ROADMAP.md">Read or edit the plan on GitHub <span aria-hidden="true">↗</span></a>
     </footer>
 
     <script src="roadmap.js"></script>
