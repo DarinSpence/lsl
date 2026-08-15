@@ -85,6 +85,7 @@ h1 {
 h1 em { color: var(--grass); font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.08em; }
 h2 { margin-bottom: 9px; font-size: clamp(1.5rem, 6vw, 2.2rem); line-height: 1.04; letter-spacing: -.05em; }
 .lede { max-width: 415px; margin-bottom: 23px; color: #d2e3d6; font-size: 1.02rem; }
+.inline-sheet-link { color: var(--forest); text-decoration-color: var(--green); text-underline-offset: 3px; }
 
 a { color: inherit; font-weight: 800; text-decoration-thickness: 1.5px; text-underline-offset: 4px; }
 a:focus-visible, summary:focus-visible { outline: 3px solid #e49000; outline-offset: 4px; }
