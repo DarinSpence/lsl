@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=text-first-tech-stack";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=future-tools-expenses";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {
@@ -31,8 +31,16 @@ function appendTextWithLinks(container, value) {
 function phaseBadge(title) {
   const badge = document.createElement("span");
   badge.className = "week-badge";
-  const match = title.match(/(?:Weeks?|Lawns?)\s+#?([\d–-]+)/i) || title.match(/\b(\d+)\b/);
-  badge.textContent = match ? match[1].replace("–", "–") : "→";
+  const markers = [
+    [/^First 20 Lawns\b/i, "20"],
+    [/^Stage Zero\b/i, "1"],
+    [/^Stage One\b/i, "2"],
+    [/^Stage Two\b/i, "3"],
+    [/^Stage Three\b/i, "4"],
+    [/^Stage Four\b/i, "5"],
+    [/^Future Tools\b/i, "6"],
+  ];
+  badge.textContent = markers.find(([pattern]) => pattern.test(title))?.[1] || "•";
   return badge;
 }
 
@@ -106,6 +114,17 @@ function renderRoadmap(markdown) {
     }
 
     if (!phase) continue;
+
+    if (line.startsWith("### ")) {
+      const heading = document.createElement("p");
+      heading.className = "phase-subheading";
+      heading.textContent = line.slice(4);
+      phase.body.append(heading);
+      phase.list = document.createElement("ul");
+      phase.body.append(phase.list);
+      showingObjectives = true;
+      continue;
+    }
 
     if (phase.isPlanStart && line.startsWith("**The rule:**")) {
       addParagraph(phase.body, "plan-start-rule", "The rule:", line.replace("**The rule:**", "").trim());

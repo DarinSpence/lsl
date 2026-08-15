@@ -193,7 +193,7 @@ Objectives:
 - [ ] Keep all customer communication 100% through text message: new inquiries, quotes, scheduling, reminders, follow-ups, and changes.
 - [ ] Set up a simple booking system like the ones used by barbers and nail salons, so new and repeat customers can choose services and book easily.
 - [ ] Keep booking text-first. A customer should always be able to text Logan Lawns directly instead of needing to make a phone call.
-- [ ] Do not set up Wave.app until Logan Lawns has done more than $15,000 in business. After that, use Wave for invoices and accounting.
+- [ ] Do not set up [Wave.app](https://www.waveapps.com/pricing) until Logan Lawns has done more than $15,000 in revenue. After that, use Wave for invoices and accounting.
 - [ ] Consider getting a website such as loganlawns.com. Make the main call to action “Text me now” and send every customer into the text conversation.
 - [ ] Consider a text-based marketing platform once there are enough customer text conversations to make it useful.
 
@@ -201,18 +201,24 @@ Objectives:
 
 ---
 
-## Tech Stack - Text First
+## Future Tools - Things We Will Need To Buy At Some Point
 
-**Why this matters:** Keep the tools simple and let customers do business with Logan Lawns through text.
+**Why this matters:** Start with the card and text number. Add expenses and optional tools only when they help Logan Lawns earn more or save real time.
 
-Objectives:
+### Expenses
 
-- [ ] Google: Gmail for business email, Google Calendar for scheduling, and Google Voice for texting and voicemails.
-- [ ] Booking system: a text-friendly service selector and booking tool, similar to what barbers and nail salons use.
-- [ ] Wave.app: invoices and accounting only after Logan Lawns has done more than $15,000 in business.
-- [ ] Website: consider loganlawns.com with a clear “Text me now” call to action.
-- [ ] Text-based marketing: consider it later, using the customer relationships that already begin by text.
+- [ ] [Trash bags pricing](https://www.homedepot.com/b/Cleaning-Trash-Recycling-Trash-Bags/42-GA-Gallon/Contractor-Trash-Bags/N-5yc1vZcb24Z1z0pjeoZ1z1z22r): contractor bags for lawns that need bagging. Record each purchase in the Google Sheet.
+- [ ] [Kansas gas prices](https://gasprices.aaa.com/?state=KS): fuel for getting to lawns and running equipment. Record the total spent for the first 20 lawns in the Google Sheet.
+- [ ] [Small-engine oil pricing](https://www.homedepot.com/b/Outdoors-Outdoor-Power-Equipment-Outdoor-Power-Equipment-Parts-Fuel-Oil-Additives-Engine-Oil/4-Cycle/Walk-Behind-Mower/N-5yc1vZ2fkpesmZ1z1bmn1Z1z1v2dx): buy the oil specified for the mower and record the cost.
+- [ ] [Weed eater twine pricing](https://www.homedepot.com/b/Outdoors-Outdoor-Power-Equipment-Outdoor-Power-Equipment-Parts-Trimmer-Edger-Parts-String-Trimmer-Line/095-in/N-5yc1vZcjexZ1z1v29i?Nao=12): buy the diameter that fits the weed eater and record the cost.
 
-**Goal:** One easy, text-first system that keeps booking, communication, and billing organized.
+### Other Expenses
+
+- [ ] [Google plan details](https://workspace.google.com/products/gmail/?from=null): Gmail and Google Calendar can start at $0 with a standard Google account. Basic Google Voice is no-charge in the U.S. for one number, texts, and voicemails.
+- [ ] [Wave.app pricing](https://www.waveapps.com/pricing): Starter is $0. Pro is currently $19 per month or $190 per year. Wave is not necessary and should not be set up until Logan Lawns has done more than $15,000 in revenue.
+- [ ] [Bluehost domain pricing](https://www.bluehost.com/help/article/domain-name-pricing): optional. A .com domain is currently $12.99 to register and $23.99 to renew each year. Consider loganlawns.com later, not before the card and text number are working.
+- [ ] [Bluehost basic web hosting pricing](https://www.bluehost.com/help/article/shared-hosting-prices): optional. A basic Starter shared-hosting plan currently renews at $15.99 per month month-to-month, $11.99 per month annually, or $9.99 per month for a 36-month term. Promotional starting prices can change.
+
+**Goal:** Keep the business text-first. The card and 913-563-0403 are enough to get customers. Everything here is a later option, not a launch requirement.
 
 ---
