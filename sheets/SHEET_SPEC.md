@@ -47,12 +47,13 @@ Inputs (all owner-entered, all in one column of clearly labeled cells):
 - Add-on attachment rate (% of jobs that include an add-on)
 - Fuel cost estimate (per job or per week)
 - Consumables cost estimate (trimmer line, oil, etc.)
-- Truck reimbursement rate/method
+- Truck fee per job (confirmed: $10/job flat, paid to `[Partner Name]` — see `docs/BUSINESS_RULES.md`)
 - Marketing budget
 - Software/subscription costs
+- Estimated tax reserve % (placeholder until a CPA gives Logan a real number — see `docs/BUSINESS_RULES.md` Taxes callout)
 - Cash reserve target
-- Partner A distribution %
-- Partner B distribution %
+- Distribution % to Logan (confirmed: 50%)
+- Retained % in business (confirmed: 50%)
 
 **Note:** these inputs drive Tabs 3, 4, 5, and 10 — changing a number here should ripple through the whole model. That's the point: it lets the owners ask "what if" questions safely.
 
@@ -66,15 +67,17 @@ Calculated (from Tab 2 inputs):
 - Weekly capacity (working days × lawns/day)
 - Expected weekly jobs
 - Weekly revenue (core + add-on)
-- Weekly direct costs
+- Weekly direct costs (including the $10/job truck fee to `[Partner Name]`)
 - Weekly gross profit (Revenue − Direct Costs)
 - Weekly operating expenses
-- Weekly net profit (Gross Profit − Operating Expenses)
+- Weekly net profit, pre-tax (Gross Profit − Operating Expenses)
+- Estimated tax reserve (net profit pre-tax × the tax reserve % from Tab 2 — placeholder, not tax advice)
+- Weekly net profit after tax
 - Reserve contribution
 - Distributable cash
-- Partner A distribution / Partner B distribution
+- Distributed to Logan (50% of net profit after tax) / Retained in business (50% of net profit after tax)
 
-Each calculated row should have a one-line "what this means" note next to it — this tab is explicitly meant to teach the waterfall from `docs/BUSINESS_RULES.md`, not just spit out a number.
+Each calculated row should have a one-line "what this means" note next to it — this tab is explicitly meant to teach the waterfall from `docs/BUSINESS_RULES.md`, not just spit out a number. Note that `[Partner Name]` never appears in the distribution rows — they're compensated entirely through the truck fee already counted in Direct Costs above.
 
 ---
 
@@ -88,12 +91,14 @@ Columns, by week (16 columns) rolling up to 4 monthly totals:
 - Core service revenue
 - Add-on revenue
 - Total revenue
-- Direct costs
+- Direct costs (including the $10/job truck fee to `[Partner Name]`)
 - Gross profit
 - Operating expenses
-- Net profit
+- Net profit, pre-tax
+- Estimated tax reserve (placeholder — see `docs/BUSINESS_RULES.md`)
+- Net profit after tax
 - Reserve contribution
-- Distributions
+- Distributed to Logan (50%) / Retained in business (50%)
 - Ending cash
 
 **Two scenarios required:** Expected and Conservative, side by side or on toggleable rows — build both, don't pick just one. A Stretch scenario is optional, add later if useful.
@@ -104,29 +109,31 @@ An optional annualized run-rate row can be shown, clearly labeled "illustrative 
 
 ## Tab 5 — PARTNERSHIP & DISTRIBUTIONS
 
-**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator.
+**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator. **This is not a two-owner equity split.** Logan owns 100% of LSL. `[Partner Name]` is a non-owner business partner paid a flat fee per job for truck use — they never appear in a distribution row, only in the Direct Costs line. See `docs/BUSINESS_RULES.md` — Distribution Waterfall — before building this tab.
 
 Inputs:
-- Partner names
-- Ownership %
-- Distribution %
-- Initial contributions
-- Truck owner
-- Truck reimbursement method
-- Truck reimbursement amount
-- Other partner reimbursements
-- Cash reserve requirement
+- Owner name (Logan Spence) — 100% ownership, not editable, this isn't a variable
+- Business Partner name (`[Partner Name]`) — 0% ownership, non-owner
+- Truck fee per job — confirmed **$10** (Direct Cost, not a distribution)
+- Estimated tax reserve % — placeholder input until a CPA gives Logan a real number (see `docs/BUSINESS_RULES.md`)
+- Distribution % to Logan — confirmed **50%** of Net Profit After Tax
+- Retained % in business — confirmed **50%** of Net Profit After Tax
+- Initial owner contribution (Logan's cash into the ~$300 startup budget)
+- Cash reserve requirement (subject to the OPEN QUESTION FOR LOGAN in `docs/BUSINESS_RULES.md` — flag it on this tab too, don't silently assume an answer)
 
 Outputs (calculated):
-- Net profit (pulled from Tab 3 or actuals)
+- Net profit, pre-tax (pulled from Tab 3 or actuals)
+- Estimated tax reserve amount (net profit pre-tax × tax reserve %)
+- Net profit after tax
 - Cash before distributions
-- Required reserve
+- Required cash reserve
 - Cash available for distribution
-- Partner A distribution amount
-- Partner B distribution amount
+- Distributed to Logan (50% of net profit after tax)
+- Retained in business (50% of net profit after tax)
+- Truck fees paid to `[Partner Name]` this period (running total, informational — already subtracted upstream in Direct Costs, shown here for transparency, not as a distribution)
 - Ending business cash
 
-**Required warning:** if a proposed distribution would push cash below the reserve requirement, the sheet should visibly flag it (conditional formatting — red cell or warning text). This is the live version of the Distribution Guardrail checklist in `docs/BUSINESS_RULES.md`.
+**Required warning:** if a proposed distribution would push cash below the reserve requirement, the sheet should visibly flag it (conditional formatting — red cell or warning text). This is the live version of the Distribution Guardrail checklist in `docs/BUSINESS_RULES.md` — and since it's an open question whether that checklist gates the 50/50 split or the 50%-retained half *is* the reserve, add a visible note on this tab pointing to the OPEN QUESTION FOR LOGAN callout so nobody quietly picks an answer while building the sheet.
 
 ---
 

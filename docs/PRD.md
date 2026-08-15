@@ -8,7 +8,7 @@ Every section below links back to the bootstrap doc by section number so you can
 
 ## 1. What LSL is (bootstrap §1–§5)
 
-Logan Spence Lawncare (DBA **LSL**, web brand **LSL Lawns**) is a two-owner neighborhood lawn-mowing and trimming business, run mostly from a phone, starting on roughly **$300** of owner-contributed cash.
+Logan Spence Lawncare (DBA **LSL**, web brand **LSL Lawns**) is a neighborhood lawn-mowing and trimming business, run mostly from a phone, starting on roughly **$300** of owner-contributed cash. **Logan is the sole owner (100%).** Logan works alongside a business partner (`[Partner Name]`) who holds no equity and no profit share — their entire economic relationship to LSL is a flat $10-per-completed-job fee for use of their truck. See `docs/BUSINESS_RULES.md` (Distribution Waterfall) and `docs/PARTNERSHIP_TEMPLATE.md` for the confirmed terms.
 
 The goal of this whole project is **not** to build software. It's to help two first-time owners:
 
@@ -42,7 +42,7 @@ Full rule, verification method, and the "why" (this trades a small price break f
 
 ## 5. Financial model shape (bootstrap §7, §11–§13)
 
-Revenue → Direct Costs → Gross Profit → Operating Expenses → Net Profit → Required Reserve → Distributable Cash → Partner Distributions.
+Revenue → Direct Costs (including the $10/job truck fee to `[Partner Name]`) → Gross Profit → Operating Expenses → Net Profit (Pre-Tax) → Taxes (estimated reserve, placeholder — not tax advice) → Net Profit After Tax → 50% Distributed to Logan / 50% Retained in Business. Full waterfall and the open reserve-guardrail question live in `docs/BUSINESS_RULES.md`.
 
 Planning horizon: **four months**, not a full year — the business is seasonal and real data beats a long guess. An annualized run-rate can be shown as a clearly-labeled illustrative extra, never as the real forecast.
 
@@ -50,9 +50,11 @@ The actual spreadsheet that implements this model is specced in `sheets/SHEET_SP
 
 ## 6. Partnership economics (bootstrap §9–§10)
 
-Ownership %, contributions, truck reimbursement, distribution split, responsibilities, approval rules, dispute handling, and exit terms all get filled in together by both owners using `docs/PARTNERSHIP_TEMPLATE.md`. This PRD does not pre-decide any of those numbers — that's explicitly the owners' call (bootstrap §52, Qs 4–10).
+**Confirmed by Logan (2026-08-15): Logan owns 100% of LSL. His business partner (`[Partner Name]`) is not a co-owner — 0% equity, 0% profit share.** The partner's entire economic relationship to LSL is a flat **$10 per completed job**, paid for use of their truck, booked as a Direct Cost (see `docs/BUSINESS_RULES.md`). Net Profit After Tax is split **50% distributed to Logan / 50% retained in the business**. This replaces the earlier generic "two-owner split, TBD" framing — see `docs/BUSINESS_RULES.md` (Distribution Waterfall) for the full formula and the still-open question about how the old cash-reserve guardrail checklist interacts with the new 50/50 split.
 
-**Status: template exists, not yet filled in by Logan and his partner.**
+Remaining items — responsibilities, purchase-approval threshold, dispute handling, and exit terms — still get filled in together by Logan and `[Partner Name]` using `docs/PARTNERSHIP_TEMPLATE.md`. This PRD does not pre-decide those (bootstrap §52).
+
+**Status: ownership and distribution economics confirmed. Responsibilities, approval threshold, dispute process, and exit scenarios still open — template partially filled in, rest pending Logan and `[Partner Name]`.**
 
 ## 7. Booking (bootstrap §17)
 
@@ -145,20 +147,23 @@ The MVP is done when the owners can, from their phones: see this week's prioriti
 
 ## 19. Open questions the owners still need to answer (bootstrap §52)
 
-Not yet answered as of this scaffold pass — tracked here so nobody forgets, and moved into `PARTNERSHIP_TEMPLATE.md` / `BUSINESS_RULES.md` once decided:
+**Resolved 2026-08-15** (see §6 above and `docs/BUSINESS_RULES.md` Distribution Waterfall): ownership split (Logan 100%, `[Partner Name]` 0%), truck reimbursement method/rate ($10/job flat, Direct Cost), and distribution split (50% to Logan / 50% retained). One piece of this is still an open decision, not silently resolved: whether the old cash-reserve guardrail checklist (bootstrap §37) still gates the 50/50 split, or the 50%-retained half now functions as the reserve — flagged as "OPEN QUESTION FOR LOGAN" in `docs/BUSINESS_RULES.md`.
+
+Still not yet answered — tracked here so nobody forgets, and moved into `PARTNERSHIP_TEMPLATE.md` / `BUSINESS_RULES.md` once decided:
 
 - City/neighborhood/service area
-- Both partners' names and initial contributions
-- Truck ownership and reimbursement method/rate
-- Ownership % and distribution % split
-- What purchases require both partners' approval
+- `[Partner Name]`'s actual name and Logan's initial cash contribution amount
+- OPEN QUESTION FOR LOGAN: does the reserve-guardrail checklist gate the 50/50 split, or does the 50%-retained half serve as the reserve mechanism? (see `docs/BUSINESS_RULES.md`)
+- What purchases require both Logan's and `[Partner Name]`'s approval, and the dollar threshold
 - Required cash reserve amount
 - Working days/hours and realistic lawns/day capacity
 - Average price, base-mow scope, initial add-on menu and which are Member-only
 - Exact Member preferred-pricing discount
 - Who responds to customers day-to-day, who keeps the records
 - Dispute-resolution and exit-scenario terms
+- The actual tax rate/treatment for the Taxes step in the waterfall — needs a real CPA, not a placeholder (see `docs/BUSINESS_RULES.md`)
 
 ## Changelog
 
 - **2026-08-15** — Initial working PRD created from `PROJECT_BOOTSTRAP.md`. Payments section reconciled: the staged 6-trigger weekly-check addendum supersedes the original bootstrap's 8-point list as the one canonical payments-migration policy (see §8 above for the reasoning). Repo and doc scaffold built by Wren.
+- **2026-08-15** — Partnership/distribution economics confirmed by Logan: sole ownership (Logan 100%, `[Partner Name]` 0% equity), $10/job flat truck fee booked as a Direct Cost, and a 50% distributed-to-Logan / 50% retained-in-business split of Net Profit After Tax, with a new explicit Taxes step (placeholder, not tax advice) added to the waterfall. §6 above and `docs/BUSINESS_RULES.md` updated to match. Open question flagged, not resolved: whether the bootstrap §37 cash-reserve guardrail checklist still gates the 50/50 split or the retained half now serves as the reserve — see the "OPEN QUESTION FOR LOGAN" callout in `docs/BUSINESS_RULES.md`.

@@ -6,6 +6,21 @@ See `sheets/SHEET_SPEC.md` for the full tab spec these fields belong to.
 
 ---
 
+## Partnership & Distribution fields (Tabs 2, 3, 4, 5)
+
+These fields exist because Logan is the **sole owner** of LSL (100%) and his business partner (`[Partner Name]`) is a **non-owner** paid a flat per-job fee — not a co-owner splitting profit. See `docs/BUSINESS_RULES.md` (Distribution Waterfall, Truck Reimbursement) and `docs/PARTNERSHIP_TEMPLATE.md` for the full "why."
+
+| Field | Plain-English definition |
+|---|---|
+| Truck Fee per Job | The flat dollar amount LSL pays `[Partner Name]` every time a job is completed using their truck — confirmed at **$10/job**. It's counted as a Direct Cost (Cost of Service), the same bucket as fuel or trimmer line, because it rises with job volume. It is not a profit split and not owner equity — `[Partner Name]` isn't an owner. |
+| Estimated Tax Reserve % | A placeholder percentage of Net Profit (Pre-Tax) that LSL sets aside for taxes before deciding what to distribute or spend. **This is not tax advice** — it's a rough placeholder until a CPA gives Logan an actual rate/treatment for LSL's real situation. Easy to find and change on Tab 2 once a real number exists. |
+| Estimated Tax Reserve Amount | Net Profit (Pre-Tax) × Estimated Tax Reserve % — the dollar amount actually set aside this period under the placeholder above. |
+| Net Profit After Tax | Net Profit (Pre-Tax) minus the Estimated Tax Reserve Amount. This is the number the 50/50 distribution split is actually calculated from — not the pre-tax number. |
+| Distribution % to Owner | The share of Net Profit After Tax that gets paid out to Logan personally. Confirmed at **50%**. |
+| Retained % | The share of Net Profit After Tax that stays inside the business as cash reserve/reinvestment instead of going to Logan. Confirmed at **50%**. Whether this retained half also satisfies the older Distribution Guardrail cash-reserve checklist, or whether that checklist is a separate gate on top of it, is an open question — see the "OPEN QUESTION FOR LOGAN" callout in `docs/BUSINESS_RULES.md`. |
+
+---
+
 ## Tab 6 — CUSTOMERS / CRM
 
 | Field | Plain-English definition |
