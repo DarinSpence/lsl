@@ -90,7 +90,8 @@ Objectives:
 Objectives:
 
 - Print the next small batch of business cards.
-- Leave business cards on front doors and keep tracking which neighborhoods respond.
+- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if LSL has left cards there before. Recency and frequency help potential clients remember to text.
+- Keep tracking which neighborhoods respond.
 - Post in appropriate free neighborhood channels.
 - Contact the personal network.
 - Respond rapidly to every lead.
