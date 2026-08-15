@@ -1,28 +1,28 @@
-# LSL - Partnership Agreement Template
+# LL - Partnership Agreement Template
 
 **This is a business-planning template, not legal advice.** It exists so Logan and his business partner can put a fair agreement in writing *before* money creates a disagreement - not after. A qualified local attorney or CPA should review this once it's filled in, especially anything touching business structure, liability, or taxes. Wren (the specialist who built this template) does not give legal, tax, or entity-formation advice - that's explicitly out of scope, see `docs/PRD.md`.
 
 **How to use this:** Both partners fill this in together, out loud, in the same room (or call) - not separately. If you disagree on an answer, that disagreement is exactly the kind of thing this document exists to surface *now*, while it's cheap to resolve, instead of later, when there's real money involved. Every `[ ]` below is a blank for the owners to fill in - Wren has deliberately not pre-filled any of these, per the source PRD's own instruction not to invent answers the owners are supposed to decide (bootstrap §52).
 
-Once filled in and both partners have agreed, the completed version should live in the Google Drive `LSL/06 - Partnership` folder (see `docs/ARCHITECTURE.md`) - **not** committed to this public GitHub repo, since it will contain real names and real financial terms.
+Once filled in and both partners have agreed, the completed version should live in the Google Drive `LL/06 - Partnership` folder (see `docs/ARCHITECTURE.md`) - **not** committed to this public GitHub repo, since it will contain real names and real financial terms.
 
 ---
 
 ## 1. The Owner and the Business Partner
 
-**Confirmed by Logan (2026-08-15): LSL is not a two-owner equity partnership - Logan is the sole owner, holding 100% of the company's equity.** His business partner holds zero equity, but is economically compensated two separate ways: a flat per-job truck fee (Section 5) and 50% of every cash distribution (Section 6). **Ownership % and Distribution % are two different numbers - don't let one imply the other.** The rest of this document uses "Owner" for Logan and "Business Partner" for the non-owner partner, instead of "Partner A / Partner B," so the ownership structure stays unambiguous everywhere it's referenced.
+**Confirmed by Logan (2026-08-15): LL is not a two-owner equity partnership - Logan is the sole owner, holding 100% of the company's equity.** His business partner holds zero equity, but is economically compensated two separate ways: a flat per-job truck fee (Section 5) and 50% of every cash distribution (Section 6). **Ownership % and Distribution % are two different numbers - don't let one imply the other.** The rest of this document uses "Owner" for Logan and "Business Partner" for the non-owner partner, instead of "Partner A / Partner B," so the ownership structure stays unambiguous everywhere it's referenced.
 
 - Owner name: Logan Spence
 - Business Partner name: `Partner`
-- Business legal name: Logan Spence Lawns
-- DBA: LSL
+- Business legal name: Logan Lawns
+- DBA: LL
 - Date this agreement was completed: `[ ]`
 - Date this agreement was last reviewed/updated: `[ ]`
 
 ## 2. Ownership
 
 - Owner (Logan Spence) ownership: **100%**
-- Business Partner (`Partner`) ownership: **0%** - the Business Partner is not an owner of LSL.
+- Business Partner (`Partner`) ownership: **0%** - the Business Partner is not an owner of LL.
 - Basis: Logan is the sole owner of the business. The Business Partner's contribution (use of their truck) is compensated as a flat per-job fee, not as an equity stake - see Section 5.
 - **Important - Ownership % is not the same thing as Distribution %.** This section (Ownership) is about who legally owns the company: Logan, 100%. Section 6 (Distribution) is a separate number about how *cash payouts* get divided: 50/50 between Logan and the Business Partner, regardless of the 100/0 ownership split above. Read both sections - don't assume one from the other.
 
@@ -54,7 +54,7 @@ Once filled in and both partners have agreed, the completed version should live 
 
 **Confirmed (2026-08-15): the $10/job flat fee is what `Partner` gets paid for truck use and wear - it does not include fuel or materials.** Fuel and materials are handled the same way every other job cost already is: they're **Direct Costs (Cost of Service)**, which come out of revenue *before* Gross Profit - before the waterfall ever reaches Cash Available for Distribution, which is what gets split 50/50 in Section 6. Because Direct Costs reduce that shared distribution pool before the 50/50 split happens, fuel and materials end up economically split evenly between Logan and `Partner` automatically - that's what "split evenly and deducted from the 50/50 share of net profit" already means inside this model, not a new mechanism on top of it. ("Materials" here - mowing/job consumables like trimmer line, bags, or blade sharpening - maps to the "consumables" Direct Cost line already defined in `docs/BUSINESS_RULES.md`; it isn't a new, undefined cost category.)
 
-- Who owns the truck? `Partner` (the Business Partner - not an owner of LSL)
+- Who owns the truck? `Partner` (the Business Partner - not an owner of LL)
 - Reimbursement method: **Flat rate per completed job**
 - Reimbursement rate: **$10 per completed job**
 - Does the reimbursement include fuel? **No.** Fuel is not folded into the $10/job fee - it's a Direct Cost, same as any other job expense, and reduces Cash Available for Distribution before the 50/50 split, so Logan and `Partner` end up bearing it evenly through that reduced distribution pool rather than through the flat fee itself. The same treatment applies to materials/consumables (trimmer line, bags, blade sharpening, etc.) - see the "consumables" Direct Cost line in `docs/BUSINESS_RULES.md`.
@@ -76,7 +76,7 @@ Once filled in and both partners have agreed, the completed version should live 
 Ownership is a legal/equity fact: Logan owns the entire company, and that never changes as part of this policy. Distribution is a separate, negotiated compensation arrangement: every dollar of **Cash Available for Distribution** gets split 50/50 between Logan and `Partner`, regardless of the 100/0 ownership split above. This is sometimes called a "profits interest" - `Partner` is paid like a 50% partner without holding any equity stake.
 
 - Cash Available for Distribution is split: **50% to Logan, 50% to `Partner`.** Nothing is retained in the business as part of this split - it is not "half distributed, half retained." See `docs/BUSINESS_RULES.md` Distribution Waterfall for exactly where "Cash Available for Distribution" sits, and for the separate (and standard) pre-distribution cash-reserve gate.
-- `Partner`'s total economic take from LSL each period = the $10/job truck fee (Section 5, already paid earlier in the waterfall as a Direct Cost) **plus** their 50% share of that period's distribution.
+- `Partner`'s total economic take from LL each period = the $10/job truck fee (Section 5, already paid earlier in the waterfall as a Direct Cost) **plus** their 50% share of that period's distribution.
 - How often will Logan review and approve distributions? `[ ] Weekly  [ ] Monthly  [ ] Other: [ ]`
 
 ## 7. Responsibilities
@@ -90,7 +90,7 @@ Ownership is a legal/equity fact: Logan owns the entire company, and that never 
 
 ## 8. Purchase Approval
 
-**Confirmed (2026-08-15): Logan has sole purchase authority at every dollar amount - there is no joint-signoff threshold, and `Partner` has no purchase-approval veto at any dollar figure.** This isn't a dollar-amount decision, it's a structural one: the original draft of this section assumed both partners sign off above some threshold, but that only makes sense if both people are owners. Per Section 1 and Section 2, `Partner` isn't an owner of LSL - they hold 0% equity and are compensated through the truck fee and the distribution split, not through an ownership stake. Purchase authority is an owner right, and Logan is the only owner, so Logan can buy things for the business unilaterally, at any dollar amount, without needing `Partner`'s agreement. `Partner`'s standing in the business is "profit-sharing partner in net profit after expenses" (their 50% of Cash Available for Distribution, per Section 6) - not "co-decision-maker on how the business spends money." That distinction is what Section 8 needs to reflect.
+**Confirmed (2026-08-15): Logan has sole purchase authority at every dollar amount - there is no joint-signoff threshold, and `Partner` has no purchase-approval veto at any dollar figure.** This isn't a dollar-amount decision, it's a structural one: the original draft of this section assumed both partners sign off above some threshold, but that only makes sense if both people are owners. Per Section 1 and Section 2, `Partner` isn't an owner of LL - they hold 0% equity and are compensated through the truck fee and the distribution split, not through an ownership stake. Purchase authority is an owner right, and Logan is the only owner, so Logan can buy things for the business unilaterally, at any dollar amount, without needing `Partner`'s agreement. `Partner`'s standing in the business is "profit-sharing partner in net profit after expenses" (their 50% of Cash Available for Distribution, per Section 6) - not "co-decision-maker on how the business spends money." That distinction is what Section 8 needs to reflect.
 
 - Purchase authority: **Logan, as sole owner, can make any purchase for the business at any dollar amount, unilaterally.** There is no dollar threshold requiring `Partner`'s sign-off, and no dollar amount at which `Partner`'s agreement is required - because `Partner` is not an owner (Section 2), only a profit-sharing partner (Section 6).
 - Does `Partner` have approval authority or a veto over any purchase, at any dollar amount? **No.** `Partner`'s economic interest is in net profit sharing after expenses, not in a say over what the business buys.

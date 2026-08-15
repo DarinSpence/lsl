@@ -1,6 +1,6 @@
-# LSL - Technology Stack
+# LL - Technology Stack
 
-Every tool on this list earns its spot by solving a problem LSL actually has *today*. None of these are provisioned for scale the business hasn't earned. Pricing below was checked via web search on **2026-08-15**; verify again before actually signing up for anything, since free-tier terms and pricing drift over time - treat anything marked "TODO: verify" as unconfirmed.
+Every tool on this list earns its spot by solving a problem LL actually has *today*. None of these are provisioned for scale the business hasn't earned. Pricing below was checked via web search on **2026-08-15**; verify again before actually signing up for anything, since free-tier terms and pricing drift over time - treat anything marked "TODO: verify" as unconfirmed.
 
 For each tool: what it does, why it's needed, whether it's needed *now*, and expected cost.
 
@@ -29,7 +29,7 @@ For each tool: what it does, why it's needed, whether it's needed *now*, and exp
 
 ## Google Business Profile
 
-**What it does:** Puts LSL on Google Search/Maps, collects reviews, shows contact info.
+**What it does:** Puts LL on Google Search/Maps, collects reviews, shows contact info.
 **Why needed:** Highest-leverage free local-discovery channel available (bootstrap §16).
 **Needed now:** Yes - Week 2, ongoing through launch.
 **Cost:** Free. **TODO: verify current Google Business Profile eligibility/setup requirements for a home-based service business at implementation time** - requirements (e.g. service-area business setup, no storefront) can shift and are worth a fresh check right before setup.
@@ -46,7 +46,7 @@ For each tool: what it does, why it's needed, whether it's needed *now*, and exp
 **What it does:** Service-based booking/scheduling - customers pick a service, request/book a time, get reminders.
 **Why needed:** Purpose-built for appointments (not generic meetings), mobile-friendly booking page, works from a phone.
 **Needed now:** Yes - Week 2, this is the "front desk."
-**Cost - verified 2026-08-15:** **Free** for up to **4 users** and **200 appointments/month**, with no time limit on the free tier. Includes payments, a branded booking page, email reminders/confirmations, app integrations, mobile apps, and team collaboration. Free tier does **not** include: removing Setmore branding, two-way calendar sync, SMS reminders, or video appointments. Paid **Pro** tier is **$12/user/month billed monthly, or $5/user/month billed annually** (as of June 2026, per source). LSL should stay on Free - 200 appointments/month is far beyond what a two-person crew needs during its First 20 Lawns sprint.
+**Cost - verified 2026-08-15:** **Free** for up to **4 users** and **200 appointments/month**, with no time limit on the free tier. Includes payments, a branded booking page, email reminders/confirmations, app integrations, mobile apps, and team collaboration. Free tier does **not** include: removing Setmore branding, two-way calendar sync, SMS reminders, or video appointments. Paid **Pro** tier is **$12/user/month billed monthly, or $5/user/month billed annually** (as of June 2026, per source). LL should stay on Free - 200 appointments/month is far beyond what a two-person crew needs during its First 20 Lawns sprint.
 Sources: [Setmore pricing overview via Koalendar](https://koalendar.com/blog/setmore-pricing), [Cal.com Setmore pricing breakdown](https://cal.com/blog/setmore-pricing).
 **Upgrade trigger:** Approaching 200 appointments/month, or a genuine need for SMS reminders / 2-way calendar sync / recurring-appointment automation that the free tier can't do.
 
@@ -55,16 +55,16 @@ Sources: [Setmore pricing overview via Koalendar](https://koalendar.com/blog/set
 **What it does:** Integrated scheduling + payments - the likely replacement for Setmore + Venmo once both scheduling and payment friction justify combining them.
 **Why needed:** Not needed yet. Documented here so the upgrade trigger and cost are known in advance, not guessed at under pressure.
 **Needed now:** No - evaluate starting Week 9 per the trigger list in `docs/PRD.md` §8 / `docs/BUSINESS_RULES.md`.
-**Cost - verified 2026-08-15:** **Free plan** has no subscription cost - you only pay payment-processing fees per transaction. On the Free plan: **in-person payments 2.6% + 15¢**, **online payments 3.3% + 30¢**. (Paid Plus/Premium tiers drop in-person to 2.5% + 15¢ and online to 2.9% + 30¢, but add a monthly fee - not needed at LSL's volume.) Free plan includes one location, basic online booking, Google/Outlook calendar sync, automated reminders, and payment acceptance; it does not include email/SMS marketing, staff management, or advanced reporting.
+**Cost - verified 2026-08-15:** **Free plan** has no subscription cost - you only pay payment-processing fees per transaction. On the Free plan: **in-person payments 2.6% + 15¢**, **online payments 3.3% + 30¢**. (Paid Plus/Premium tiers drop in-person to 2.5% + 15¢ and online to 2.9% + 30¢, but add a monthly fee - not needed at LL's volume.) Free plan includes one location, basic online booking, Google/Outlook calendar sync, automated reminders, and payment acceptance; it does not include email/SMS marketing, staff management, or advanced reporting.
 Source: [Square Appointments pricing via Koalendar](https://koalendar.com/blog/square-appointments-pricing).
 **Upgrade trigger:** See the 6-trigger Venmo→Square checklist in `docs/BUSINESS_RULES.md`.
 
 ## Venmo Business
 
-**What it does:** Electronic payment collection at launch - LSL's "starter cash register."
+**What it does:** Electronic payment collection at launch - LL's "starter cash register."
 **Why needed:** Familiar to customers, zero setup complexity, works entirely from a phone, appropriate for very low transaction volume.
 **Needed now:** Yes - Week 2, launch payment method.
-**Cost - verified 2026-08-15:** **No setup fee, no monthly fee, no contract.** Standard goods-and-services transaction fee: **1.9% + $0.10**. In-person tap-to-pay: **2.29% + $0.10**. Standard bank transfers (1–3 business days) are free; instant transfer costs 1.75% of the amount. Venmo issues a **Form 1099-K** if the business profile receives **$600+** in a calendar year - worth flagging to whoever handles LSL's taxes, not something Wren advises on. U.S.-only.
+**Cost - verified 2026-08-15:** **No setup fee, no monthly fee, no contract.** Standard goods-and-services transaction fee: **1.9% + $0.10**. In-person tap-to-pay: **2.29% + $0.10**. Standard bank transfers (1–3 business days) are free; instant transfer costs 1.75% of the amount. Venmo issues a **Form 1099-K** if the business profile receives **$600+** in a calendar year - worth flagging to whoever handles LL's taxes, not something Wren advises on. U.S.-only.
 Sources: [NerdWallet Venmo Business review 2026](https://www.nerdwallet.com/business/software/reviews/venmo-business-account), [Swipesum Venmo for Business fees](https://www.swipesum.com/insights/venmo-for-business-fees-features-and-how-to-accept-payments).
 **Upgrade trigger:** See the 6-trigger Venmo→Square checklist in `docs/BUSINESS_RULES.md`.
 
@@ -86,7 +86,7 @@ Sources: [Wave pricing via ComparEdge](https://comparedge.com/tools/wave/pricing
 
 ## GitHub Pages
 
-**What it does:** Free static hosting for the LSL Lawns website, built from this repo's `app/` folder.
+**What it does:** Free static hosting for the Logan Lawns website, built from this repo's `app/` folder.
 **Why needed:** Free, version-controlled, no server to manage, plenty for low-traffic MVP site.
 **Needed now:** Not yet built (Phase E, deferred). Will be turned on when `app/` has a real site to serve.
 **Cost:** Free for a public repo on a personal GitHub account.
@@ -103,12 +103,12 @@ Sources: [Wave pricing via ComparEdge](https://comparedge.com/tools/wave/pricing
 **What it does:** Turns the request-service/booking link into a scannable code for business cards.
 **Why needed:** Fastest path from a physical business card to a phone booking a job.
 **Needed now:** Phase D.
-**Cost:** Free - most reliable static QR generators (e.g. Google's own, or any no-signup generator producing a permanent static code) cost nothing. **TODO: pick a specific generator and confirm the code doesn't expire/require a paid plan to stay live** - some "free" QR tools quietly require a subscription to keep dynamic codes working; a static code avoids that trap entirely and is the safer default for LSL.
+**Cost:** Free - most reliable static QR generators (e.g. Google's own, or any no-signup generator producing a permanent static code) cost nothing. **TODO: pick a specific generator and confirm the code doesn't expire/require a paid plan to stay live** - some "free" QR tools quietly require a subscription to keep dynamic codes working; a static code avoids that trap entirely and is the safer default for LL.
 
 ## AI (free tier)
 
 **What it does:** Helps draft business card copy, website wording, review requests, explain spreadsheet formulas, and teach business concepts.
-**Why needed:** A free-tier AI assistant is enough for LSL's needs at launch - no paid subscription required.
+**Why needed:** A free-tier AI assistant is enough for LL's needs at launch - no paid subscription required.
 **Needed now:** Yes, ongoing, free tier only.
 **Cost:** Free (whatever free AI tool the owners already have access to).
 

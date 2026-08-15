@@ -1,4 +1,4 @@
-# LSL - Project Bootstrap & Product Requirements Document
+# LL - Project Bootstrap & Product Requirements Document
 
 **Status:** Initial handoff specification
 **Date:** August 15, 2026
@@ -8,10 +8,10 @@
 
 ## Business Identity
 
-- **Legal / company name:** Logan Spence Lawns
-- **DBA / customer-facing brand:** LSL
-- **Planned website/domain brand:** LSL Lawns
-- **Primary customer-facing name throughout this system:** LSL
+- **Legal / company name:** Logan Lawns
+- **DBA / customer-facing brand:** LL
+- **Planned website/domain brand:** Logan Lawns
+- **Primary customer-facing name throughout this system:** LL
 
 The legal/company name and DBA should be used consistently on business registrations, banking, payment accounts, invoices, marketing, Google Business Profile, and customer communications as appropriate.
 
@@ -19,7 +19,7 @@ The legal/company name and DBA should be used consistently on business registrat
 
 ## 1. Executive Summary
 
-LSL is a practical business-launch system for **Logan Spence Lawns (DBA LSL; website/domain brand LSL Lawns)** for an 18-year-old high-school graduate and a business partner starting a neighborhood lawn-care company with very little startup capital.
+LL is a practical business-launch system for **Logan Lawns (DBA LL; website/domain brand Logan Lawns)** for an 18-year-old high-school graduate and a business partner starting a neighborhood lawn-care company with very little startup capital.
 
 The immediate objective is **not** to build sophisticated software. The objective is to help the owners:
 
@@ -109,11 +109,11 @@ These should be intentionally simple and easy to price.
 
 ## Recurring Customer / Membership Concept
 
-LSL should encourage repeat service without requiring a traditional monthly subscription.
+LL should encourage repeat service without requiring a traditional monthly subscription.
 
-### LSL Member Rule
+### LL Member Rule
 
-A customer becomes an **LSL Member** when they keep their **next two lawn-service appointments booked**.
+A customer becomes an **LL Member** when they keep their **next two lawn-service appointments booked**.
 
 Membership does **not** initially require:
 
@@ -121,7 +121,7 @@ Membership does **not** initially require:
 - Prepayment for an entire season
 - An open-ended contract
 
-Instead, the customer earns Member status by creating future scheduling certainty for LSL.
+Instead, the customer earns Member status by creating future scheduling certainty for LL.
 
 ### Standard / One-Time Customer
 
@@ -129,9 +129,9 @@ Can purchase:
 
 - Lawn mowing
 - String trimming / weed eating
-- Other standard services LSL chooses to make publicly available
+- Other standard services LL chooses to make publicly available
 
-### LSL Member
+### LL Member
 
 A customer with at least **two future lawn-service appointments booked** receives:
 
@@ -145,7 +145,7 @@ Potential Member-only add-ons include:
 - Pulling weeds
 - Light yard cleanup
 - Driveway / sidewalk washing
-- Minor outdoor maintenance tasks that are safe, legal, and within LSL's competence
+- Minor outdoor maintenance tasks that are safe, legal, and within LL's competence
 - Tightening loose deck screws
 - Other simple property-maintenance tasks
 
@@ -153,9 +153,9 @@ Potential Member-only add-ons include:
 
 Suggested value proposition:
 
-> "Keep your next two lawn visits booked and become an LSL Member. Members receive preferred pricing and access to exclusive add-on services."
+> "Keep your next two lawn visits booked and become an LL Member. Members receive preferred pricing and access to exclusive add-on services."
 
-This structure teaches an important business principle: LSL is exchanging a modest pricing benefit for **future demand certainty, better route planning, lower selling effort, and more opportunities for add-on revenue**.
+This structure teaches an important business principle: LL is exchanging a modest pricing benefit for **future demand certainty, better route planning, lower selling effort, and more opportunities for add-on revenue**.
 
 The membership rule should be easy to understand and easy to verify in the CRM.
 
@@ -834,7 +834,7 @@ Business card should include:
 - Booking link.
 - Optional introductory offer.
 - Trust signal.
-- Clear LSL Member benefit: keep the next two visits booked for preferred pricing and exclusive add-ons.
+- Clear LL Member benefit: keep the next two visits booked for preferred pricing and exclusive add-ons.
 
 QR code should ideally lead to a very simple landing/booking experience.
 
@@ -870,7 +870,7 @@ Customers should be able to:
 3. See or request an available time.
 4. Book from a phone.
 5. Receive confirmation/reminders.
-6. Book their next two appointments to unlock LSL Member status.
+6. Book their next two appointments to unlock LL Member status.
 
 ## Preferred MVP Candidate - Setmore Free
 
@@ -890,7 +890,7 @@ Desired features:
 
 ## Likely Upgrade Path - Square Appointments
 
-Square Appointments should be evaluated later as the likely integrated scheduling + payments platform when LSL's volume justifies moving away from separate tools.
+Square Appointments should be evaluated later as the likely integrated scheduling + payments platform when LL's volume justifies moving away from separate tools.
 
 The important migration question is not "What week are we on?" but:
 
@@ -900,15 +900,15 @@ The important migration question is not "What week are we on?" but:
 
 Initial flow:
 
-**QR / Google / Facebook → LSL landing page or booking page → Choose/request service → Enter address → Select/request time → Confirmation**
+**QR / Google / Facebook → LL landing page or booking page → Choose/request service → Enter address → Select/request time → Confirmation**
 
-Because lawn care is location-dependent, LSL may initially use **Request Service / Request a Quote** instead of guaranteeing an appointment before yard size, address, and route feasibility are known.
+Because lawn care is location-dependent, LL may initially use **Request Service / Request a Quote** instead of guaranteeing an appointment before yard size, address, and route feasibility are known.
 
 ## Member Booking Flow
 
 After the first successful service, invite the customer to:
 
-**Book the next two lawn visits → Become an LSL Member → Receive preferred pricing + unlock Member-only add-ons**
+**Book the next two lawn visits → Become an LL Member → Receive preferred pricing + unlock Member-only add-ons**
 
 The CRM should automatically or manually track whether two future appointments are on the books.
 
@@ -920,7 +920,7 @@ The payment strategy should intentionally evolve with the business.
 
 ## Phase 1 - Launch With Venmo Business
 
-Use **Venmo Business** initially if its current terms, fees, and business-use requirements fit LSL.
+Use **Venmo Business** initially if its current terms, fees, and business-use requirements fit LL.
 
 Why:
 
@@ -928,7 +928,7 @@ Why:
 - Low setup complexity
 - Easy to use from a phone
 - Appropriate for very small transaction volume
-- Avoids adding software before LSL has customers
+- Avoids adding software before LL has customers
 
 Also evaluate Stripe/Wave payment links if a customer needs another electronic option.
 
@@ -950,17 +950,17 @@ As jobs increase, track:
 
 ## Phase 3 - Evaluate Venmo Business → Square
 
-The roadmap should include a formal **"Evaluate Venmo Business → Square"** milestone around **Weeks 9-12**, or earlier if LSL grows faster.
+The roadmap should include a formal **"Evaluate Venmo Business → Square"** milestone around **Weeks 9-12**, or earlier if LL grows faster.
 
 Move earlier if one or more of these triggers becomes meaningful:
 
 1. **Integrated scheduling + payments would eliminate duplicate work.**
 2. **Customers increasingly want card or tap-to-pay options.**
 3. **Matching Venmo payments to jobs becomes a weekly administrative burden.**
-4. **LSL is using multiple payment methods and reconciliation becomes confusing.**
+4. **LL is using multiple payment methods and reconciliation becomes confusing.**
 5. **Square Appointments would replace both the separate scheduler and payment workflow.**
 6. **Transaction volume makes a more integrated checkout/reconciliation system worthwhile.**
-7. **The economics of Square's current fees/features are better for LSL's actual transaction mix.**
+7. **The economics of Square's current fees/features are better for LL's actual transaction mix.**
 8. **Recurring Member workflows are easier to administer inside Square.**
 
 Do **not** migrate merely because the calendar reaches Week 9.
@@ -983,7 +983,7 @@ Venmo Business may still remain available as a secondary customer payment option
 
 ## Payment Design Principle
 
-Customers should be able to pay with minimal friction, but LSL should use the **fewest payment systems necessary**.
+Customers should be able to pay with minimal friction, but LL should use the **fewest payment systems necessary**.
 
 Normal processing fees should be considered when setting prices rather than surprising customers with confusing last-minute charges.
 
@@ -1160,11 +1160,11 @@ Stores customers, goals, job history, and the math behind the business.
 
 ### Setmore / Scheduler - "Our front desk"
 
-Lets customers choose services, request or book appointments, receive reminders, and keep their next two visits booked to maintain LSL Member status.
+Lets customers choose services, request or book appointments, receive reminders, and keep their next two visits booked to maintain LL Member status.
 
 ### Square - "Our future combined front desk + cash register"
 
-When LSL gets busy enough, Square may replace separate scheduling and payment steps by combining appointments, cards/tap-to-pay, and easier reconciliation.
+When LL gets busy enough, Square may replace separate scheduling and payment steps by combining appointments, cards/tap-to-pay, and easier reconciliation.
 
 ### Wave - "Our bookkeeper"
 
@@ -1172,7 +1172,7 @@ Tracks invoices, business money, and accounting records.
 
 ### Venmo Business - "Our starter cash register"
 
-Lets customers pay electronically with very little setup while LSL is small. When payment volume and reconciliation become harder, evaluate moving the main workflow to Square.
+Lets customers pay electronically with very little setup while LL is small. When payment volume and reconciliation become harder, evaluate moving the main workflow to Square.
 
 ### GitHub - "The filing cabinet for our website"
 
@@ -1201,7 +1201,7 @@ Create one top-level shared folder for the business and share it with the owners
 Suggested structure:
 
 ```text
-LSL/
+LL/
 ├── 00 - Start Here
 ├── 01 - Business Plan
 ├── 02 - Customers
@@ -1643,7 +1643,7 @@ Until formal banking is established, the owners still need a documented process 
 - Business financial model completed.
 - Venmo Business or other approved launch payment method active.
 - Setmore-style service booking/request process active.
-- LSL Member rule configured: 2 future appointments = Member status.
+- LL Member rule configured: 2 future appointments = Member status.
 - Google Business Profile established if eligible.
 - Business card ready.
 - Website/landing page live.
@@ -1706,7 +1706,7 @@ Objectives:
 - Set up business communication.
 - Establish Venmo Business as the initial payment option, subject to current terms.
 - Establish Setmore Free (or verified equivalent) as the booking/request workflow.
-- Configure the LSL Member rule: two future lawn-service appointments booked.
+- Configure the LL Member rule: two future lawn-service appointments booked.
 - Draft partnership agreement.
 - Create simple landing page.
 - Begin Google Business Profile setup.
@@ -2061,7 +2061,7 @@ The system should require answers to these questions rather than silently invent
 17. What add-ons will initially be offered?
 18. Which add-ons are Member-only?
 19. What exact preferred pricing/discount will Members receive?
-20. How will LSL verify that two future appointments remain booked?
+20. How will LL verify that two future appointments remain booked?
 21. What service area is practical?
 22. Who responds to customers?
 23. Who keeps the records?

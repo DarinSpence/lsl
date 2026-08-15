@@ -1,8 +1,8 @@
-# LSL - First 20 Lawns Plan
+# LL - First 20 Lawns Plan
 
 ## First 20 Lawns - The Grind
 
-**Why this now:** Before building a bigger system, prove that LSL can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
+**Why this now:** Before building a bigger system, prove that LL can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
 
 ### Week 1 priority - Beat the streets!
 
@@ -22,13 +22,13 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 - [ ] Make the simple business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text 913-563-0403 if interested.”**
-- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods LSL can actually serve.
+- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods LL can actually serve.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
 - [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 - Customers / CRM) and write the completed job in the Job Log (Tab 7).
 - [ ] Ask: **“Can I text you in two weeks to see if you’d like to schedule another?”**
 - [ ] Mark the lawn complete and add one to the count.
-- [ ] Repeat until LSL has mowed 20 lawns.
+- [ ] Repeat until LL has mowed 20 lawns.
 
 ### What to track
 
@@ -49,7 +49,7 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ## Week 1 - Learn From the First 20 Lawns
 
-**Why this now:** LSL no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
+**Why this now:** LL no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
 
 Objectives:
 
@@ -60,11 +60,11 @@ Objectives:
 - Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
 - Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
 
-**Goal:** A clear picture of what the first 20 lawns taught LSL.
+**Goal:** A clear picture of what the first 20 lawns taught LL.
 
 ---
 
-## Week 2 - Build the Minimum System
+## Stage One - Build the Minimum System
 
 **Why this now:** Once the owners understand their real starting point, build only the minimum system needed to keep accepting jobs fairly and consistently.
 
@@ -83,14 +83,16 @@ Objectives:
 
 ---
 
-## Week 3 - Keep Going to Market
+## Stage Two - Build Demand and Refine Operations
+
+### Keep Going to Market
 
 **Why this now:** The first 20 lawns proved the basic offer. Week 3 turns that proof into a repeatable local lead flow.
 
 Objectives:
 
 - Print the next small batch of business cards.
-- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if LSL has left cards there before. Recency and frequency help potential clients remember to text.
+- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if LL has left cards there before. Recency and frequency help potential clients remember to text.
 - Keep tracking which neighborhoods respond.
 - Post in appropriate free neighborhood channels.
 - Contact the personal network.
@@ -101,7 +103,7 @@ Objectives:
 
 ---
 
-## Week 4 - Improve From Reality
+### Improve From Reality
 
 **Why this now:** The first sprint and next weeks produce real operating data. Use it before changing prices or buying tools.
 
@@ -117,9 +119,11 @@ Objectives:
 
 ---
 
-## Weeks 5–8 - Build the Recurring Base
+## Stage Three - Build the Recurring Base and Plan Ahead
 
-**Why this now:** One-time jobs get LSL started; recurring customers make the work predictable and reduce the constant hunt for the next job.
+### Build the Recurring Base
+
+**Why this now:** One-time jobs get LL started; recurring customers make the work predictable and reduce the constant hunt for the next job.
 
 Objectives:
 
@@ -133,7 +137,7 @@ Objectives:
 
 ---
 
-## Weeks 9–12 - Improve Economics and the Payment Stack
+### Improve Economics and the Payment Stack
 
 **Why this now:** By now there should be enough history to judge the numbers and payment workflow on facts instead of assumptions.
 
@@ -143,20 +147,20 @@ Objectives:
 - Adjust pricing only if the real numbers support it.
 - Review the cash reserve and the truck-reimbursement policy using actual mileage and use.
 - Follow the written distribution policy; never make casual distributions.
-- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing LSL a job, time, or trust.
+- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing LL a job, time, or trust.
 
 **Goal:** Consistent positive unit economics and a payment setup that matches the real workload.
 
 ---
 
-## Weeks 13–16 - Plan for Taxes and Insurance
+### Plan for Taxes and Insurance
 
 **Why this comes later:** The first 20 lawns and the operating weeks come first. Taxes and insurance matter, but they are handled here with qualified help. They are not guessed at during the sprint.
 
 Objectives:
 
-- Identify what LSL needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
-- Identify the insurance coverage and local business/licensing questions LSL needs a qualified professional to answer.
+- Identify what LL needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
+- Identify the insurance coverage and local business/licensing questions LL needs a qualified professional to answer.
 - Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
 - Compare four-month actuals to the original forecast.
 - Identify the best customer types, neighborhoods, and profitable work.
@@ -170,5 +174,5 @@ Objectives:
 ## How to use this plan
 
 - Do not start Week 1 until lawn #20 is done and logged.
-- If a weekly goal slips, learn what blocked it before adding tools or tactics.
+- If a stage goal slips, learn what blocked it before adding tools or tactics.
 - Every later change, including pricing, payment software, or a new service, is gated by real operating data, not the calendar.

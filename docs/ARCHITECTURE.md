@@ -1,16 +1,16 @@
-# LSL - Architecture: What Lives Where
+# LL - Architecture: What Lives Where
 
 This doc exists because "where does X live?" was a real question the owners and mentor talked through. Read this before you go looking for something, and before you add a new tool to the stack.
 
 ## The three layers
 
-LSL runs on three separate layers. They talk to each other through links and manual entry, not through any live API/database integration (at least not yet - see "When this changes" at the bottom).
+LL runs on three separate layers. They talk to each other through links and manual entry, not through any live API/database integration (at least not yet - see "When this changes" at the bottom).
 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  1. GOOGLE DRIVE / GOOGLE SHEETS                          │
 │     "The business-ops layer"                              │
-│     Lives in Google Drive folder: LSL/ (NOT in this repo) │
+│     Lives in Google Drive folder: LL/ (NOT in this repo) │
 │     CRM, financial model, forecasts, job log, roadmap     │
 │     tracker, mentor dashboard                              │
 ├─────────────────────────────────────────────────────────┤
@@ -32,9 +32,9 @@ Plus two more tools that plug into the picture at the edges:
 
 ## Layer 1 - Google Drive / Google Sheets (business-ops layer)
 
-**Lives in a separate Google Drive folder, `LSL/`, per bootstrap §26 - NOT in this repo.**
+**Lives in a separate Google Drive folder, `LL/`, per bootstrap §26 - NOT in this repo.**
 
-**Actual location:** `My Drive > Logan > LSL`, under the mentor's Google account (`darinspence@gmail.com`) - the mentor initially administers the Drive folder, per the bootstrap's stated pattern. Folder link: [My Drive > Logan > LSL](https://drive.google.com/drive/folders/1jvRd46lVUuqOiIuGf7cCr7BaSguJfQ3q).
+**Actual location:** `My Drive > Logan > LL`, under the mentor's Google account (`darinspence@gmail.com`) - the mentor initially administers the Drive folder, per the bootstrap's stated pattern. Folder link: [My Drive > Logan > LL](https://drive.google.com/drive/folders/1jvRd46lVUuqOiIuGf7cCr7BaSguJfQ3q).
 
 This is deliberate, not an oversight: this repo is public (GitHub Pages on a free personal account requires a public repo), and the business-ops layer holds things that should never be public - real customer names, addresses, phone numbers, actual revenue and cost numbers, and the partnership's real financial details.
 
@@ -49,7 +49,7 @@ What lives in Drive:
 Drive folder structure (from bootstrap §26 - confirmed live and matching this spec exactly as of 2026-08-15):
 
 ```
-LSL/
+LL/
 ├── 00 - Start Here
 ├── 01 - Business Plan
 ├── 02 - Customers
@@ -109,4 +109,4 @@ External SaaS, not hosted here or in Drive. Wave holds invoices, payment history
 
 ## When this changes
 
-If LSL ever needs a live integration - for example, pulling Setmore bookings automatically into the Sheet, or a payments webhook - that live-wiring work is explicitly **out of scope for Wren** and hands off to **Mack** (the automation/integration specialist on the myPKA team). Until that's actually needed, the manual link-and-copy workflow between these layers is the correct level of complexity for a two-person lawn business - see bootstrap §29–§30 and product principle #6, "Simple processes before automation."
+If LL ever needs a live integration - for example, pulling Setmore bookings automatically into the Sheet, or a payments webhook - that live-wiring work is explicitly **out of scope for Wren** and hands off to **Mack** (the automation/integration specialist on the myPKA team). Until that's actually needed, the manual link-and-copy workflow between these layers is the correct level of complexity for a two-person lawn business - see bootstrap §29–§30 and product principle #6, "Simple processes before automation."

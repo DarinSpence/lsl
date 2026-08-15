@@ -1,8 +1,8 @@
-# LSL - Google Sheets Workbook Spec
+# LL - Google Sheets Workbook Spec
 
-This is a build-by-hand spec for the LSL operating workbook. It's written so a non-technical mentor can open Google Sheets and build every tab described here without needing to code anything - every tab lists its purpose and its fields; formulas are described in plain English, not written as exact Sheets syntax, since the exact formula should be built (and understood) by whoever sets up the tab.
+This is a build-by-hand spec for the LL operating workbook. It's written so a non-technical mentor can open Google Sheets and build every tab described here without needing to code anything - every tab lists its purpose and its fields; formulas are described in plain English, not written as exact Sheets syntax, since the exact formula should be built (and understood) by whoever sets up the tab.
 
-**The workbook itself lives in Google Drive (`LSL/03 - Finance` or similar), not in this repo** - see `docs/ARCHITECTURE.md` for why. This file is the spec/blueprint only.
+**The workbook itself lives in Google Drive (`LL/03 - Finance` or similar), not in this repo** - see `docs/ARCHITECTURE.md` for why. This file is the spec/blueprint only.
 
 ## Design rules for every tab
 
@@ -25,7 +25,7 @@ Contents:
 - Links to every other tab
 - "What should I do today?" - a short pointer to the current roadmap week (Tab 9)
 - One-paragraph plain-English description of each tab
-- The core business rules in one glance: the LSL Member rule, the distribution waterfall order, the payments trigger reminder
+- The core business rules in one glance: the LL Member rule, the distribution waterfall order, the payments trigger reminder
 - Current progress snapshot (customers, revenue this month, cash reserve)
 
 ---
@@ -135,7 +135,7 @@ An optional annualized run-rate row can be shown, clearly labeled "illustrative 
 
 ## Tab 5 - PARTNERSHIP & DISTRIBUTIONS
 
-**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator. **Ownership % and Distribution % are two separate numbers - don't let the sheet conflate them.** Logan owns 100% of LSL (Ownership %). `Partner` is a non-owner (0% Ownership %), but receives 50% of every distribution (Distribution %) on top of the flat per-job truck fee - `Partner` appears in the Direct Costs line (truck fee) **and** in the distribution row (50% share). See `docs/BUSINESS_RULES.md` - Distribution Waterfall - before building this tab.
+**Purpose:** Turns the filled-in `docs/PARTNERSHIP_TEMPLATE.md` terms into a live calculator. **Ownership % and Distribution % are two separate numbers - don't let the sheet conflate them.** Logan owns 100% of LL (Ownership %). `Partner` is a non-owner (0% Ownership %), but receives 50% of every distribution (Distribution %) on top of the flat per-job truck fee - `Partner` appears in the Direct Costs line (truck fee) **and** in the distribution row (50% share). See `docs/BUSINESS_RULES.md` - Distribution Waterfall - before building this tab.
 
 Inputs:
 - Owner name (Logan Spence)
@@ -199,9 +199,9 @@ Keep this tab visually simple - this is the "how are we doing" check the owners 
 
 **Purpose:** The 16-week roadmap (see `docs/ROADMAP.md`) as a live tracker, not just a doc.
 
-Structure: start with one sprint row, **First 20 Lawns**, before any 16-week planning. Its checklist is: print business cards; leave them on front doors; show “Text 913-563-0403 if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start the rest of the roadmap at Week 1** (Learn From the First 20 Lawns); do not count the sprint itself as Week 1.
+Structure: start with one sprint row, **First 20 Lawns**, before any later planning. Its checklist is: print business cards; leave them on front doors; show “Text 913-563-0403 if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start Week 1** (Learn From the First 20 Lawns), followed by Stage One, Stage Two, and Stage Three. Do not count the sprint itself as Week 1.
 
-Per row, track: planned weeks (which columns are shaded/marked), completion status, owner (which partner), milestone description, revenue/customer target for that activity.
+Per row, track: stage or sequence, completion status, owner (which partner), milestone description, revenue/customer target for that activity.
 
 ---
 

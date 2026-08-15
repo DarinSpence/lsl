@@ -57,7 +57,7 @@ function renderRoadmap(markdown) {
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
-    if (!line || line.startsWith("# LSL") || line.startsWith("---")) continue;
+    if (!line || line.startsWith("# LL") || line.startsWith("---")) continue;
 
     if (line.startsWith("## ")) {
       const title = line.slice(3);

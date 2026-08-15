@@ -1,18 +1,18 @@
-# LSL - Business Rules
+# LL - Business Rules
 
-This is the durable business logic that doesn't change week to week - the rules that make LSL a coherent business instead of an improvised one. If you find yourself explaining one of these rules more than once, point people here instead of re-explaining it (SSOT - one home per fact).
+This is the durable business logic that doesn't change week to week - the rules that make LL a coherent business instead of an improvised one. If you find yourself explaining one of these rules more than once, point people here instead of re-explaining it (SSOT - one home per fact).
 
 ---
 
-## The LSL Member Rule
+## The LL Member Rule
 
-**A customer becomes an LSL Member the moment they have their next two lawn-service appointments booked.**
+**A customer becomes an LL Member the moment they have their next two lawn-service appointments booked.**
 
 That's it. No monthly membership fee. No prepaying for a season. No signed contract.
 
 ### Why this rule, and not a subscription
 
-LSL is trading a modest pricing benefit for something more valuable to a brand-new business: **future demand certainty**. Two booked-ahead appointments means LSL knows it has that customer's yard on the calendar without having to re-sell them every visit. That certainty is worth real money to LSL because it:
+LL is trading a modest pricing benefit for something more valuable to a brand-new business: **future demand certainty**. Two booked-ahead appointments means LL knows it has that customer's yard on the calendar without having to re-sell them every visit. That certainty is worth real money to LL because it:
 
 - Improves route planning (see Route Density below).
 - Lowers selling effort - no re-pitching the same customer every two weeks.
@@ -28,7 +28,7 @@ LSL is trading a modest pricing benefit for something more valuable to a brand-n
 
 ### How to talk about it (don't undersell it as "just a discount")
 
-> "Keep your next two lawn visits booked and become an LSL Member. Members get preferred pricing and access to add-on services non-Members can't book."
+> "Keep your next two lawn visits booked and become an LL Member. Members get preferred pricing and access to add-on services non-Members can't book."
 
 Frame it as a membership/convenience benefit, not a coupon. The value is the relationship, not the price cut.
 
@@ -42,7 +42,7 @@ The CRM (Sheets Tab 6) tracks **Future Appointments Booked** and a computed **Me
 - Light yard cleanup
 - Driveway / sidewalk washing
 - Tightening loose deck screws
-- Other simple, safe, legal outdoor maintenance tasks within LSL's competence
+- Other simple, safe, legal outdoor maintenance tasks within LL's competence
 
 **Guardrail:** every add-on gets checked against the Safety & Scope rule below before it's offered to anyone.
 
@@ -50,11 +50,11 @@ The CRM (Sheets Tab 6) tracks **Future Appointments Booked** and a computed **Me
 
 ## Pricing Philosophy
 
-**LSL does not compete by being the cheapest option in the neighborhood.**
+**LL does not compete by being the cheapest option in the neighborhood.**
 
 ### First 20 Lawns sprint
 
-Until lawn #20 is complete, LSL uses the simple launch offer defined once in `docs/ROADMAP.md`. Do not add custom quotes, discounts, or add-ons during that sprint. The point is to learn how quickly LSL can get and complete 20 lawns; pricing analysis comes afterward.
+Until lawn #20 is complete, LL uses the simple launch offer defined once in `docs/ROADMAP.md`. Do not add custom quotes, discounts, or add-ons during that sprint. The point is to learn how quickly LL can get and complete 20 lawns; pricing analysis comes afterward.
 
 Price for:
 
@@ -67,9 +67,9 @@ Price for:
 - The margin the business actually needs to be worth running
 - What similar local services charge
 
-Recurring/Member customers can reasonably get preferred pricing because they cost LSL less to serve - less selling effort, better route density, more predictable scheduling. That's a legitimate, explainable reason for a price difference, not favoritism.
+Recurring/Member customers can reasonably get preferred pricing because they cost LL less to serve - less selling effort, better route density, more predictable scheduling. That's a legitimate, explainable reason for a price difference, not favoritism.
 
-**Minimum acceptable price per stop:** the spreadsheet (Sheet Tab 2/3) should eventually calculate this from real cost data - the lowest price LSL can charge a stop and still be worth doing. Until real job data exists, this number is a guess; treat it as a guess out loud, not a fact.
+**Minimum acceptable price per stop:** the spreadsheet (Sheet Tab 2/3) should eventually calculate this from real cost data - the lowest price LL can charge a stop and still be worth doing. Until real job data exists, this number is a guess; treat it as a guess out loud, not a fact.
 
 ---
 
@@ -77,7 +77,7 @@ Recurring/Member customers can reasonably get preferred pricing because they cos
 
 This is the single most important educational visual in the whole system. Money does not go straight from "customer paid us" to "the owner gets paid." It flows through these steps, in this order, every time.
 
-**Ownership reminder, since this trips people up:** Logan owns 100% of LSL - that's the **Ownership %**, a legal/equity fact, and it doesn't change. His business partner (`Partner`) owns 0% of the company - they are not a co-owner. But **Ownership % and Distribution % are two different numbers.** `Partner` is economically compensated two separate ways: the flat $10-per-completed-job truck fee (shows up below as a Direct Cost, the same category as fuel or trimmer line, because it's an expense that rises with job volume) **and** 50% of every distribution (shown at the bottom of the waterfall) - even though they hold 0% equity. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
+**Ownership reminder, since this trips people up:** Logan owns 100% of LL - that's the **Ownership %**, a legal/equity fact, and it doesn't change. His business partner (`Partner`) owns 0% of the company - they are not a co-owner. But **Ownership % and Distribution % are two different numbers.** `Partner` is economically compensated two separate ways: the flat $10-per-completed-job truck fee (shows up below as a Direct Cost, the same category as fuel or trimmer line, because it's an expense that rises with job volume) **and** 50% of every distribution (shown at the bottom of the waterfall) - even though they hold 0% equity. See `docs/PARTNERSHIP_TEMPLATE.md` §§1, 2, 5, 6 for the confirmed terms.
 
 ```
 Customer Revenue
@@ -109,7 +109,7 @@ A business can be profitable on paper and still not have enough actual cash sitt
 
 ### The Taxes step - placeholder, not tax advice
 
-The waterfall above adds an explicit **Taxes** step between Net Profit (Pre-Tax) and the 50/50 split, so LSL gets in the habit of setting aside money for taxes *before* deciding what to spend or distribute - not scrambling for it later. **This is a placeholder mechanism only.** Wren does not give tax advice (see Scope Boundaries in Wren's own contract, and bootstrap §41 / `docs/PRD.md` §41-equivalent). The actual tax rate, filing structure, and whether LSL even owes quarterly estimated taxes is a question for a real CPA, not a guess baked into a spreadsheet. Until Logan gets that answer, the sheet should hold an obviously-labeled "Estimated Tax Reserve %" input that's easy to change once a CPA gives a real number - see `sheets/DATA_DICTIONARY.md`.
+The waterfall above adds an explicit **Taxes** step between Net Profit (Pre-Tax) and the 50/50 split, so LL gets in the habit of setting aside money for taxes *before* deciding what to spend or distribute - not scrambling for it later. **This is a placeholder mechanism only.** Wren does not give tax advice (see Scope Boundaries in Wren's own contract, and bootstrap §41 / `docs/PRD.md` §41-equivalent). The actual tax rate, filing structure, and whether LL even owes quarterly estimated taxes is a question for a real CPA, not a guess baked into a spreadsheet. Until Logan gets that answer, the sheet should hold an obviously-labeled "Estimated Tax Reserve %" input that's easy to change once a CPA gives a real number - see `sheets/DATA_DICTIONARY.md`.
 
 ### Cash reserve guardrail - a separate gate, not part of the 50/50 split
 
@@ -144,12 +144,12 @@ Since nothing is retained as part of the 50/50 split itself - the entire Cash Av
 
 ## Truck Reimbursement - Confirmed Terms
 
-`Partner` supplies the truck LSL uses for jobs. `Partner` is **not an owner of LSL** - Logan owns 100% of the business. So this isn't a "partner reimbursement" in the owner-equity sense; it's LSL paying a non-owner a flat fee for a business input, the same way it'd pay for fuel or a rented tool.
+`Partner` supplies the truck LL uses for jobs. `Partner` is **not an owner of LL** - Logan owns 100% of the business. So this isn't a "partner reimbursement" in the owner-equity sense; it's LL paying a non-owner a flat fee for a business input, the same way it'd pay for fuel or a rented tool.
 
 **Confirmed model:**
 
 1. The truck stays personally owned by `Partner`. It is never a business asset.
-2. LSL pays `Partner` a flat **$10 per completed job**.
+2. LL pays `Partner` a flat **$10 per completed job**.
 3. That $10/job is a **Direct Cost (Cost of Service)** - it scales with job volume, so it's counted **before Gross Profit**, alongside fuel and consumables. It is paid before, and is completely separate from, the 50/50 distribution split - it's an operating expense, not part of either person's distribution share.
 4. Whatever's left after Direct Costs, Operating Expenses, and Taxes is Net Profit After Tax. The full amount becomes **Cash Available for Distribution**, which is then split **50% to Logan / 50% to `Partner`** - see Distribution Waterfall above. `Partner`'s total take each period is the truck fees already paid in Direct Costs **plus** their 50% distribution share.
 
@@ -167,7 +167,7 @@ Still to be confirmed between Logan and `Partner` (record in `docs/PARTNERSHIP_T
 
 Because this is lawn care, distance matters more than it might seem.
 
-**A $40 lawn next door to another LSL customer can be economically better than a $50 lawn that requires a long drive**, because drive time doesn't earn revenue - it just burns fuel and clock time between paying jobs.
+**A $40 lawn next door to another LL customer can be economically better than a $50 lawn that requires a long drive**, because drive time doesn't earn revenue - it just burns fuel and clock time between paying jobs.
 
 Track (Sheets CRM):
 
@@ -182,19 +182,19 @@ Track (Sheets CRM):
 
 ## Safety and Scope Guardrail
 
-LSL does not take on work outside its actual competence, no matter how tempting the extra revenue looks.
+LL does not take on work outside its actual competence, no matter how tempting the extra revenue looks.
 
 Before adding any new service or add-on, check it against:
 
 - Safety (can this be done without real risk of injury?)
-- Required licensing (does this legally require a license LSL doesn't have?)
-- Insurance (is this covered by what LSL carries?)
-- Equipment (does LSL actually have what's needed?)
+- Required licensing (does this legally require a license LL doesn't have?)
+- Insurance (is this covered by what LL carries?)
+- Equipment (does LL actually have what's needed?)
 - Property-damage risk
 - Local laws
 - Whether it's genuinely appropriate for a small mowing/trimming business to offer
 
-**Hard rule: "minor handyman work" never becomes unqualified electrical, structural, roofing, plumbing, pesticide/chemical, tree-removal, or other regulated/high-risk work.** If a customer asks for something like this, the answer is a polite no and a referral elsewhere - not an improvised yes. This is exactly the kind of call that should go to a licensed professional, never to LSL winging it.
+**Hard rule: "minor handyman work" never becomes unqualified electrical, structural, roofing, plumbing, pesticide/chemical, tree-removal, or other regulated/high-risk work.** If a customer asks for something like this, the answer is a polite no and a referral elsewhere - not an improvised yes. This is exactly the kind of call that should go to a licensed professional, never to LL winging it.
 
 ---
 

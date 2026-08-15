@@ -1,6 +1,6 @@
-# LSL - Logan Spence Lawns
+# LL - Logan Lawns
 
-**Logan Spence Lawns** (DBA **LSL**, brand: **LSL Lawns**) is a neighborhood lawn mowing and trimming business run by two first-time owners, built on a philosophy of "get customers first, keep the system simple, learn the numbers, automate only after the process works." This repo is the docs, specs, and website source for the business - it is not the business's private operating data.
+**Logan Lawns** (DBA **LL**, brand: **Logan Lawns**) is a neighborhood lawn mowing and trimming business run by two first-time owners, built on a philosophy of "get customers first, keep the system simple, learn the numbers, automate only after the process works." This repo is the docs, specs, and website source for the business - it is not the business's private operating data.
 
 ## What's in this repo vs. what lives in Google Drive
 
@@ -11,7 +11,7 @@ This is a **public** repo (GitHub Pages on a free personal account requires that
 - Marketing asset templates/specs (`templates/`)
 - The Google Sheets workbook spec + data dictionary (`sheets/`) - the *blueprint*, not the live workbook
 
-It does **not** hold: real customer data, real financial numbers, the filled-in partnership agreement, or any credentials/secrets. That business-ops data lives in a separate, private **Google Drive** folder (`LSL/`). See `docs/ARCHITECTURE.md` for the full, explicit boundary between the two - that split was a deliberate decision, not an accident.
+It does **not** hold: real customer data, real financial numbers, the filled-in partnership agreement, or any credentials/secrets. That business-ops data lives in a separate, private **Google Drive** folder (`LL/`). See `docs/ARCHITECTURE.md` for the full, explicit boundary between the two - that split was a deliberate decision, not an accident.
 
 ## Key docs
 
@@ -20,7 +20,7 @@ It does **not** hold: real customer data, real financial numbers, the filled-in 
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) - what lives in Drive vs. this repo vs. GitHub Pages vs. external tools.
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) - the 16-week phased launch plan.
 - [`docs/STACK.md`](docs/STACK.md) - every tool in the stack, what it does, why it's needed, and current verified pricing.
-- [`docs/BUSINESS_RULES.md`](docs/BUSINESS_RULES.md) - the LSL Member rule, pricing philosophy, distribution waterfall, route density, and operating guardrails.
+- [`docs/BUSINESS_RULES.md`](docs/BUSINESS_RULES.md) - the LL Member rule, pricing philosophy, distribution waterfall, route density, and operating guardrails.
 - [`docs/PARTNERSHIP_TEMPLATE.md`](docs/PARTNERSHIP_TEMPLATE.md) - a fillable partnership-agreement template for the two owners.
 - [`sheets/SHEET_SPEC.md`](sheets/SHEET_SPEC.md) - the 11-tab Google Sheets workbook spec (the live workbook lives in Drive).
 - [`sheets/DATA_DICTIONARY.md`](sheets/DATA_DICTIONARY.md) - plain-English definitions of every CRM and Job Log field.

@@ -1,4 +1,4 @@
-# LSL - Product & Business Requirements (Working Doc)
+# LL - Product & Business Requirements (Working Doc)
 
 **This is the working, evolving PRD.** It starts as a summary of `../PROJECT_BOOTSTRAP.md` - the frozen origin document - and changes as Logan and his partner make real decisions. When this doc and `PROJECT_BOOTSTRAP.md` disagree, **this doc wins** for anything the owners have since decided; `PROJECT_BOOTSTRAP.md` stays untouched as the historical record of what we started from.
 
@@ -6,9 +6,9 @@ Every section below links back to the bootstrap doc by section number so you can
 
 ---
 
-## 1. What LSL is (bootstrap §1–§5)
+## 1. What LL is (bootstrap §1–§5)
 
-Logan Spence Lawns (DBA **LSL**, web brand **LSL Lawns**) is a neighborhood lawn-mowing and trimming business, run mostly from a phone, starting on roughly **$300** of owner-contributed cash. **Logan is the sole owner - 100% Ownership %.** Logan works alongside a business partner (`Partner`) who holds no equity, but is paid two ways: a flat $10-per-completed-job fee for use of their truck, and 50% of every cash distribution (Distribution %, a separate number from Ownership %). See `docs/BUSINESS_RULES.md` (Distribution Waterfall) and `docs/PARTNERSHIP_TEMPLATE.md` for the confirmed terms.
+Logan Lawns (DBA **LL**, web brand **Logan Lawns**) is a neighborhood lawn-mowing and trimming business, run mostly from a phone, starting on roughly **$300** of owner-contributed cash. **Logan is the sole owner - 100% Ownership %.** Logan works alongside a business partner (`Partner`) who holds no equity, but is paid two ways: a flat $10-per-completed-job fee for use of their truck, and 50% of every cash distribution (Distribution %, a separate number from Ownership %). See `docs/BUSINESS_RULES.md` (Distribution Waterfall) and `docs/PARTNERSHIP_TEMPLATE.md` for the confirmed terms.
 
 The goal of this whole project is **not** to build software. It's to help two first-time owners:
 
@@ -17,7 +17,7 @@ The goal of this whole project is **not** to build software. It's to help two fi
 - Actually understand how the business makes (or doesn't make) money.
 - Keep revenue, costs, profit, cash reserve, and owner distributions cleanly separated.
 - Put a fair partnership agreement in writing before money causes an argument.
-- Grow recurring revenue through the **LSL Member** program and member-only add-ons.
+- Grow recurring revenue through the **LL Member** program and member-only add-ons.
 
 Guiding principle, unchanged from the bootstrap: **Get customers first. Keep the system simple. Learn the numbers. Automate only after the process works.**
 
@@ -30,9 +30,9 @@ Guiding principle, unchanged from the bootstrap: **Get customers first. Keep the
 
 Kept deliberately simple so pricing and time-per-job stay easy to reason about.
 
-## 3. The LSL Member rule (bootstrap §4, §17 - canonical version lives in `BUSINESS_RULES.md`)
+## 3. The LL Member rule (bootstrap §4, §17 - canonical version lives in `BUSINESS_RULES.md`)
 
-A customer becomes an **LSL Member** the moment they have **their next two lawn-service appointments booked**. No monthly fee, no season prepay, no contract. In exchange for that scheduling certainty, Members get preferred pricing on the core service and access to Member-only add-ons (weed pulling, light yard cleanup, driveway/sidewalk washing, minor safe outdoor maintenance).
+A customer becomes an **LL Member** the moment they have **their next two lawn-service appointments booked**. No monthly fee, no season prepay, no contract. In exchange for that scheduling certainty, Members get preferred pricing on the core service and access to Member-only add-ons (weed pulling, light yard cleanup, driveway/sidewalk washing, minor safe outdoor maintenance).
 
 Full rule, verification method, and the "why" (this trades a small price break for route density and lower selling effort) is documented once, in `docs/BUSINESS_RULES.md` - this PRD just points there to avoid duplicating the fact in two places.
 
@@ -50,7 +50,7 @@ The actual spreadsheet that implements this model is specced in `sheets/SHEET_SP
 
 ## 6. Partnership economics (bootstrap §9–§10)
 
-**Confirmed by Logan (2026-08-15): Logan owns 100% of LSL - that's Ownership %, a legal/equity fact.** His business partner (`Partner`) holds 0% ownership, but is not uncompensated: they're paid two separate ways - a flat **$10 per completed job** truck fee (a Direct Cost, paid before the distribution waterfall even starts, see `docs/BUSINESS_RULES.md`) and **50% of every distribution** (Distribution %, a different number than Ownership % above - sometimes called a "profits interest": `Partner` is paid like a 50% partner without holding any equity). Cash Available for Distribution is split 50% to Logan / 50% to `Partner` - nothing is retained in the business as part of that split. This replaces the earlier generic "two-owner split, TBD" framing - see `docs/BUSINESS_RULES.md` (Distribution Waterfall) for the full formula, and for the standard pre-distribution cash-reserve gate, which is separate from the 50/50 mechanic.
+**Confirmed by Logan (2026-08-15): Logan owns 100% of LL - that's Ownership %, a legal/equity fact.** His business partner (`Partner`) holds 0% ownership, but is not uncompensated: they're paid two separate ways - a flat **$10 per completed job** truck fee (a Direct Cost, paid before the distribution waterfall even starts, see `docs/BUSINESS_RULES.md`) and **50% of every distribution** (Distribution %, a different number than Ownership % above - sometimes called a "profits interest": `Partner` is paid like a 50% partner without holding any equity). Cash Available for Distribution is split 50% to Logan / 50% to `Partner` - nothing is retained in the business as part of that split. This replaces the earlier generic "two-owner split, TBD" framing - see `docs/BUSINESS_RULES.md` (Distribution Waterfall) for the full formula, and for the standard pre-distribution cash-reserve gate, which is separate from the 50/50 mechanic.
 
 Remaining items - responsibilities, purchase-approval threshold, dispute handling, and exit terms - still get filled in together by Logan and `Partner` using `docs/PARTNERSHIP_TEMPLATE.md`. This PRD does not pre-decide those (bootstrap §52).
 
@@ -60,17 +60,17 @@ Remaining items - responsibilities, purchase-approval threshold, dispute handlin
 
 Preferred MVP tool: **Setmore Free** (service/appointment-based scheduler, not a generic meeting calendar). Verified current pricing/limits are in `docs/STACK.md`.
 
-Booking flow: **QR / Google / Facebook → landing page → choose/request service → enter address → select/request time → confirmation.** Because lawn care is location-dependent, LSL should favor "Request Service / Request a Quote" over guaranteed-slot booking until yard size, address, and route feasibility are known.
+Booking flow: **QR / Google / Facebook → landing page → choose/request service → enter address → select/request time → confirmation.** Because lawn care is location-dependent, LL should favor "Request Service / Request a Quote" over guaranteed-slot booking until yard size, address, and route feasibility are known.
 
 Member booking flow: after the first successful job, invite the customer to book their next two visits, which is what actually triggers Member status.
 
 ## 8. Payments - canonical policy (supersedes bootstrap §18's original 8-trigger list)
 
-**This is the one canonical version.** The original bootstrap PRD (§18) shipped an 8-point trigger list for the Venmo→Square decision. A tighter, weekly-checkable 6-trigger version was drafted afterward as a refinement - same intent, easier for an 18-year-old to actually run every Friday. That tighter version is what LSL uses going forward. The two lists aren't both kept active; the original 8-point list is preserved only inside `PROJECT_BOOTSTRAP.md` as the historical record of how we got here.
+**This is the one canonical version.** The original bootstrap PRD (§18) shipped an 8-point trigger list for the Venmo→Square decision. A tighter, weekly-checkable 6-trigger version was drafted afterward as a refinement - same intent, easier for an 18-year-old to actually run every Friday. That tighter version is what LL uses going forward. The two lists aren't both kept active; the original 8-point list is preserved only inside `PROJECT_BOOTSTRAP.md` as the historical record of how we got here.
 
 ### Phase 1 - Launch on Venmo Business
 
-Use **Venmo Business** at launch: familiar to customers, no setup complexity, appropriate for very low transaction volume, avoids paying for software before LSL has customers. Never run business payments through a personal Venmo account - that violates Venmo's own terms for business use.
+Use **Venmo Business** at launch: familiar to customers, no setup complexity, appropriate for very low transaction volume, avoids paying for software before LL has customers. Never run business payments through a personal Venmo account - that violates Venmo's own terms for business use.
 
 ### Phase 2 - Watch for friction (ongoing, starting Week 3)
 
@@ -78,7 +78,7 @@ Track weekly: number of electronic payments, time spent matching payments to job
 
 ### Phase 3 - Weekly trigger check, starting Week 9
 
-Every **Friday starting Week 9**, Logan checks these six triggers. **Move to Square when two or more are true for two weeks running, or the moment any single trigger is clearly costing LSL a job, time, or a customer's trust** - don't wait for Week 12 just because the calendar says so.
+Every **Friday starting Week 9**, Logan checks these six triggers. **Move to Square when two or more are true for two weeks running, or the moment any single trigger is clearly costing LL a job, time, or a customer's trust** - don't wait for Week 12 just because the calendar says so.
 
 1. **Payment volume is climbing.** ~20+ payments/month, or payment-matching is becoming a real weekly chore.
 2. **Scheduling and payment don't talk to each other.** Customers book through the scheduler, but Logan has to manually track who paid and for which appointment.
@@ -167,5 +167,5 @@ Still not yet answered - tracked here so nobody forgets, and moved into `PARTNER
 - **2026-08-15** - Initial working PRD created from `PROJECT_BOOTSTRAP.md`. Payments section reconciled: the staged 6-trigger weekly-check addendum supersedes the original bootstrap's 8-point list as the one canonical payments-migration policy (see §8 above for the reasoning). Repo and doc scaffold built by Wren.
 - **2026-08-15** - Partnership/distribution economics confirmed by Logan: sole ownership (Logan 100% Ownership %, `Partner` 0% Ownership %), a $10/job flat truck fee booked as a Direct Cost, and Cash Available for Distribution split 50/50 between Logan and `Partner` (Distribution %, a separate number from Ownership % above), with a new explicit Taxes step (placeholder, not tax advice) added to the waterfall. §6 above and `docs/BUSINESS_RULES.md` updated to match.
 - **2026-08-15 (correction)** - An earlier pass of this doc briefly modeled the split as "50% distributed to Logan / 50% retained in the business," based on a misread of Logan's answer. Logan corrected this directly: **the 50/50 split is between Logan and `Partner`, not between Logan and a business reserve - nothing is retained as part of the split.** §6 above, `docs/BUSINESS_RULES.md`, `docs/PARTNERSHIP_TEMPLATE.md`, `sheets/SHEET_SPEC.md`, and `sheets/DATA_DICTIONARY.md` were all corrected to match. The cash-reserve guardrail checklist (bootstrap §37) is a separate, standard pre-distribution gate, unrelated to how the payout itself gets divided - the previously-open question about how it interacts with the split is resolved: it's just the original checklist, unchanged.
-- **2026-08-15** - Business name standardized as **Logan Spence Lawns**. The LSL acronym and LSL Lawns web brand remain unchanged.
+- **2026-08-15** - Business name standardized as **Logan Lawns**. The LL acronym and Logan Lawns web brand remain unchanged.
 - **2026-08-15** - Reprioritized launch around the First 20 Lawns sprint: a fixed $40 mow/bag/weed-eat offer, business cards, a two-week follow-up ask, and one Google Sheet record per client and completed job. All other optimization waits until lawn #20.

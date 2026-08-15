@@ -1,4 +1,4 @@
-# LSL - Data Dictionary
+# LL - Data Dictionary
 
 Every field from the CRM (Tab 6) and Job Log (Tab 7) tabs, defined in one plain-English line each. This is the file that makes the Sheet teach instead of just calculate - anyone should be able to look up a column here and understand exactly what it means and why it exists.
 
@@ -8,14 +8,14 @@ See `sheets/SHEET_SPEC.md` for the full tab spec these fields belong to.
 
 ## Partnership & Distribution fields (Tabs 2, 3, 4, 5)
 
-These fields exist because Logan is the **sole owner** of LSL (100% Ownership %) and his business partner (`Partner`) is a **non-owner** (0% Ownership %) who is nonetheless economically compensated two separate ways: a flat per-job truck fee, and 50% of every distribution (Distribution %). **Ownership % and Distribution % are two different fields with two different values below - read the whole table before assuming one from the other.** See `docs/BUSINESS_RULES.md` (Distribution Waterfall, Truck Reimbursement) and `docs/PARTNERSHIP_TEMPLATE.md` for the full "why."
+These fields exist because Logan is the **sole owner** of LL (100% Ownership %) and his business partner (`Partner`) is a **non-owner** (0% Ownership %) who is nonetheless economically compensated two separate ways: a flat per-job truck fee, and 50% of every distribution (Distribution %). **Ownership % and Distribution % are two different fields with two different values below - read the whole table before assuming one from the other.** See `docs/BUSINESS_RULES.md` (Distribution Waterfall, Truck Reimbursement) and `docs/PARTNERSHIP_TEMPLATE.md` for the full "why."
 
 | Field | Plain-English definition |
 |---|---|
-| Ownership % - Logan | Logan's legal/equity stake in LSL. Confirmed at **100%**. This is a fixed fact, not a variable - it does not change based on how distributions are split. |
-| Ownership % - `Partner` | `Partner`'s legal/equity stake in LSL. Confirmed at **0%** - they are not an owner of the company. |
-| Truck Fee per Job | The flat dollar amount LSL pays `Partner` every time a job is completed using their truck - confirmed at **$10/job**. It's counted as a Direct Cost (Cost of Service), the same bucket as fuel or trimmer line, because it rises with job volume. It is paid before the distribution waterfall even starts, and is separate from both Ownership % and Distribution % - it's an operating expense, not equity and not a distribution. |
-| Estimated Tax Reserve % | A placeholder percentage of Net Profit (Pre-Tax) that LSL sets aside for taxes before deciding what to distribute or spend. **This is not tax advice** - it's a rough placeholder until a CPA gives Logan an actual rate/treatment for LSL's real situation. Easy to find and change on Tab 2 once a real number exists. |
+| Ownership % - Logan | Logan's legal/equity stake in LL. Confirmed at **100%**. This is a fixed fact, not a variable - it does not change based on how distributions are split. |
+| Ownership % - `Partner` | `Partner`'s legal/equity stake in LL. Confirmed at **0%** - they are not an owner of the company. |
+| Truck Fee per Job | The flat dollar amount LL pays `Partner` every time a job is completed using their truck - confirmed at **$10/job**. It's counted as a Direct Cost (Cost of Service), the same bucket as fuel or trimmer line, because it rises with job volume. It is paid before the distribution waterfall even starts, and is separate from both Ownership % and Distribution % - it's an operating expense, not equity and not a distribution. |
+| Estimated Tax Reserve % | A placeholder percentage of Net Profit (Pre-Tax) that LL sets aside for taxes before deciding what to distribute or spend. **This is not tax advice** - it's a rough placeholder until a CPA gives Logan an actual rate/treatment for LL's real situation. Easy to find and change on Tab 2 once a real number exists. |
 | Estimated Tax Reserve Amount | Net Profit (Pre-Tax) × Estimated Tax Reserve % - the dollar amount actually set aside this period under the placeholder above. |
 | Net Profit After Tax | Net Profit (Pre-Tax) minus the Estimated Tax Reserve Amount. This becomes Cash Available for Distribution below - not the pre-tax number. |
 | Cash Available for Distribution | Net Profit After Tax, in full - nothing is held back or retained as part of the 50/50 split itself. This whole amount is what gets divided by Distribution % below. (The cash-reserve guardrail checklist in `docs/BUSINESS_RULES.md` is a separate, earlier gate - see that doc, not this split.) |
@@ -33,28 +33,28 @@ These fields exist because Logan is the **sole owner** of LSL (100% Ownership %)
 | Customer Name | The customer's full name. |
 | Phone | The best phone number to reach the customer - used for texts/calls about scheduling. |
 | Email | The customer's email, if they gave one - used for confirmations/receipts. |
-| Service Address | The address where LSL actually does the work (may differ from a billing address, though LSL likely doesn't need one). |
+| Service Address | The address where LL actually does the work (may differ from a billing address, though LL likely doesn't need one). |
 | Neighborhood | The neighborhood or subdivision name - used for route-density planning (see `docs/BUSINESS_RULES.md`). |
-| Lead Source | How this customer found LSL (business card, Google, referral, Facebook, etc.) - used to learn which marketing channel is actually working. |
+| Lead Source | How this customer found LL (business card, Google, referral, Facebook, etc.) - used to learn which marketing channel is actually working. |
 | Lead Date | The date this person first became a lead, before they were a paying customer. |
 | Status | Where this customer currently sits (e.g. Lead, Quoted, Active, Inactive) - a simple pipeline stage. |
 | Recurring Customer? (Y/N) | Whether this customer has a standing/repeat service arrangement, as opposed to a single one-time job. |
-| Member Status | Whether this customer currently holds LSL Member status per the Member Rule in `docs/BUSINESS_RULES.md`. |
+| Member Status | Whether this customer currently holds LL Member status per the Member Rule in `docs/BUSINESS_RULES.md`. |
 | Future Appointments Booked | How many upcoming lawn-service appointments this customer currently has on the calendar - this is the number the Member Rule checks. |
-| Member Eligible? | A yes/no flag, ideally calculated automatically, that's true when Future Appointments Booked is 2 or more - the live check for the LSL Member Rule. |
-| Membership Start Date | The date this customer first qualified as an LSL Member. |
+| Member Eligible? | A yes/no flag, ideally calculated automatically, that's true when Future Appointments Booked is 2 or more - the live check for the LL Member Rule. |
+| Membership Start Date | The date this customer first qualified as an LL Member. |
 | Frequency | How often this customer gets serviced (e.g. weekly, biweekly, one-time). |
 | Standard Service Price | What this customer is normally charged for the core mow/trim service. |
 | Last Service Date | The date of this customer's most recent completed job. |
 | Next Service Date | The date of this customer's next scheduled job. |
 | Preferred Day | The day of the week this customer prefers service - used for route/schedule planning. |
-| Gate/Access Notes | Anything LSL needs to know to actually get onto the property and do the job safely (gate codes, dog on property, locked gate, etc.). |
+| Gate/Access Notes | Anything LL needs to know to actually get onto the property and do the job safely (gate codes, dog on property, locked gate, etc.). |
 | Service Notes | Any other notes specific to servicing this customer's yard (obstacles, sensitive plants, special requests). |
 | Add-On Interests | Add-on services this customer has expressed interest in, even if they haven't bought one yet. |
 | Last Add-On | The most recent add-on service this customer purchased, if any. |
-| Lifetime Revenue | The total amount this customer has ever paid LSL - a running total, useful for seeing who LSL's best customers actually are. |
+| Lifetime Revenue | The total amount this customer has ever paid LL - a running total, useful for seeing who LL's best customers actually are. |
 | Payment Status | Whether this customer is currently paid up, or has an outstanding balance. |
-| Review Requested? | Whether LSL has asked this customer for a review yet. |
+| Review Requested? | Whether LL has asked this customer for a review yet. |
 | Review Received? | Whether this customer has actually left a review. |
 | Referral Source | If this customer was referred by another customer, who referred them. |
 | Active/Inactive | Whether this customer is currently being served, or has stopped (moved away, canceled, seasonal pause, etc.). |
@@ -75,7 +75,7 @@ These fields exist because Logan is the **sole owner** of LSL (100% Ownership %)
 | Payment Status | Whether this specific job has actually been paid for yet. |
 | Partner(s) Working | Which partner(s) did this job - used later for splitting labor credit/fairness discussions, not for changing the distribution split. |
 | Start Time | What time the job actually started. |
-| End Time | What time the job actually finished - combined with Start Time, this is how LSL learns real time-per-job data (compare against the Tab 2 assumption). |
+| End Time | What time the job actually finished - combined with Start Time, this is how LL learns real time-per-job data (compare against the Tab 2 assumption). |
 | Drive/Travel Estimate | Roughly how much drive time it took to get to this job - feeds the route-density learning over time. |
 | Notes | Anything worth remembering about this specific job (something broke, customer asked something, yard condition, etc.). |
 
