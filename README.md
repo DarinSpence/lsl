@@ -1,6 +1,6 @@
-# LSL — Logan Spence Lawncare
+# LSL — Logan Spence Lawns
 
-**LSL** (brand: **LSL Lawns**) is a neighborhood lawn mowing and trimming business run by two first-time owners, built on a philosophy of "get customers first, keep the system simple, learn the numbers, automate only after the process works." This repo is the docs, specs, and website source for the business — it is not the business's private operating data.
+**Logan Spence Lawns** (DBA **LSL**, brand: **LSL Lawns**) is a neighborhood lawn mowing and trimming business run by two first-time owners, built on a philosophy of "get customers first, keep the system simple, learn the numbers, automate only after the process works." This repo is the docs, specs, and website source for the business — it is not the business's private operating data.
 
 ## What's in this repo vs. what lives in Google Drive
 

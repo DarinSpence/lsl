@@ -8,7 +8,7 @@
 
 ## Business Identity
 
-- **Legal / company name:** Logan Spence Lawncare
+- **Legal / company name:** Logan Spence Lawns
 - **DBA / customer-facing brand:** LSL
 - **Planned website/domain brand:** LSL Lawns
 - **Primary customer-facing name throughout this system:** LSL
@@ -19,7 +19,7 @@ The legal/company name and DBA should be used consistently on business registrat
 
 ## 1. Executive Summary
 
-LSL is a practical business-launch system for **Logan Spence Lawncare (DBA LSL; website/domain brand LSL Lawns)** for an 18-year-old high-school graduate and a business partner starting a neighborhood lawn-care company with very little startup capital.
+LSL is a practical business-launch system for **Logan Spence Lawns (DBA LSL; website/domain brand LSL Lawns)** for an 18-year-old high-school graduate and a business partner starting a neighborhood lawn-care company with very little startup capital.
 
 The immediate objective is **not** to build sophisticated software. The objective is to help the owners:
 

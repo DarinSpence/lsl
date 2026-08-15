@@ -14,7 +14,7 @@ Once filled in and both partners have agreed, the completed version should live 
 
 - Owner name: Logan Spence
 - Business Partner name: `Partner`
-- Business legal name: Logan Spence Lawncare
+- Business legal name: Logan Spence Lawns
 - DBA: LSL
 - Date this agreement was completed: `[ ]`
 - Date this agreement was last reviewed/updated: `[ ]`
