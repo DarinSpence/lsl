@@ -52,7 +52,7 @@ Objectives:
 - [ ] Count how many business cards Logan Lawns handed out to get 20 customers. Record the total in the Google Sheet.
 - [ ] Decide: is $40 enough? Log the total expenses for fuel, bags, weed eater twine, and any other consumable material costs from the first 20 lawns. Include only things you had to have to do the job.
 - [ ] Record how many days or hours Logan Lawns can work in the Google Sheet.
-- [ ] Record the maximum lawns-per-day capacity in the Google Sheet.
+- [ ] Record the maximum lawns-per-day capacity in the Google Sheet based on what you've learned.
 - [ ] Record startup contributions and actual costs for business cards, gas, trash bags, and other materials in the Google Sheet.
 - [ ] Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
 - [ ] Complete the business-model worksheet using the actual results rather than guesses.
