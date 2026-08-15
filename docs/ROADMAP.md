@@ -15,7 +15,7 @@ Make one simple business card and get it into neighborhoods. It needs only the o
 - [ ] Spend $40 on business cards and get them printed.
 - [ ] Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
 - [ ] Get a Venmo account so customers can pay. Set up another cash app only if a customer asks for it.
-- [ ] When booking a job, always ask: “Is Venmo okay?” If not, ask what they use and get it so payment is easy. Tell them: “I’ll get that.”
+- [ ] When booking a job, always ask: “Is Venmo okay?” If not, ask what they use and get it so payment is easy. Tell them: “I’ll get that.” Always make it easy to pay you!
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
 - [ ] ALWAYS take before and after photos. Ask the customer if Logan Lawns can use the photos without including their address.
