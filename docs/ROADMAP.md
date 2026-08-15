@@ -41,28 +41,131 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ---
 
-## After Lawn #20 — Stop and Look
+## The Operating Plan Starts Here — After Lawn #20
 
-**Why this comes second:** Twenty real lawns give LSL something better than guesses: real experience. Only after lawn #20 should the owners decide what needs to change.
-
-Objectives:
-
-- Count the calendar days from the first door hanger to lawn #20.
-- Look at the Google Sheet and Job Log: how many people said yes, how many asked to be contacted again, and what felt hard.
-- Decide the next simple goal from real information, not a complicated plan made in advance.
-
-**Goal:** Pick the next useful move only after the first 20 lawns are complete.
+**The rule:** The First 20 Lawns sprint is the gate, not Week 1. When lawn #20 is complete, record the number of calendar days it took, then begin the plan below at **Week 1**. The rest of the business plan does not run in parallel with the sprint.
 
 ---
 
-## Weeks 13–16 — Legal and Insurance Check
+## Week 1 — Learn From the First 20 Lawns
 
-**Why this comes later:** The first 20 lawns are for proving that LSL can get and complete work. Legal and insurance questions still matter, but they do not belong in the first sprint or on the first door hanger.
+**Why this now:** LSL no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
+
+Objectives:
+
+- Count the calendar days from the first card to lawn #20.
+- Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
+- Complete the business-model worksheet using the actual results rather than guesses.
+- Confirm the service offer, starting price, working days, lawns-per-day capacity, and startup contributions.
+- Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
+- Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
+
+**Goal:** A clear picture of what the first 20 lawns taught LSL.
+
+---
+
+## Week 2 — Build the Minimum System
+
+**Why this now:** Once the owners understand their real starting point, build only the minimum system needed to keep accepting jobs fairly and consistently.
+
+Objectives:
+
+- Finish the shared Google Sheet: Inputs, Customers / CRM, Job Log, and the weekly scorecard.
+- Set up business communication (shared Gmail or similar).
+- Set up the chosen payment method and verify its current terms.
+- Set up a simple booking/request workflow.
+- Finish drafting the partnership agreement.
+- Keep the simple landing page and the text-number call to action working.
+- Start the Google Business Profile setup.
+
+**Goal:** Be capable of accepting and tracking the next customer without confusion.
+
+---
+
+## Week 3 — Keep Going to Market
+
+**Why this now:** The first 20 lawns proved the basic offer. Week 3 turns that proof into a repeatable local lead flow.
+
+Objectives:
+
+- Print the next small batch of cards or door hangers.
+- Distribute locally and keep tracking which neighborhoods respond.
+- Post in appropriate free neighborhood channels.
+- Contact the personal network.
+- Respond rapidly to every lead.
+- Complete jobs, ask satisfied customers for reviews, and log every result.
+
+**Goal:** A repeatable flow of new local leads, not one lucky batch of cards.
+
+---
+
+## Week 4 — Improve From Reality
+
+**Why this now:** The first sprint and next weeks produce real operating data. Use it before changing prices or buying tools.
+
+Objectives:
+
+- Compare actual time per job and costs per job with the Week 1 notes.
+- Review the $40 starting price using real job data.
+- Improve the booking and text-response flow where it felt clunky.
+- Improve the card or door hanger based on what actually got texts.
+- Keep distributing in the best-performing neighborhoods.
+
+**Goal:** A simpler, better version of the system based on evidence.
+
+---
+
+## Weeks 5–8 — Build the Recurring Base
+
+**Why this now:** One-time jobs get LSL started; recurring customers make the work predictable and reduce the constant hunt for the next job.
+
+Objectives:
+
+- Ask customers who opted in for the two-week follow-up to schedule again.
+- Convert good customers to recurring service.
+- Improve route density by clustering jobs by neighborhood and day.
+- Build reviews and referrals.
+- Track lead → job → repeat-customer conversion in the Weekly Scoreboard.
+
+**Goal:** 5–10 recurring customers.
+
+---
+
+## Weeks 9–12 — Improve Economics and the Payment Stack
+
+**Why this now:** By now there should be enough history to judge the numbers and payment workflow on facts instead of assumptions.
+
+Objectives:
+
+- Analyze revenue per job, time per job, and repeat-customer rate.
+- Adjust pricing only if the real numbers support it.
+- Review the cash reserve and the truck-reimbursement policy using actual mileage and use.
+- Follow the written distribution policy; never make casual distributions.
+- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing LSL a job, time, or trust.
+
+**Goal:** Consistent positive unit economics and a payment setup that matches the real workload.
+
+---
+
+## Weeks 13–16 — Legal, Insurance, and First-Cycle Review
+
+**Why this comes later:** The first 20 lawns and the operating weeks come first. Legal and insurance questions still matter, but they are handled here with a qualified professional—not guessed at during the sprint.
 
 Objectives:
 
 - Identify the local business, licensing, and insurance questions LSL needs a qualified professional to answer.
-- Get the right professional guidance or quotes; do not guess at legal or insurance requirements.
-- Record the answers and any next steps in the Google Sheet or the appropriate business document.
+- Get the appropriate professional guidance or quotes, and record the answers and next steps.
+- Compare four-month actuals to the original forecast.
+- Identify the best customer types, neighborhoods, and profitable work.
+- Review the partnership, workload division, reimbursement, and any paid-tool needs.
+- Build the next-season plan from actual results.
 
-**Goal:** Know exactly what must be handled before LSL expands beyond the simple first-20-lawns offer.
+**Goal:** Know the legal/insurance next steps and turn the first operating cycle into a stronger second season.
+
+---
+
+## How to use this plan
+
+- Do not start Week 1 until lawn #20 is done and logged.
+- If a weekly goal slips, learn what blocked it before adding tools or tactics.
+- Every later change—pricing, payment software, or new service—is gated by real operating data, not the calendar.

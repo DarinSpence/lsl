@@ -199,7 +199,7 @@ Keep this tab visually simple — this is the "how are we doing" check the owner
 
 **Purpose:** The 16-week roadmap (see `docs/ROADMAP.md`) as a live tracker, not just a doc.
 
-Structure: start with one sprint row, **First 20 Lawns**, before any 16-week planning. Its checklist is: print door hangers; show “Text 913-563-0403 if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. Add future planning rows only after that sprint is complete.
+Structure: start with one sprint row, **First 20 Lawns**, before any 16-week planning. Its checklist is: print door hangers; show “Text 913-563-0403 if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start the rest of the roadmap at Week 1** (Learn From the First 20 Lawns); do not count the sprint itself as Week 1.
 
 Per row, track: planned weeks (which columns are shaded/marked), completion status, owner (which partner), milestone description, revenue/customer target for that activity.
 
