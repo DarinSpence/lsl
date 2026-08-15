@@ -95,6 +95,7 @@ body::selection { background: var(--grass); color: var(--pine); }
 .hero-copy { position: relative; z-index: 2; padding: 42px 26px 257px; }
 .eyebrow { margin: 0 0 9px; color: var(--green); font-size: .8rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; }
 .eyebrow-lg { font-size: 1rem; }
+.startup-label { color: var(--sun); }
 .on-dark { color: var(--grass); }
 h1, h2, h3, p { margin-top: 0; }
 
