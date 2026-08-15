@@ -57,7 +57,7 @@ Objectives:
 - [ ] Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
 - [ ] Complete the business-model worksheet using the actual results rather than guesses.
 - [ ] Write down the simple operating notes that will keep Logan Lawns organized.
-- [ ] Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
+- [ ] Based on the first 20 lawns, identify any long-term equipment you need to buy, such as another lawn mower, a better weed eater, or gloves for each person working the job. These are things you will keep using to do the work.
 
 **Goal:** A clear picture of what the first 20 lawns taught Logan Lawns.
 
