@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=future-tools-expenses";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=future-tools-expenses-v2";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {
