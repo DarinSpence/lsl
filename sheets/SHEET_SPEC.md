@@ -42,6 +42,7 @@ Contents:
 - **Do not inventory equipment yet.** It is not a Week 1 input or a blocker for the First 20 Lawns sprint.
 - Week 1 priority: **Beat the streets** with one simple business card that gives people a number to text. Leave it on front doors.
 - The print-price check: VistaPrint's standard business-card page showed **$10 for 50 cards** on 2026-08-15, before shipping and tax. Recheck the cart before buying because promotions and delivery change the total.
+- Get a Venmo account during the First 20 Lawns sprint. Add another cash-app account only when a customer asks for it.
 - Working days, realistic lawns per day, and service neighborhood(s).
 - After lawn #20, record the number of business cards handed out to get 20 customers, whether $40 is enough, the days or hours available to work, maximum lawns-per-day capacity, and actual startup costs for cards, gas, trash bags, and other materials.
 - The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
@@ -205,7 +206,7 @@ Keep this tab visually simple - this is the "how are we doing" check the owners 
 
 **Purpose:** The 16-week roadmap (see `docs/ROADMAP.md`) as a live tracker, not just a doc.
 
-Structure: start with one sprint row, **First 20 Lawns**, before any later planning. Its checklist is: print business cards; leave them on front doors; show “Text 913-563-0403 if interested”; offer the fixed $40 mow/bag/weed-eat package; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start Stage Zero** (Learn From the First 20 Lawns), followed by Stage One, Stage Two, and Stage Three. Do not count the sprint itself as Stage Zero.
+Structure: start with one sprint row, **First 20 Lawns**, before any later planning. Its checklist is: print business cards; leave them on front doors; show “Text 913-563-0403 if interested”; get a Venmo account; offer the fixed $40 mow/bag/weed-eat package; always take before and after photos and ask permission to use them without an address; record every client in Tab 6; record every completed lawn in Tab 7; ask permission to text in two weeks; stop after lawn #20 and record the number of calendar days. **Only then start Stage Zero** (Learn From the First 20 Lawns), followed by Stage One, Stage Two, and Stage Three. Do not count the sprint itself as Stage Zero.
 
 Per row, track: stage or sequence, completion status, owner (which partner), milestone description, revenue/customer target for that activity.
 

@@ -23,8 +23,10 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 - [ ] Make the simple business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text 913-563-0403 if interested.”**
 - [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods Logan Lawns can actually serve.
+- [ ] Get a Venmo account so customers can pay. Set up another cash app only if a customer asks for it.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
+- [ ] ALWAYS take before and after photos. Ask the customer if Logan Lawns can use the photos without including their address.
 - [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 - Customers / CRM) and write the completed job in the Job Log (Tab 7).
 - [ ] Ask: **“Can I text you in two weeks to see if you’d like to schedule another?”**
 - [ ] Mark the lawn complete and add one to the count.
@@ -53,16 +55,16 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 Objectives:
 
-- Count the calendar days from the first card to lawn #20.
-- Count how many business cards Logan Lawns handed out to get 20 customers. Record the total in the Google Sheet.
-- Decide: is $40 enough? Use the actual time, fuel, bags, and other material costs from the first 20 lawns.
-- Record how many days or hours Logan Lawns can work in the Google Sheet.
-- Record the maximum lawns-per-day capacity in the Google Sheet.
-- Record startup contributions and actual costs for business cards, gas, trash bags, and other materials in the Google Sheet.
-- Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
-- Complete the business-model worksheet using the actual results rather than guesses.
-- Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
-- Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
+- [ ] Count the calendar days from the first card to lawn #20.
+- [ ] Count how many business cards Logan Lawns handed out to get 20 customers. Record the total in the Google Sheet.
+- [ ] Decide: is $40 enough? Use the actual time, fuel, bags, and other material costs from the first 20 lawns.
+- [ ] Record how many days or hours Logan Lawns can work in the Google Sheet.
+- [ ] Record the maximum lawns-per-day capacity in the Google Sheet.
+- [ ] Record startup contributions and actual costs for business cards, gas, trash bags, and other materials in the Google Sheet.
+- [ ] Review the Google Sheet and Job Log: leads, completed lawns, time per lawn, fuel/consumables, and who asked to be contacted again.
+- [ ] Complete the business-model worksheet using the actual results rather than guesses.
+- [ ] Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
+- [ ] Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
 
 **Goal:** A clear picture of what the first 20 lawns taught Logan Lawns.
 
@@ -74,14 +76,16 @@ Objectives:
 
 Objectives:
 
-- Finish the shared Google Sheet: Inputs, Customers / CRM, Job Log, and the weekly scorecard.
-- Set up business communication (shared Gmail or similar).
-- Set up the chosen payment method and verify its current terms.
-- Set up a simple booking/request workflow.
-- Finish drafting the partnership agreement.
-- Keep the simple landing page and the text-number call to action working.
-- Start the Google Business Profile setup.
-- Set up the Facebook Business Page with the same $40 offer and text number.
+- [ ] Finish the shared Google Sheet: Inputs, Customers / CRM, Job Log, and the weekly scorecard.
+- [ ] Set up a shared Gmail account for Logan Lawns.
+- [ ] Set up a Google Voice number for texting and receiving voicemails.
+- [ ] Set up a Google Business Page.
+- [ ] Set up Venmo Business so customers can pay Logan Lawns.
+- [ ] Set up a simple booking/request workflow.
+- [ ] Finish drafting the partnership agreement.
+- [ ] Keep the simple landing page and the text-number call to action working.
+- [ ] Set up the Facebook Business Page with the same $40 offer and text number.
+- [ ] Buy more business cards to put out.
 
 **Goal:** Be capable of accepting and tracking the next customer without confusion.
 
@@ -95,13 +99,13 @@ Objectives:
 
 Objectives:
 
-- Print the next small batch of business cards.
-- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
-- Keep tracking which neighborhoods respond.
-- Post in appropriate free neighborhood channels.
-- Contact the personal network.
-- Respond rapidly to every lead.
-- Complete jobs, ask satisfied customers for reviews, and log every result.
+- [ ] Keep putting out the new business cards.
+- [ ] Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
+- [ ] Keep tracking which neighborhoods respond.
+- [ ] Post in appropriate free neighborhood channels.
+- [ ] Contact the personal network.
+- [ ] Respond rapidly to every lead.
+- [ ] Complete jobs, ask satisfied customers for reviews, and log every result.
 
 **Goal:** A repeatable flow of new local leads, not one lucky batch of cards.
 
@@ -113,11 +117,11 @@ Objectives:
 
 Objectives:
 
-- Compare actual time per job and costs per job with the Stage Zero notes.
-- Review the $40 starting price using real job data.
-- Improve the booking and text-response flow where it felt clunky.
-- Improve the business card based on what actually got texts.
-- Keep distributing in the best-performing neighborhoods.
+- [ ] Compare actual time per job and costs per job with the Stage Zero notes.
+- [ ] Review the $40 starting price using real job data.
+- [ ] Improve the booking and text-response flow where it felt clunky.
+- [ ] Improve the business card based on what actually got texts.
+- [ ] Keep distributing in the best-performing neighborhoods.
 
 **Goal:** A simpler, better version of the system based on evidence.
 
@@ -131,11 +135,11 @@ Objectives:
 
 Objectives:
 
-- Ask customers who opted in for the two-week follow-up to schedule again.
-- Convert good customers to recurring service.
-- Improve route density by clustering jobs by neighborhood and day.
-- Build reviews and referrals.
-- Track lead → job → repeat-customer conversion in the Weekly Scoreboard.
+- [ ] Ask customers who opted in for the two-week follow-up to schedule again.
+- [ ] Convert good customers to recurring service.
+- [ ] Improve route density by clustering jobs by neighborhood and day.
+- [ ] Build reviews and referrals.
+- [ ] Track lead → job → repeat-customer conversion in the Weekly Scoreboard.
 
 **Goal:** 5–10 recurring customers.
 
@@ -147,11 +151,11 @@ Objectives:
 
 Objectives:
 
-- Analyze revenue per job, time per job, and repeat-customer rate.
-- Adjust pricing only if the real numbers support it.
-- Review the cash reserve and the truck-reimbursement policy using actual mileage and use.
-- Follow the written distribution policy; never make casual distributions.
-- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing Logan Lawns a job, time, or trust.
+- [ ] Analyze revenue per job, time per job, and repeat-customer rate.
+- [ ] Adjust pricing only if the real numbers support it.
+- [ ] Review the cash reserve and the truck-reimbursement policy using actual mileage and use.
+- [ ] Follow the written distribution policy; never make casual distributions.
+- [ ] Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing Logan Lawns a job, time, or trust.
 
 **Goal:** Consistent positive unit economics and a payment setup that matches the real workload.
 
@@ -163,13 +167,13 @@ Objectives:
 
 Objectives:
 
-- Identify what Logan Lawns needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
-- Identify the insurance coverage and local business/licensing questions Logan Lawns needs a qualified professional to answer.
-- Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
-- Compare four-month actuals to the original forecast.
-- Identify the best customer types, neighborhoods, and profitable work.
-- Review the partnership, workload division, reimbursement, and any paid-tool needs.
-- Build the next-season plan from actual results.
+- [ ] Identify what Logan Lawns needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
+- [ ] Identify the insurance coverage and local business/licensing questions Logan Lawns needs a qualified professional to answer.
+- [ ] Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
+- [ ] Compare four-month actuals to the original forecast.
+- [ ] Identify the best customer types, neighborhoods, and profitable work.
+- [ ] Review the partnership, workload division, reimbursement, and any paid-tool needs.
+- [ ] Build the next-season plan from actual results.
 
 **Goal:** Have a clear taxes-and-insurance plan, then turn the first operating cycle into a stronger second season.
 
