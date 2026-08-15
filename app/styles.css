@@ -39,7 +39,7 @@ body::selection { background: var(--grass); color: var(--pine); }
   letter-spacing: -.055em;
   text-decoration: none;
 }
-.brand span { color: var(--green); padding-inline: 2px; }
+.updated { margin: 2px 0 0; color: var(--muted); font-size: .66rem; font-weight: 700; }
 .header-links { display: flex; align-items: center; gap: 14px; }
 .header-link { color: var(--pine); font-size: .88rem; font-weight: 800; text-underline-offset: 4px; }
 
@@ -47,6 +47,7 @@ body::selection { background: var(--grass); color: var(--pine); }
   .site-header { min-height: 64px; }
   .header-links { gap: 10px; }
   .header-link { font-size: .77rem; }
+  .updated { font-size: .61rem; }
 }
 
 .hero {

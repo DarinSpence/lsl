@@ -57,11 +57,10 @@ function renderRoadmap(markdown) {
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
-    if (!line || line.startsWith("# LL") || line.startsWith("---")) continue;
+    if (!line || line.startsWith("# Logan Lawns") || line.startsWith("---")) continue;
 
     if (line.startsWith("## ")) {
       const title = line.slice(3);
-      if (title === "How to use this roadmap") break;
       phase = createPhase(title, fragment.childElementCount === 0);
       fragment.append(phase.details);
       showingObjectives = false;

@@ -1,8 +1,8 @@
-# LL - First 20 Lawns Plan
+# Logan Lawns - First 20 Lawns Plan
 
 ## First 20 Lawns - The Grind
 
-**Why this now:** Before building a bigger system, prove that LL can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
+**Why this now:** Before building a bigger system, prove that Logan Lawns can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
 
 ### Week 1 priority - Beat the streets!
 
@@ -22,13 +22,13 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 - [ ] Make the simple business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text 913-563-0403 if interested.”**
-- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods LL can actually serve.
+- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods Logan Lawns can actually serve.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
 - [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 - Customers / CRM) and write the completed job in the Job Log (Tab 7).
 - [ ] Ask: **“Can I text you in two weeks to see if you’d like to schedule another?”**
 - [ ] Mark the lawn complete and add one to the count.
-- [ ] Repeat until LL has mowed 20 lawns.
+- [ ] Repeat until Logan Lawns has mowed 20 lawns.
 
 ### What to track
 
@@ -49,7 +49,7 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ## Week 1 - Learn From the First 20 Lawns
 
-**Why this now:** LL no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
+**Why this now:** Logan Lawns no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
 
 Objectives:
 
@@ -60,7 +60,7 @@ Objectives:
 - Start filling in `docs/PARTNERSHIP_TEMPLATE.md` and agree on the operating responsibilities.
 - Inventory equipment only now, based on what the first 20 lawns showed is genuinely needed.
 
-**Goal:** A clear picture of what the first 20 lawns taught LL.
+**Goal:** A clear picture of what the first 20 lawns taught Logan Lawns.
 
 ---
 
@@ -92,7 +92,7 @@ Objectives:
 Objectives:
 
 - Print the next small batch of business cards.
-- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if LL has left cards there before. Recency and frequency help potential clients remember to text.
+- Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
 - Keep tracking which neighborhoods respond.
 - Post in appropriate free neighborhood channels.
 - Contact the personal network.
@@ -123,7 +123,7 @@ Objectives:
 
 ### Build the Recurring Base
 
-**Why this now:** One-time jobs get LL started; recurring customers make the work predictable and reduce the constant hunt for the next job.
+**Why this now:** One-time jobs get Logan Lawns started; recurring customers make the work predictable and reduce the constant hunt for the next job.
 
 Objectives:
 
@@ -147,7 +147,7 @@ Objectives:
 - Adjust pricing only if the real numbers support it.
 - Review the cash reserve and the truck-reimbursement policy using actual mileage and use.
 - Follow the written distribution policy; never make casual distributions.
-- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing LL a job, time, or trust.
+- Run the weekly Venmo → Square trigger check every Friday. Move only when the documented triggers say the current system is costing Logan Lawns a job, time, or trust.
 
 **Goal:** Consistent positive unit economics and a payment setup that matches the real workload.
 
@@ -159,8 +159,8 @@ Objectives:
 
 Objectives:
 
-- Identify what LL needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
-- Identify the insurance coverage and local business/licensing questions LL needs a qualified professional to answer.
+- Identify what Logan Lawns needs to track and set aside for taxes. Get qualified tax guidance; do not guess at tax treatment or filing requirements.
+- Identify the insurance coverage and local business/licensing questions Logan Lawns needs a qualified professional to answer.
 - Get the appropriate tax guidance and insurance quotes, then record the answers, due dates, costs, and next steps.
 - Compare four-month actuals to the original forecast.
 - Identify the best customer types, neighborhoods, and profitable work.
@@ -170,9 +170,3 @@ Objectives:
 **Goal:** Have a clear taxes-and-insurance plan, then turn the first operating cycle into a stronger second season.
 
 ---
-
-## How to use this plan
-
-- Do not start Week 1 until lawn #20 is done and logged.
-- If a stage goal slips, learn what blocked it before adding tools or tactics.
-- Every later change, including pricing, payment software, or a new service, is gated by real operating data, not the calendar.
