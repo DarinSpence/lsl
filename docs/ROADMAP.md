@@ -20,7 +20,7 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ### The checklist
 
-- [ ] Make the simple door flyer or business card in `templates/business-card/print.html`.
+- [ ] Make the simple door flyer or business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text xxx-xxx-xxxx if interested.”** Replace the placeholder with the LSL business number before printing.
 - [ ] Print the cards and beat the streets: leave them on doors in the neighborhoods LSL can actually serve.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
