@@ -40,7 +40,14 @@ body::selection { background: var(--grass); color: var(--pine); }
   text-decoration: none;
 }
 .brand span { color: var(--green); padding-inline: 2px; }
+.header-links { display: flex; align-items: center; gap: 14px; }
 .header-link { color: var(--pine); font-size: .88rem; font-weight: 800; text-underline-offset: 4px; }
+
+@media (max-width: 420px) {
+  .site-header { min-height: 64px; }
+  .header-links { gap: 10px; }
+  .header-link { font-size: .77rem; }
+}
 
 .hero {
   position: relative;
