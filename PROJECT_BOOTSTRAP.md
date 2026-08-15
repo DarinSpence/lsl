@@ -1,4 +1,4 @@
-# LSL — Project Bootstrap & Product Requirements Document
+# LSL - Project Bootstrap & Product Requirements Document
 
 **Status:** Initial handoff specification
 **Date:** August 15, 2026
@@ -204,7 +204,7 @@ The system should teach:
 
 Suggested initial uses of startup cash may include:
 
-- Door hanger printing
+- Business card printing
 - Fuel
 - Equipment consumables
 - Minor equipment maintenance
@@ -508,7 +508,7 @@ Suggested tabs follow.
 
 # 15. Google Sheets Tab Structure
 
-## Tab 1 — START HERE
+## Tab 1 - START HERE
 
 Purpose:
 
@@ -526,7 +526,7 @@ Include:
 
 ---
 
-## Tab 2 — BUILD MY BUSINESS
+## Tab 2 - BUILD MY BUSINESS
 
 Phone-friendly assumptions entry.
 
@@ -554,7 +554,7 @@ Inputs should drive the entire model.
 
 ---
 
-## Tab 3 — CAN THIS WORK?
+## Tab 3 - CAN THIS WORK?
 
 A step-by-step business model.
 
@@ -575,7 +575,7 @@ The tab should visually explain each calculation.
 
 ---
 
-## Tab 4 — FOUR-MONTH FORECAST
+## Tab 4 - FOUR-MONTH FORECAST
 
 Show by week and month:
 
@@ -596,7 +596,7 @@ Include Expected and Conservative scenarios.
 
 ---
 
-## Tab 5 — PARTNERSHIP & DISTRIBUTIONS
+## Tab 5 - PARTNERSHIP & DISTRIBUTIONS
 
 Inputs:
 
@@ -624,7 +624,7 @@ Include warnings if proposed distributions would reduce cash below the reserve.
 
 ---
 
-## Tab 6 — CUSTOMERS / CRM
+## Tab 6 - CUSTOMERS / CRM
 
 Suggested fields:
 
@@ -662,7 +662,7 @@ Avoid storing highly sensitive information.
 
 ---
 
-## Tab 7 — JOB LOG
+## Tab 7 - JOB LOG
 
 Each completed job should create one row.
 
@@ -686,7 +686,7 @@ This becomes the source of actual operating data.
 
 ---
 
-## Tab 8 — WEEKLY SCOREBOARD
+## Tab 8 - WEEKLY SCOREBOARD
 
 Track by week:
 
@@ -703,14 +703,14 @@ Track by week:
 - Cash
 - Reviews
 - Referrals
-- Door hangers distributed
+- Business cards distributed
 - Conversion rate
 
 Keep the scoreboard motivating and simple.
 
 ---
 
-## Tab 9 — ROADMAP / GANTT
+## Tab 9 - ROADMAP / GANTT
 
 Weeks as columns.
 
@@ -723,10 +723,10 @@ Initial workstreams:
 - Equipment readiness
 - Pricing
 - Google Business Profile
-- Door hangers
+- Business cards
 - Website
 - Booking
-- Payments — Venmo Business launch; Square migration evaluation Weeks 9-12 or earlier if triggered
+- Payments - Venmo Business launch; Square migration evaluation Weeks 9-12 or earlier if triggered
 - Customer acquisition
 - Reviews
 - Recurring memberships
@@ -744,7 +744,7 @@ Include:
 
 ---
 
-## Tab 10 — WHAT IF?
+## Tab 10 - WHAT IF?
 
 Simple scenario inputs:
 
@@ -766,7 +766,7 @@ Outputs should immediately show changes to:
 
 ---
 
-## Tab 11 — MENTOR DASHBOARD
+## Tab 11 - MENTOR DASHBOARD
 
 For the mentor.
 
@@ -819,11 +819,11 @@ Purpose:
 
 Setup requirements and current Google policies should be verified at implementation time.
 
-## Door Hangers
+## Business Cards
 
 High priority.
 
-Door hanger should include:
+Business card should include:
 
 - Clear business name.
 - Mowing + trimming offer.
@@ -872,7 +872,7 @@ Customers should be able to:
 5. Receive confirmation/reminders.
 6. Book their next two appointments to unlock LSL Member status.
 
-## Preferred MVP Candidate — Setmore Free
+## Preferred MVP Candidate - Setmore Free
 
 Setmore Free is the preferred initial booking/front-desk candidate because it is designed around services and appointments rather than meetings.
 
@@ -888,7 +888,7 @@ Desired features:
 - Easy future-appointment booking
 - Simple staff calendar management
 
-## Likely Upgrade Path — Square Appointments
+## Likely Upgrade Path - Square Appointments
 
 Square Appointments should be evaluated later as the likely integrated scheduling + payments platform when LSL's volume justifies moving away from separate tools.
 
@@ -918,7 +918,7 @@ The CRM should automatically or manually track whether two future appointments a
 
 The payment strategy should intentionally evolve with the business.
 
-## Phase 1 — Launch With Venmo Business
+## Phase 1 - Launch With Venmo Business
 
 Use **Venmo Business** initially if its current terms, fees, and business-use requirements fit LSL.
 
@@ -934,7 +934,7 @@ Also evaluate Stripe/Wave payment links if a customer needs another electronic o
 
 Do not use a personal Venmo account for business activity in a way that violates provider terms.
 
-## Phase 2 — Monitor Friction
+## Phase 2 - Monitor Friction
 
 As jobs increase, track:
 
@@ -948,7 +948,7 @@ As jobs increase, track:
 - Monthly processing fees
 - Number of payment tools customers are using
 
-## Phase 3 — Evaluate Venmo Business → Square
+## Phase 3 - Evaluate Venmo Business → Square
 
 The roadmap should include a formal **"Evaluate Venmo Business → Square"** milestone around **Weeks 9-12**, or earlier if LSL grows faster.
 
@@ -967,7 +967,7 @@ Do **not** migrate merely because the calendar reaches Week 9.
 
 The decision should be based on actual operational pain and economics.
 
-## Phase 4 — Square as the Integrated Front Desk / Cash Register
+## Phase 4 - Square as the Integrated Front Desk / Cash Register
 
 If the triggers are met, Square may become the primary system for:
 
@@ -1129,7 +1129,7 @@ The implementation agent must verify current pricing/terms before final setup.
 | Payments | Venmo Business initially; evaluate Square around Weeks 9-12 or earlier if triggered | Electronic collection, later integrated scheduling/payments |
 | Website source | GitHub | Version control |
 | Website hosting | GitHub Pages | Free static hosting |
-| Design | Canva Free | Door hangers/social graphics |
+| Design | Canva Free | Business cards/social graphics |
 | QR codes | Reliable QR generator | Fast phone access |
 | Calendar | Google Calendar | Schedule |
 | AI | Free AI tier initially | Help with copy, troubleshooting, learning |
@@ -1142,51 +1142,51 @@ Every tool must have a plain-language explanation.
 
 Examples:
 
-### Gmail — "Our mailbox"
+### Gmail - "Our mailbox"
 
 Where customer emails go.
 
-### Google Calendar — "Our schedule"
+### Google Calendar - "Our schedule"
 
 Shows where we need to be and when.
 
-### Google Business Profile — "Our sign on Google"
+### Google Business Profile - "Our sign on Google"
 
 Helps nearby people find us and see reviews.
 
-### Google Sheets — "The brain"
+### Google Sheets - "The brain"
 
 Stores customers, goals, job history, and the math behind the business.
 
-### Setmore / Scheduler — "Our front desk"
+### Setmore / Scheduler - "Our front desk"
 
 Lets customers choose services, request or book appointments, receive reminders, and keep their next two visits booked to maintain LSL Member status.
 
-### Square — "Our future combined front desk + cash register"
+### Square - "Our future combined front desk + cash register"
 
 When LSL gets busy enough, Square may replace separate scheduling and payment steps by combining appointments, cards/tap-to-pay, and easier reconciliation.
 
-### Wave — "Our bookkeeper"
+### Wave - "Our bookkeeper"
 
 Tracks invoices, business money, and accounting records.
 
-### Venmo Business — "Our starter cash register"
+### Venmo Business - "Our starter cash register"
 
 Lets customers pay electronically with very little setup while LSL is small. When payment volume and reconciliation become harder, evaluate moving the main workflow to Square.
 
-### GitHub — "The filing cabinet for our website"
+### GitHub - "The filing cabinet for our website"
 
 Stores every version of the website so changes can be managed safely.
 
-### GitHub Pages — "The land our website sits on"
+### GitHub Pages - "The land our website sits on"
 
 Makes the website available online.
 
-### Canva — "Our print shop/design desk"
+### Canva - "Our print shop/design desk"
 
-Creates door hangers and simple marketing materials.
+Creates business cards and simple marketing materials.
 
-### AI — "Our helper/tutor"
+### AI - "Our helper/tutor"
 
 Helps explain, draft, troubleshoot, and eventually update systems, but it does not replace understanding the business.
 
@@ -1355,7 +1355,7 @@ Use free AI capabilities where practical.
 AI can help with:
 
 - Website wording
-- Door hanger copy
+- Business card copy
 - Pricing explanations
 - Spreadsheet formula help
 - Customer communication drafts
@@ -1403,7 +1403,7 @@ Requirements:
 
 Track the funnel:
 
-**Door Hangers / Google / Facebook / Referral**
+**Business Cards / Google / Facebook / Referral**
 ↓
 **Lead**
 ↓
@@ -1421,7 +1421,7 @@ Track the funnel:
 
 Metrics:
 
-- Door hangers distributed
+- Business cards distributed
 - Leads
 - Quotes
 - First jobs
@@ -1637,7 +1637,7 @@ Until formal banking is established, the owners still need a documented process 
 
 # 43. Success Metrics
 
-## Phase 1 — Launch
+## Phase 1 - Launch
 
 - Partnership agreement drafted and reviewed.
 - Business financial model completed.
@@ -1645,11 +1645,11 @@ Until formal banking is established, the owners still need a documented process 
 - Setmore-style service booking/request process active.
 - LSL Member rule configured: 2 future appointments = Member status.
 - Google Business Profile established if eligible.
-- Door hanger ready.
+- Business card ready.
 - Website/landing page live.
 - First paying customer.
 
-## Phase 2 — Validation
+## Phase 2 - Validation
 
 - 5 paying customers.
 - 5 reviews.
@@ -1657,7 +1657,7 @@ Until formal banking is established, the owners still need a documented process 
 - Weekly bookkeeping process working.
 - Actual job economics being captured.
 
-## Phase 3 — Initial Traction
+## Phase 3 - Initial Traction
 
 - 10 recurring customers.
 - Positive cash reserve.
@@ -1665,7 +1665,7 @@ Until formal banking is established, the owners still need a documented process 
 - Add-on services tested.
 - Referral process active.
 
-## Phase 4 — Optimization
+## Phase 4 - Optimization
 
 - Route density improving.
 - Pricing based on actual data.
@@ -1679,7 +1679,7 @@ Until formal banking is established, the owners still need a documented process 
 
 The exact dates should remain configurable.
 
-## Week 1 — Understand the Business
+## Week 1 - Understand the Business
 
 Objectives:
 
@@ -1697,7 +1697,7 @@ Revenue target:
 
 ---
 
-## Week 2 — Build the Minimum System
+## Week 2 - Build the Minimum System
 
 Objectives:
 
@@ -1717,11 +1717,11 @@ Goal:
 
 ---
 
-## Week 3 — Go to Market
+## Week 3 - Go to Market
 
 Objectives:
 
-- Print first small batch of door hangers.
+- Print first small batch of business cards.
 - Distribute locally.
 - Post in appropriate neighborhood channels.
 - Contact personal network.
@@ -1735,7 +1735,7 @@ Goal:
 
 ---
 
-## Week 4 — Learn From Reality
+## Week 4 - Learn From Reality
 
 Objectives:
 
@@ -1743,7 +1743,7 @@ Objectives:
 - Compare actual costs.
 - Review pricing.
 - Improve booking.
-- Improve door hanger based on feedback.
+- Improve business card based on feedback.
 - Continue distribution.
 
 Goal:
@@ -1752,7 +1752,7 @@ Goal:
 
 ---
 
-## Weeks 5-8 — Build Recurring Base
+## Weeks 5-8 - Build Recurring Base
 
 Objectives:
 
@@ -1768,7 +1768,7 @@ Goal:
 
 ---
 
-## Weeks 9-12 — Improve Economics & Evaluate Payment Stack
+## Weeks 9-12 - Improve Economics & Evaluate Payment Stack
 
 Objectives:
 
@@ -1792,7 +1792,7 @@ Goal:
 
 ---
 
-## Weeks 13-16 — Finish First Planning Cycle
+## Weeks 13-16 - Finish First Planning Cycle
 
 Objectives:
 
@@ -1834,9 +1834,9 @@ The owners should understand where each target comes from.
 
 ---
 
-# 46. Door Hanger Requirements
+# 46. Business Card Requirements
 
-Door hanger should be:
+Business card should be:
 
 - Simple.
 - Legible from arm's length.
@@ -1872,7 +1872,7 @@ Do not create unnecessary QR destinations.
 
 Primary marketing QR should lead to the simplest customer-acquisition path.
 
-Track source if practical so the owners can learn whether door hangers produce customers.
+Track source if practical so the owners can learn whether business cards produce customers.
 
 ---
 
@@ -1937,7 +1937,7 @@ Use existing tools until pain justifies replacing them.
 
 An implementation agent receiving this document should proceed in this order:
 
-## Phase A — Specification
+## Phase A - Specification
 
 1. Review this document.
 2. Identify unresolved assumptions.
@@ -1953,7 +1953,7 @@ An implementation agent receiving this document should proceed in this order:
    - `sheets/SHEET_SPEC.md`
    - `sheets/DATA_DICTIONARY.md`
 
-## Phase B — Google Sheet Design
+## Phase B - Google Sheet Design
 
 Create a detailed specification for the Google workbook.
 
@@ -1972,7 +1972,7 @@ Prioritize:
 
 If the agent has access to create a spreadsheet artifact, create a prototype workbook as well.
 
-## Phase C — Launch Stack
+## Phase C - Launch Stack
 
 Create step-by-step setup instructions for:
 
@@ -2001,11 +2001,11 @@ For every tool explain:
 
 **Verify current pricing and policies before documenting costs.**
 
-## Phase D — Marketing Assets
+## Phase D - Marketing Assets
 
 Create:
 
-- Door hanger content specification.
+- Business card content specification.
 - QR flow.
 - Basic landing page.
 - Review request template.
@@ -2013,7 +2013,7 @@ Create:
 - Add-on menu framework.
 - Quote/service-request workflow.
 
-## Phase E — Website
+## Phase E - Website
 
 Build the smallest useful mobile-first website.
 
@@ -2030,7 +2030,7 @@ Required pages/sections:
 
 Deploy through GitHub Pages unless a better reason is documented.
 
-## Phase F — Future Pocket Coach
+## Phase F - Future Pocket Coach
 
 Only after the Sheet and launch stack work:
 
@@ -2074,43 +2074,43 @@ The system should require answers to these questions rather than silently invent
 
 The mentor should teach concepts in this order:
 
-### Lesson 1 — A business is not revenue
+### Lesson 1 - A business is not revenue
 
 "You can collect $1,000 and still make very little money."
 
-### Lesson 2 — Costs come before distributions
+### Lesson 2 - Costs come before distributions
 
 "Replace what the business consumed before paying yourself."
 
-### Lesson 3 — Profit and cash are different
+### Lesson 3 - Profit and cash are different
 
 "A profitable business can still run out of cash."
 
-### Lesson 4 — Owner contributions are not sales
+### Lesson 4 - Owner contributions are not sales
 
 "The money you put in is your investment in the business."
 
-### Lesson 5 — Recurring customers are valuable
+### Lesson 5 - Recurring customers are valuable
 
 "You spend less time finding work when customers keep coming back."
 
-### Lesson 6 — Time is a cost
+### Lesson 6 - Time is a cost
 
 "A job that takes twice as long may be less profitable even if the customer pays more."
 
-### Lesson 7 — Nearby customers are more valuable
+### Lesson 7 - Nearby customers are more valuable
 
 "Drive time doesn't earn revenue."
 
-### Lesson 8 — Reviews create future customers
+### Lesson 8 - Reviews create future customers
 
 "Doing a great job today helps sell tomorrow's job."
 
-### Lesson 9 — Systems create freedom
+### Lesson 9 - Systems create freedom
 
 "If every job is recorded the same way, you know what is actually happening."
 
-### Lesson 10 — Software is purchased to solve a problem
+### Lesson 10 - Software is purchased to solve a problem
 
 "Don't pay for software because businesses are 'supposed' to have it."
 

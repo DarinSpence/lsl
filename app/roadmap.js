@@ -31,7 +31,7 @@ function createPhase(title, isOpen) {
   details.open = isOpen;
 
   const summary = document.createElement("summary");
-  const [time = "The next step", name = title] = title.split(" — ");
+  const [time = "The next step", name = title] = title.split(" - ");
   const label = document.createElement("span");
   label.className = "phase-label";
   const timeLabel = document.createElement("span");

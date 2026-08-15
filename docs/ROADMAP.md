@@ -1,12 +1,12 @@
-# LSL — First 20 Lawns Plan
+# LSL - First 20 Lawns Plan
 
-## First 20 Lawns — The Grind
+## First 20 Lawns - The Grind
 
 **Why this now:** Before building a bigger system, prove that LSL can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
 
-### Week 1 priority — Beat the streets!
+### Week 1 priority - Beat the streets!
 
-Make one simple door piece and get it into neighborhoods: a flyer, door hanger, or business card. It needs only the offer and a number people can text. Leave it on doors, talk to people when they are outside, and make it easy for them to say yes.
+Make one simple business card and get it into neighborhoods. It needs only the offer and a number people can text. Leave it on front doors, talk to people when they are outside, and make it easy for them to say yes.
 
 ### The offer
 
@@ -20,19 +20,19 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ### The checklist
 
-- [ ] Make the simple door flyer or business card at `app/first-20-card.html`.
+- [ ] Make the simple business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text 913-563-0403 if interested.”**
-- [ ] Print the cards and beat the streets: leave them on doors in the neighborhoods LSL can actually serve.
+- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods LSL can actually serve.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
-- [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 — Customers / CRM) and write the completed job in the Job Log (Tab 7).
+- [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 - Customers / CRM) and write the completed job in the Job Log (Tab 7).
 - [ ] Ask: **“Can I text you in two weeks to see if you’d like to schedule another?”**
 - [ ] Mark the lawn complete and add one to the count.
 - [ ] Repeat until LSL has mowed 20 lawns.
 
 ### What to track
 
-- The date the first door hanger goes out.
+- The date the first business card is left on a front door.
 - The date lawn #20 is finished.
 - One row per client in the Google Sheet.
 - One row per completed lawn in the Job Log.
@@ -41,13 +41,13 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ---
 
-## The Operating Plan Starts Here — After Lawn #20
+## The Operating Plan Starts Here - After Lawn #20
 
 **The rule:** The First 20 Lawns sprint is the gate, not Week 1. When lawn #20 is complete, record the number of calendar days it took, then begin the plan below at **Week 1**. The rest of the business plan does not run in parallel with the sprint.
 
 ---
 
-## Week 1 — Learn From the First 20 Lawns
+## Week 1 - Learn From the First 20 Lawns
 
 **Why this now:** LSL no longer needs to guess. The first 20 lawns supply real information about demand, job time, costs, and what customers actually respond to.
 
@@ -64,7 +64,7 @@ Objectives:
 
 ---
 
-## Week 2 — Build the Minimum System
+## Week 2 - Build the Minimum System
 
 **Why this now:** Once the owners understand their real starting point, build only the minimum system needed to keep accepting jobs fairly and consistently.
 
@@ -77,19 +77,20 @@ Objectives:
 - Finish drafting the partnership agreement.
 - Keep the simple landing page and the text-number call to action working.
 - Start the Google Business Profile setup.
+- Set up the Facebook Business Page with the same $40 offer and text number.
 
 **Goal:** Be capable of accepting and tracking the next customer without confusion.
 
 ---
 
-## Week 3 — Keep Going to Market
+## Week 3 - Keep Going to Market
 
 **Why this now:** The first 20 lawns proved the basic offer. Week 3 turns that proof into a repeatable local lead flow.
 
 Objectives:
 
-- Print the next small batch of cards or door hangers.
-- Distribute locally and keep tracking which neighborhoods respond.
+- Print the next small batch of business cards.
+- Leave business cards on front doors and keep tracking which neighborhoods respond.
 - Post in appropriate free neighborhood channels.
 - Contact the personal network.
 - Respond rapidly to every lead.
@@ -99,7 +100,7 @@ Objectives:
 
 ---
 
-## Week 4 — Improve From Reality
+## Week 4 - Improve From Reality
 
 **Why this now:** The first sprint and next weeks produce real operating data. Use it before changing prices or buying tools.
 
@@ -108,14 +109,14 @@ Objectives:
 - Compare actual time per job and costs per job with the Week 1 notes.
 - Review the $40 starting price using real job data.
 - Improve the booking and text-response flow where it felt clunky.
-- Improve the card or door hanger based on what actually got texts.
+- Improve the business card based on what actually got texts.
 - Keep distributing in the best-performing neighborhoods.
 
 **Goal:** A simpler, better version of the system based on evidence.
 
 ---
 
-## Weeks 5–8 — Build the Recurring Base
+## Weeks 5–8 - Build the Recurring Base
 
 **Why this now:** One-time jobs get LSL started; recurring customers make the work predictable and reduce the constant hunt for the next job.
 
@@ -131,7 +132,7 @@ Objectives:
 
 ---
 
-## Weeks 9–12 — Improve Economics and the Payment Stack
+## Weeks 9–12 - Improve Economics and the Payment Stack
 
 **Why this now:** By now there should be enough history to judge the numbers and payment workflow on facts instead of assumptions.
 
@@ -147,9 +148,9 @@ Objectives:
 
 ---
 
-## Weeks 13–16 — Plan for Taxes and Insurance
+## Weeks 13–16 - Plan for Taxes and Insurance
 
-**Why this comes later:** The first 20 lawns and the operating weeks come first. Taxes and insurance matter, but they are handled here with qualified help—not guessed at during the sprint.
+**Why this comes later:** The first 20 lawns and the operating weeks come first. Taxes and insurance matter, but they are handled here with qualified help. They are not guessed at during the sprint.
 
 Objectives:
 
@@ -169,4 +170,4 @@ Objectives:
 
 - Do not start Week 1 until lawn #20 is done and logged.
 - If a weekly goal slips, learn what blocked it before adding tools or tactics.
-- Every later change—pricing, payment software, or new service—is gated by real operating data, not the calendar.
+- Every later change, including pricing, payment software, or a new service, is gated by real operating data, not the calendar.
