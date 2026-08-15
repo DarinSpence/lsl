@@ -4,6 +4,10 @@
 
 **Why this now:** Before building a bigger system, prove that LSL can get customers and mow lawns. The only score that matters right now is **20 completed lawns** and how many calendar days it took to get there.
 
+### Week 1 priority — Beat the streets!
+
+Make one simple door piece and get it into neighborhoods: a flyer, door hanger, or business card. It needs only the offer and a number people can text. Leave it on doors, talk to people when they are outside, and make it easy for them to say yes.
+
 ### The offer
 
 **Flat price: $40 per lawn.** It includes:
@@ -16,9 +20,9 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 ### The checklist
 
-- [ ] Print door hangers.
-- [ ] Put this call to action on every door hanger: **“Text xxx-xxx-xxxx if interested.”** Replace the placeholder with the LSL business number before printing.
-- [ ] Hand out door hangers in the neighborhoods LSL can actually serve.
+- [ ] Make the simple door flyer or business card in `templates/business-card/print.html`.
+- [ ] Put this call to action on every card: **“Text xxx-xxx-xxxx if interested.”** Replace the placeholder with the LSL business number before printing.
+- [ ] Print the cards and beat the streets: leave them on doors in the neighborhoods LSL can actually serve.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
 - [ ] As soon as the lawn is done, write that client in the Google Sheet (Tab 6 — Customers / CRM) and write the completed job in the Job Log (Tab 7).

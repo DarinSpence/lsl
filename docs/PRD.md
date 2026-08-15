@@ -154,7 +154,7 @@ The first MVP milestone is complete when the owners can, from their phones: rece
 Still not yet answered — tracked here so nobody forgets, and moved into `PARTNERSHIP_TEMPLATE.md` / `BUSINESS_RULES.md` once decided:
 
 - City/neighborhood/service area
-- `Partner`'s actual name and Logan's initial cash contribution amount
+- `Partner`'s actual name and Logan's initial cash contribution amount (all startup contributions come from Logan)
 - Required cash reserve amount
 - Working days/hours and realistic lawns/day capacity
 - Pricing after the First 20 Lawns sprint (the initial $40 mow/bag/weed-eat offer is fixed in `docs/ROADMAP.md`)

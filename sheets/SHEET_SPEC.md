@@ -36,10 +36,12 @@ Contents:
 
 ### Week 1 facts to enter here
 
-- The simple service offer: mowing, bagging, and weed eating.
+- Services offered: mowing, bagging, and weed eating.
 - The initial flat price: $40.
-- Startup contributions: who put in what cash or equipment.
-- Equipment inventory: what LSL already has, what condition it is in, and what is still needed.
+- Startup contributions: **Logan provides all startup contributions.** Record the amount when it is known.
+- **Do not inventory equipment yet.** It is not a Week 1 input or a blocker for the First 20 Lawns sprint.
+- Week 1 priority: **Beat the streets** with one simple flyer, door hanger, or business card that gives people a number to text.
+- The print-price check: VistaPrint's standard business-card page showed **$10 for 50 cards** on 2026-08-15, before shipping and tax. Recheck the cart before buying because promotions and delivery change the total.
 - Working days, realistic lawns per day, and service neighborhood(s).
 - The owners' initial responsibilities: who answers texts, who mows, and who writes the client/job rows in the Google Sheet.
 - Partnership inputs already known (ownership, truck fee, and distribution percentages).
@@ -47,6 +49,12 @@ Contents:
 **Do not put legal or insurance research here as a Week 1 task.** That discovery belongs in Weeks 13–16 of `docs/ROADMAP.md`.
 
 Inputs (all owner-entered, all in one column of clearly labeled cells):
+- Services offered: **Mowing, Bagging, Weed Eating**
+- Week 1 priority: **Beat the streets**
+- Print item: flyer / door hanger / business card
+- Text number (required before printing; do not publish until supplied)
+- Startup contributor: **Logan**
+- Startup contribution amount (enter when known)
 - Working days/week
 - Lawns/day (realistic capacity)
 - Initial flat price per mow: **$40**, including mowing, bagging, and weed eating (fixed until the First 20 Lawns sprint is complete)
