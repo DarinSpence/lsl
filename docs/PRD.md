@@ -147,19 +147,17 @@ The MVP is done when the owners can, from their phones: see this week's prioriti
 
 ## 19. Open questions the owners still need to answer (bootstrap §52)
 
-**Resolved 2026-08-15** (see §6 above and `docs/BUSINESS_RULES.md` Distribution Waterfall): Ownership % (Logan 100%, `Partner` 0%), truck reimbursement method/rate ($10/job flat, Direct Cost), and Distribution % (Cash Available for Distribution split 50% to Logan / 50% to `Partner` — a separate number from Ownership %, nothing retained as part of the split). The cash-reserve guardrail checklist (bootstrap §37) is a standard pre-distribution gate, unrelated to how the payout itself is divided — it still has to pass before any distribution goes out.
+**Resolved 2026-08-15** (see §6 above and `docs/BUSINESS_RULES.md` Distribution Waterfall): Ownership % (Logan 100%, `Partner` 0%), truck reimbursement method/rate ($10/job flat, Direct Cost), and Distribution % (Cash Available for Distribution split 50% to Logan / 50% to `Partner` — a separate number from Ownership %, nothing retained as part of the split). The cash-reserve guardrail checklist (bootstrap §37) is a standard pre-distribution gate, unrelated to how the payout itself is divided — it still has to pass before any distribution goes out. Also resolved this same day via `docs/PARTNERSHIP_TEMPLATE.md`: purchase approval (§8) — Logan has sole purchase authority at every dollar amount, since `Partner` isn't an owner (0% equity) there's no joint-signoff threshold to set (how approval is given/documented is still open); and the dispute-resolution and exit-scenario headline terms (§§9-11) — direct-conversation-first dispute resolution with no forced cooling-off or default neutral third party, temporary pause pauses both the truck fee and distribution share, and permanent leaving ends the distribution share immediately with no wind-down (several sub-bullets under §§10-11 remain open, see those sections).
 
 Still not yet answered — tracked here so nobody forgets, and moved into `PARTNERSHIP_TEMPLATE.md` / `BUSINESS_RULES.md` once decided:
 
 - City/neighborhood/service area
 - `Partner`'s actual name and Logan's initial cash contribution amount
-- What purchases require both Logan's and `Partner`'s approval, and the dollar threshold
 - Required cash reserve amount
 - Working days/hours and realistic lawns/day capacity
 - Average price, base-mow scope, initial add-on menu and which are Member-only
 - Exact Member preferred-pricing discount
 - Who responds to customers day-to-day, who keeps the records
-- Dispute-resolution and exit-scenario terms
 - The actual tax rate/treatment for the Taxes step in the waterfall — needs a real CPA, not a placeholder (see `docs/BUSINESS_RULES.md`)
 
 ## Changelog
