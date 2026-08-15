@@ -1,4 +1,4 @@
-const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=communications-and-photos";
+const roadmapSource = "https://raw.githubusercontent.com/DarinSpence/lsl/main/docs/ROADMAP.md?v=grind-cards";
 const roadmapContent = document.querySelector("#roadmap-content");
 
 function textNode(value) {

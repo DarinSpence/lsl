@@ -22,7 +22,8 @@ No custom pricing, no add-ons, no memberships, no complicated offers during this
 
 - [ ] Make the simple business card at `app/first-20-card.html`.
 - [ ] Put this call to action on every card: **“Text 913-563-0403 if interested.”**
-- [ ] Print the cards and beat the streets: leave them on front doors in the neighborhoods Logan Lawns can actually serve.
+- [ ] Spend $40 on business cards and get them printed.
+- [ ] Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
 - [ ] Get a Venmo account so customers can pay. Set up another cash app only if a customer asks for it.
 - [ ] When someone texts, offer the simple $40 mow, bagging, and weed-eating package.
 - [ ] Schedule the lawn and mow it.
@@ -100,7 +101,6 @@ Objectives:
 Objectives:
 
 - [ ] Keep putting out the new business cards.
-- [ ] Spend the hot part of the day leaving business cards on front doors. Leave cards wherever you are, even if Logan Lawns has left cards there before. Recency and frequency help potential clients remember to text.
 - [ ] Keep tracking which neighborhoods respond.
 - [ ] Post in appropriate free neighborhood channels.
 - [ ] Contact the personal network.
